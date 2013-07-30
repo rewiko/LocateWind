@@ -1,0 +1,1372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/0.9.0" xmi:id="_FcM64HsDEeGLD-JBXTKHXA">
+  <modelElement href="Locate_Wind.uml#_GUa8UHsDEeGLD-JBXTKHXA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_G2Xy0HsDEeGLD-JBXTKHXA" sourceAnchor="204.0,0.0" targetAnchor="208.0,214.0" source="_G595YHsDEeGLD-JBXTKHXA" target="_G1tEcHsDEeGLD-JBXTKHXA">
+    <modelElement href="Locate_Wind.uml#_GnRm4HsDEeGLD-JBXTKHXA"/>
+    <nameVisual xmi:id="_G5xsIHsDEeGLD-JBXTKHXA" text="">
+      <visualProperties xmi:id="_HgsiMXsDEeGLD-JBXTKHXA" position="1.0,-2.0"/>
+    </nameVisual>
+    <stereotypes xmi:id="_G51WgHsDEeGLD-JBXTKHXA" name="Reference">
+      <modelElement href="Locate_Wind.uml#_GnS1AHsDEeGLD-JBXTKHXA"/>
+    </stereotypes>
+    <sourceRole xmi:id="_G5zhUHsDEeGLD-JBXTKHXA" name="">
+      <modelElement href="Locate_Wind.uml#_GnRm4XsDEeGLD-JBXTKHXA"/>
+      <visualProperties xmi:id="_HgsiMHsDEeGLD-JBXTKHXA" position="1.0,-63.0"/>
+      <visibility xmi:id="_G57dIHsDEeGLD-JBXTKHXA" label="+"/>
+      <cardinality xmi:id="_G562EHsDEeGLD-JBXTKHXA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_G50IYHsDEeGLD-JBXTKHXA" name="test" navigable="true">
+      <modelElement href="Locate_Wind.uml#_GljIkHsDEeGLD-JBXTKHXA"/>
+      <visualProperties xmi:id="_HgtJQHsDEeGLD-JBXTKHXA" position="1.0,25.0"/>
+      <visibility xmi:id="_G58EMXsDEeGLD-JBXTKHXA" label="~"/>
+      <cardinality xmi:id="_G58EMHsDEeGLD-JBXTKHXA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_G7JlIHsDEeGLD-JBXTKHXA" sourceAnchor="494.0,390.0" targetAnchor="0.0,36.0" source="_G8trYHsDEeGLD-JBXTKHXA" target="_G595YHsDEeGLD-JBXTKHXA">
+    <modelElement href="Locate_Wind.uml#_GnfpUXsDEeGLD-JBXTKHXA"/>
+    <nameVisual xmi:id="_G8BH0HsDEeGLD-JBXTKHXA" text="">
+      <visualProperties xmi:id="_HgwzoHsDEeGLD-JBXTKHXA" position="-40.0,-57.0"/>
+    </nameVisual>
+    <stereotypes xmi:id="_G8Bu4XsDEeGLD-JBXTKHXA" name="Reference">
+      <modelElement href="Locate_Wind.uml#_Gng3cHsDEeGLD-JBXTKHXA"/>
+    </stereotypes>
+    <sourceRole xmi:id="_G8BH0XsDEeGLD-JBXTKHXA" name="">
+      <modelElement href="Locate_Wind.uml#_GnfpUnsDEeGLD-JBXTKHXA"/>
+      <visualProperties xmi:id="_HgwMkHsDEeGLD-JBXTKHXA" position="1.0,6.0"/>
+      <visibility xmi:id="_G8heIHsDEeGLD-JBXTKHXA" label="+"/>
+      <cardinality xmi:id="_G8awcHsDEeGLD-JBXTKHXA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_G8Bu4HsDEeGLD-JBXTKHXA" name="locate_recep" navigable="true">
+      <modelElement href="Locate_Wind.uml#_Gl9_UHsDEeGLD-JBXTKHXA"/>
+      <visualProperties xmi:id="_HgwzoXsDEeGLD-JBXTKHXA" position="-114.0,-39.0"/>
+      <visibility xmi:id="_G8j6YHsDEeGLD-JBXTKHXA" label="-"/>
+      <cardinality xmi:id="_G8jTUHsDEeGLD-JBXTKHXA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_G7_5sHsDEeGLD-JBXTKHXA" sourceAnchor="0.0,66.0" targetAnchor="494.0,420.0" source="_G595YHsDEeGLD-JBXTKHXA" target="_G8trYHsDEeGLD-JBXTKHXA">
+    <modelElement href="Locate_Wind.uml#_GnPxsHsDEeGLD-JBXTKHXA"/>
+    <nameVisual xmi:id="_G8Up0HsDEeGLD-JBXTKHXA" text="">
+      <visualProperties xmi:id="_Hgu-cHsDEeGLD-JBXTKHXA" position="-49.0,-18.000000000000057"/>
+    </nameVisual>
+    <stereotypes xmi:id="_G8ZiUHsDEeGLD-JBXTKHXA" name="Reference">
+      <modelElement href="Locate_Wind.uml#_GnQ_0HsDEeGLD-JBXTKHXA"/>
+    </stereotypes>
+    <sourceRole xmi:id="_G8V38HsDEeGLD-JBXTKHXA" name="">
+      <modelElement href="Locate_Wind.uml#_GnPxsXsDEeGLD-JBXTKHXA"/>
+      <visualProperties xmi:id="_HgtwUHsDEeGLD-JBXTKHXA" position="-29.0,2.0"/>
+      <visibility xmi:id="_G8nkwXsDEeGLD-JBXTKHXA" label="+"/>
+      <cardinality xmi:id="_G8nkwHsDEeGLD-JBXTKHXA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_G8Y7QHsDEeGLD-JBXTKHXA" name="map" navigable="true">
+      <modelElement href="Locate_Wind.uml#_Glh6cHsDEeGLD-JBXTKHXA"/>
+      <visualProperties xmi:id="_Hgu-cXsDEeGLD-JBXTKHXA" position="29.0,2.0"/>
+      <visibility xmi:id="_G8qoEHsDEeGLD-JBXTKHXA" label="~"/>
+      <cardinality xmi:id="_G8oL0HsDEeGLD-JBXTKHXA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_G-2ZYHsDEeGLD-JBXTKHXA" sourceAnchor="0.0,67.0" targetAnchor="430.0,141.0" source="_HACFIHsDEeGLD-JBXTKHXA" target="_G9KXUHsDEeGLD-JBXTKHXA">
+    <modelElement href="Locate_Wind.uml#_Gnr2kHsDEeGLD-JBXTKHXA"/>
+    <nameVisual xmi:id="_G_U6gHsDEeGLD-JBXTKHXA" text="">
+      <visualProperties xmi:id="_Hg3hUHsDEeGLD-JBXTKHXA" position="-69.0,-17.999999999999886"/>
+    </nameVisual>
+    <stereotypes xmi:id="_G_VhkXsDEeGLD-JBXTKHXA" name="Reference">
+      <modelElement href="Locate_Wind.uml#_GntEsHsDEeGLD-JBXTKHXA"/>
+    </stereotypes>
+    <sourceRole xmi:id="_G_U6gXsDEeGLD-JBXTKHXA" name="">
+      <modelElement href="Locate_Wind.uml#_Gnr2kXsDEeGLD-JBXTKHXA"/>
+      <visualProperties xmi:id="_Hg2TMHsDEeGLD-JBXTKHXA" position="-29.714285714285666,2.0"/>
+      <visibility xmi:id="_G_6wYHsDEeGLD-JBXTKHXA" label="+"/>
+      <cardinality xmi:id="_G_boMHsDEeGLD-JBXTKHXA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_G_VhkHsDEeGLD-JBXTKHXA" name="recup_data" navigable="true">
+      <modelElement href="Locate_Wind.uml#_GmI-cHsDEeGLD-JBXTKHXA"/>
+      <visualProperties xmi:id="_Hg3hUXsDEeGLD-JBXTKHXA" position="39.33333333333337,2.0"/>
+      <visibility xmi:id="_G_7XcXsDEeGLD-JBXTKHXA" label="-"/>
+      <cardinality xmi:id="_G_7XcHsDEeGLD-JBXTKHXA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_G_UTcHsDEeGLD-JBXTKHXA" sourceAnchor="430.0,111.0" targetAnchor="0.0,37.0" source="_G9KXUHsDEeGLD-JBXTKHXA" target="_HACFIHsDEeGLD-JBXTKHXA">
+    <modelElement href="Locate_Wind.uml#_Gnm-EHsDEeGLD-JBXTKHXA"/>
+    <nameVisual xmi:id="_G_X90HsDEeGLD-JBXTKHXA" text="">
+      <visualProperties xmi:id="_Hgyo0HsDEeGLD-JBXTKHXA" position="-69.0,-18.0"/>
+    </nameVisual>
+    <stereotypes xmi:id="_G_aaEHsDEeGLD-JBXTKHXA" name="Reference">
+      <modelElement href="Locate_Wind.uml#_GnoMMHsDEeGLD-JBXTKHXA"/>
+    </stereotypes>
+    <sourceRole xmi:id="_G_ZzAHsDEeGLD-JBXTKHXA" name="">
+      <modelElement href="Locate_Wind.uml#_Gnm-EXsDEeGLD-JBXTKHXA"/>
+      <visualProperties xmi:id="_HgyBwHsDEeGLD-JBXTKHXA" position="14.714285714285722,-39.0"/>
+      <visibility xmi:id="_G_9MoXsDEeGLD-JBXTKHXA" label="+"/>
+      <cardinality xmi:id="_G_9MoHsDEeGLD-JBXTKHXA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_G_ZzAXsDEeGLD-JBXTKHXA" name="tmt" navigable="true">
+      <modelElement href="Locate_Wind.uml#_GmEtAHsDEeGLD-JBXTKHXA"/>
+      <visualProperties xmi:id="_HgzP4HsDEeGLD-JBXTKHXA" position="-67.16666666666674,-39.0"/>
+      <visibility xmi:id="_G__o4HsDEeGLD-JBXTKHXA" label="-"/>
+      <cardinality xmi:id="_G_-awHsDEeGLD-JBXTKHXA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_HAFvgHsDEeGLD-JBXTKHXA" sourceAnchor="214.0,0.0" targetAnchor="164.0,176.0" source="_G9KXUHsDEeGLD-JBXTKHXA" target="_HAW1QHsDEeGLD-JBXTKHXA">
+    <modelElement href="Locate_Wind.uml#_GnjTsHsDEeGLD-JBXTKHXA"/>
+    <nameVisual xmi:id="_HAQHkHsDEeGLD-JBXTKHXA" text="">
+      <visualProperties xmi:id="_Hg1FEHsDEeGLD-JBXTKHXA" position="41.0,22.0"/>
+    </nameVisual>
+    <stereotypes xmi:id="_HATx8XsDEeGLD-JBXTKHXA" name="Reference">
+      <modelElement href="Locate_Wind.uml#_Gnkh0HsDEeGLD-JBXTKHXA"/>
+    </stereotypes>
+    <sourceRole xmi:id="_HATK4HsDEeGLD-JBXTKHXA" name="">
+      <modelElement href="Locate_Wind.uml#_GnjTsXsDEeGLD-JBXTKHXA"/>
+      <visualProperties xmi:id="_Hgz28HsDEeGLD-JBXTKHXA" position="2.0,-51.0"/>
+      <visibility xmi:id="_HAVAEXsDEeGLD-JBXTKHXA" label="+"/>
+      <cardinality xmi:id="_HAVAEHsDEeGLD-JBXTKHXA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_HATx8HsDEeGLD-JBXTKHXA" name="locate_add" navigable="true">
+      <modelElement href="Locate_Wind.uml#_GmBpsHsDEeGLD-JBXTKHXA"/>
+      <visualProperties xmi:id="_Hg1FEXsDEeGLD-JBXTKHXA" position="-92.0,14.0"/>
+      <visibility xmi:id="_HAVnIXsDEeGLD-JBXTKHXA" label="-"/>
+      <cardinality xmi:id="_HAVnIHsDEeGLD-JBXTKHXA" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_P1oz4HsDEeGLD-JBXTKHXA" sourceAnchor="522.0,0.0" targetAnchor="49.0,46.0" source="_G6OYEHsDEeGLD-JBXTKHXA" target="_P1tsYHsDEeGLD-JBXTKHXA">
+    <modelElement href="Locate_Wind.uml#_GnTcEHsDEeGLD-JBXTKHXA"/>
+    <nameVisual xmi:id="_P1pa8HsDEeGLD-JBXTKHXA" text="">
+      <visualProperties xmi:id="_QAQvgHsDEeGLD-JBXTKHXA" position="-146.0,-30.0"/>
+    </nameVisual>
+    <stereotypes xmi:id="_P1r3MHsDEeGLD-JBXTKHXA" name="Reference">
+      <modelElement href="Locate_Wind.uml#_GnVRQHsDEeGLD-JBXTKHXA"/>
+    </stereotypes>
+    <sourceRole xmi:id="_P1qpEHsDEeGLD-JBXTKHXA" name="">
+      <modelElement href="Locate_Wind.uml#_GnTcEXsDEeGLD-JBXTKHXA"/>
+      <visualProperties xmi:id="_QAPhYHsDEeGLD-JBXTKHXA" position="-17.0,-46.0"/>
+      <visibility xmi:id="_P1seQHsDEeGLD-JBXTKHXA" label="+"/>
+      <cardinality xmi:id="_P1r3MXsDEeGLD-JBXTKHXA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_P1rQIHsDEeGLD-JBXTKHXA" name="tabHost" navigable="true">
+      <modelElement href="Locate_Wind.uml#_GloBEXsDEeGLD-JBXTKHXA"/>
+      <visualProperties xmi:id="_QARWkHsDEeGLD-JBXTKHXA" position="2.0,9.0"/>
+      <visibility xmi:id="_P1seQnsDEeGLD-JBXTKHXA" label="+"/>
+      <cardinality xmi:id="_P1seQXsDEeGLD-JBXTKHXA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_P1u6gHsDEeGLD-JBXTKHXA" sourceAnchor="144.0,0.0" targetAnchor="71.0,46.0" source="_G6OYEHsDEeGLD-JBXTKHXA" target="_P1x90HsDEeGLD-JBXTKHXA">
+    <modelElement href="Locate_Wind.uml#_GnVRQXsDEeGLD-JBXTKHXA"/>
+    <nameVisual xmi:id="_P1u6gXsDEeGLD-JBXTKHXA" text="">
+      <visualProperties xmi:id="_QAUZ4HsDEeGLD-JBXTKHXA" position="-146.0,-30.0"/>
+    </nameVisual>
+    <stereotypes xmi:id="_P1wIoXsDEeGLD-JBXTKHXA" name="Reference">
+      <modelElement href="Locate_Wind.uml#_GnXGcHsDEeGLD-JBXTKHXA"/>
+    </stereotypes>
+    <sourceRole xmi:id="_P1vhkHsDEeGLD-JBXTKHXA" name="">
+      <modelElement href="Locate_Wind.uml#_GnVRQnsDEeGLD-JBXTKHXA"/>
+      <visualProperties xmi:id="_QASksHsDEeGLD-JBXTKHXA" position="-17.0,-46.0"/>
+      <visibility xmi:id="_P1wvsXsDEeGLD-JBXTKHXA" label="+"/>
+      <cardinality xmi:id="_P1wvsHsDEeGLD-JBXTKHXA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_P1wIoHsDEeGLD-JBXTKHXA" name="gestureScanner" navigable="true">
+      <modelElement href="Locate_Wind.uml#_GlpPMHsDEeGLD-JBXTKHXA"/>
+      <visualProperties xmi:id="_QAUZ4XsDEeGLD-JBXTKHXA" position="2.0,9.0"/>
+      <visibility xmi:id="_P1wvs3sDEeGLD-JBXTKHXA" label="-"/>
+      <cardinality xmi:id="_P1wvsnsDEeGLD-JBXTKHXA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_G1tEcHsDEeGLD-JBXTKHXA" name="LastLocation" associationsIn="_G2Xy0HsDEeGLD-JBXTKHXA">
+    <modelElement href="Locate_Wind.uml#_Gaw04HsDEeGLD-JBXTKHXA"/>
+    <visualProperties xmi:id="_G2DCsHsDEeGLD-JBXTKHXA" position="-438.0,2.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_G1tEcXsDEeGLD-JBXTKHXA" label="+"/>
+    <attributes xmi:id="_G1tEcnsDEeGLD-JBXTKHXA" defaultValue="null" name="intent_servicea" staticAttribute="true">
+      <modelElement href="Locate_Wind.uml#_GleQEHsDEeGLD-JBXTKHXA"/>
+      <stereotypes xmi:id="_G1tEc3sDEeGLD-JBXTKHXA" name="LegacyStyledElement">
+        <modelElement href="Locate_Wind.uml#_GlfeMHsDEeGLD-JBXTKHXA"/>
+      </stereotypes>
+      <visibility xmi:id="_G1tEdHsDEeGLD-JBXTKHXA" label="+"/>
+      <cardinality xmi:id="_G10ZMHsDEeGLD-JBXTKHXA" label="1" max="1" min="1"/>
+      <type xmi:id="_G10ZMXsDEeGLD-JBXTKHXA" name="Intent">
+        <modelElement href="Locate_Wind.uml#_Ghd50HsDEeGLD-JBXTKHXA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_G10ZMnsDEeGLD-JBXTKHXA" name="maList">
+      <modelElement href="Locate_Wind.uml#_GlgFQHsDEeGLD-JBXTKHXA"/>
+      <stereotypes xmi:id="_G10ZM3sDEeGLD-JBXTKHXA" name="LegacyStyledElement">
+        <modelElement href="Locate_Wind.uml#_GlgsUHsDEeGLD-JBXTKHXA"/>
+      </stereotypes>
+      <visibility xmi:id="_G10ZNHsDEeGLD-JBXTKHXA" label="-"/>
+      <cardinality xmi:id="_G10ZNXsDEeGLD-JBXTKHXA" label="1" max="1" min="1"/>
+      <type xmi:id="_G10ZNnsDEeGLD-JBXTKHXA" name="ListView">
+        <modelElement href="Locate_Wind.uml#_GhlOkHsDEeGLD-JBXTKHXA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_G11AQHsDEeGLD-JBXTKHXA" name="check_last">
+      <modelElement href="Locate_Wind.uml#_Gaz4MHsDEeGLD-JBXTKHXA"/>
+      <visibility xmi:id="_G11AQXsDEeGLD-JBXTKHXA" label="+"/>
+    </operations>
+    <operations xmi:id="_G11AQnsDEeGLD-JBXTKHXA" name="onResume">
+      <modelElement href="Locate_Wind.uml#_Ga2UcHsDEeGLD-JBXTKHXA"/>
+      <visibility xmi:id="_G11AQ3sDEeGLD-JBXTKHXA" label="#"/>
+    </operations>
+    <operations xmi:id="_G11ARHsDEeGLD-JBXTKHXA" name="onStop">
+      <modelElement href="Locate_Wind.uml#_Ga27gHsDEeGLD-JBXTKHXA"/>
+      <visibility xmi:id="_G11ARXsDEeGLD-JBXTKHXA" label="+"/>
+    </operations>
+    <operations xmi:id="_G11ARnsDEeGLD-JBXTKHXA" name="onDestroy">
+      <modelElement href="Locate_Wind.uml#_Ga3ikHsDEeGLD-JBXTKHXA"/>
+      <visibility xmi:id="_G11AR3sDEeGLD-JBXTKHXA" label="+"/>
+    </operations>
+    <operations xmi:id="_G11ASHsDEeGLD-JBXTKHXA" name="onCreate">
+      <modelElement href="Locate_Wind.uml#_GkR9QHsDEeGLD-JBXTKHXA"/>
+      <visibility xmi:id="_G11ASXsDEeGLD-JBXTKHXA" label="+"/>
+      <parameters xmi:id="_G11ASnsDEeGLD-JBXTKHXA" name="paramBundle">
+        <modelElement href="Locate_Wind.uml#_GkSkUHsDEeGLD-JBXTKHXA"/>
+        <type xmi:id="_G11AS3sDEeGLD-JBXTKHXA" name="Bundle">
+          <modelElement href="Locate_Wind.uml#_Gheg4XsDEeGLD-JBXTKHXA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_G11ATHsDEeGLD-JBXTKHXA" name="onCreateOptionsMenu">
+      <modelElement href="Locate_Wind.uml#_GkTycHsDEeGLD-JBXTKHXA"/>
+      <visibility xmi:id="_G11ATXsDEeGLD-JBXTKHXA" label="+"/>
+      <outParameters xmi:id="_G11ATnsDEeGLD-JBXTKHXA">
+        <modelElement href="Locate_Wind.uml#_GkUZgHsDEeGLD-JBXTKHXA"/>
+        <type xmi:id="_G11AT3sDEeGLD-JBXTKHXA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_G11AUHsDEeGLD-JBXTKHXA" name="menu">
+        <modelElement href="Locate_Wind.uml#_GkTycXsDEeGLD-JBXTKHXA"/>
+        <type xmi:id="_G11AUXsDEeGLD-JBXTKHXA" name="Menu">
+          <modelElement href="Locate_Wind.uml#_GhfvAXsDEeGLD-JBXTKHXA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_G11AUnsDEeGLD-JBXTKHXA" name="onOptionsItemSelected">
+      <modelElement href="Locate_Wind.uml#_GkVAkHsDEeGLD-JBXTKHXA"/>
+      <visibility xmi:id="_G11AU3sDEeGLD-JBXTKHXA" label="+"/>
+      <outParameters xmi:id="_G11AVHsDEeGLD-JBXTKHXA">
+        <modelElement href="Locate_Wind.uml#_GkVnoHsDEeGLD-JBXTKHXA"/>
+        <type xmi:id="_G11AVXsDEeGLD-JBXTKHXA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_G11AVnsDEeGLD-JBXTKHXA" name="item">
+        <modelElement href="Locate_Wind.uml#_GkVAkXsDEeGLD-JBXTKHXA"/>
+        <type xmi:id="_G11AV3sDEeGLD-JBXTKHXA" name="MenuItem">
+          <modelElement href="Locate_Wind.uml#_GhhkMXsDEeGLD-JBXTKHXA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_G8trYHsDEeGLD-JBXTKHXA" name="MapWind" associationsIn="_G7_5sHsDEeGLD-JBXTKHXA" associationsOut="_G7JlIHsDEeGLD-JBXTKHXA">
+    <modelElement href="Locate_Wind.uml#_Gbt3IHsDEeGLD-JBXTKHXA"/>
+    <visualProperties xmi:id="_G821UHsDEeGLD-JBXTKHXA" position="-1060.0,22.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_G8trYXsDEeGLD-JBXTKHXA" label="+"/>
+    <attributes xmi:id="_G8trYnsDEeGLD-JBXTKHXA" name="intent_service" staticAttribute="true">
+      <modelElement href="Locate_Wind.uml#_GlxyEHsDEeGLD-JBXTKHXA"/>
+      <stereotypes xmi:id="_G8trY3sDEeGLD-JBXTKHXA" name="LegacyStyledElement">
+        <modelElement href="Locate_Wind.uml#_Gl01YHsDEeGLD-JBXTKHXA"/>
+      </stereotypes>
+      <visibility xmi:id="_G8trZHsDEeGLD-JBXTKHXA" label="+"/>
+      <cardinality xmi:id="_G8trZXsDEeGLD-JBXTKHXA" label="1" max="1" min="1"/>
+      <type xmi:id="_G8trZnsDEeGLD-JBXTKHXA" name="Intent">
+        <modelElement href="Locate_Wind.uml#_Ghd50HsDEeGLD-JBXTKHXA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_G8trZ3sDEeGLD-JBXTKHXA" defaultValue="null" name="mapView" staticAttribute="true">
+      <modelElement href="Locate_Wind.uml#_Gl1ccHsDEeGLD-JBXTKHXA"/>
+      <stereotypes xmi:id="_G8traHsDEeGLD-JBXTKHXA" name="LegacyStyledElement">
+        <modelElement href="Locate_Wind.uml#_Gl2qkHsDEeGLD-JBXTKHXA"/>
+      </stereotypes>
+      <visibility xmi:id="_G8traXsDEeGLD-JBXTKHXA" label="-"/>
+      <cardinality xmi:id="_G8transDEeGLD-JBXTKHXA" label="1" max="1" min="1"/>
+      <type xmi:id="_G8tra3sDEeGLD-JBXTKHXA" name="MapView">
+        <modelElement href="Locate_Wind.uml#_GinJUXsDEeGLD-JBXTKHXA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_G8trbHsDEeGLD-JBXTKHXA" defaultValue="null" name="mc" staticAttribute="true">
+      <modelElement href="Locate_Wind.uml#_Gl2qkXsDEeGLD-JBXTKHXA"/>
+      <stereotypes xmi:id="_G8trbXsDEeGLD-JBXTKHXA" name="LegacyStyledElement">
+        <modelElement href="Locate_Wind.uml#_Gl34sHsDEeGLD-JBXTKHXA"/>
+      </stereotypes>
+      <visibility xmi:id="_G8trbnsDEeGLD-JBXTKHXA" label="+"/>
+      <cardinality xmi:id="_G8trb3sDEeGLD-JBXTKHXA" label="1" max="1" min="1"/>
+      <type xmi:id="_G8trcHsDEeGLD-JBXTKHXA" name="MapController">
+        <modelElement href="Locate_Wind.uml#_Gil7MHsDEeGLD-JBXTKHXA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_G8trcXsDEeGLD-JBXTKHXA" defaultValue="null" name="myLocation" staticAttribute="true">
+      <modelElement href="Locate_Wind.uml#_Gl4fwHsDEeGLD-JBXTKHXA"/>
+      <stereotypes xmi:id="_G8trcnsDEeGLD-JBXTKHXA" name="LegacyStyledElement">
+        <modelElement href="Locate_Wind.uml#_Gl5t4HsDEeGLD-JBXTKHXA"/>
+      </stereotypes>
+      <visibility xmi:id="_G8trc3sDEeGLD-JBXTKHXA" label="+"/>
+      <cardinality xmi:id="_G8trdHsDEeGLD-JBXTKHXA" label="1" max="1" min="1"/>
+      <type xmi:id="_G8uScHsDEeGLD-JBXTKHXA" name="MyLocationOverlay">
+        <modelElement href="Locate_Wind.uml#_Gio-gHsDEeGLD-JBXTKHXA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_G8uScXsDEeGLD-JBXTKHXA" defaultValue="0.0" name="lat">
+      <modelElement href="Locate_Wind.uml#_Gl5t4XsDEeGLD-JBXTKHXA"/>
+      <stereotypes xmi:id="_G8uScnsDEeGLD-JBXTKHXA" name="LegacyStyledElement">
+        <modelElement href="Locate_Wind.uml#_Gl68AHsDEeGLD-JBXTKHXA"/>
+      </stereotypes>
+      <visibility xmi:id="_G8uSc3sDEeGLD-JBXTKHXA" label="-"/>
+      <cardinality xmi:id="_G8uSdHsDEeGLD-JBXTKHXA" label="1" max="1" min="1"/>
+      <type xmi:id="_G8uSdXsDEeGLD-JBXTKHXA" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_G8uSdnsDEeGLD-JBXTKHXA" defaultValue="null" name="lm" staticAttribute="true">
+      <modelElement href="Locate_Wind.uml#_Gl7jEHsDEeGLD-JBXTKHXA"/>
+      <stereotypes xmi:id="_G8uSd3sDEeGLD-JBXTKHXA" name="LegacyStyledElement">
+        <modelElement href="Locate_Wind.uml#_Gl8KIHsDEeGLD-JBXTKHXA"/>
+      </stereotypes>
+      <visibility xmi:id="_G8uSeHsDEeGLD-JBXTKHXA" label="+"/>
+      <cardinality xmi:id="_G8uSeXsDEeGLD-JBXTKHXA" label="1" max="1" min="1"/>
+      <type xmi:id="_G8uSensDEeGLD-JBXTKHXA" name="LocationManager">
+        <modelElement href="Locate_Wind.uml#_Gh7z4HsDEeGLD-JBXTKHXA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_G8uSe3sDEeGLD-JBXTKHXA" defaultValue="0.0" name="lng">
+      <modelElement href="Locate_Wind.uml#_Gl8xMHsDEeGLD-JBXTKHXA"/>
+      <stereotypes xmi:id="_G8uSfHsDEeGLD-JBXTKHXA" name="LegacyStyledElement">
+        <modelElement href="Locate_Wind.uml#_Gl9YQXsDEeGLD-JBXTKHXA"/>
+      </stereotypes>
+      <visibility xmi:id="_G8uSfXsDEeGLD-JBXTKHXA" label="-"/>
+      <cardinality xmi:id="_G8uSfnsDEeGLD-JBXTKHXA" label="1" max="1" min="1"/>
+      <type xmi:id="_G8uSf3sDEeGLD-JBXTKHXA" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_G8uSgHsDEeGLD-JBXTKHXA" name="locate_recep">
+      <modelElement href="Locate_Wind.uml#_Gl9_UHsDEeGLD-JBXTKHXA"/>
+      <stereotypes xmi:id="_G8uSgXsDEeGLD-JBXTKHXA" name="LegacyStyledElement">
+        <modelElement href="Locate_Wind.uml#_Gl-mYHsDEeGLD-JBXTKHXA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_G8khcHsDEeGLD-JBXTKHXA" name="LegacyStyledElement">
+        <modelElement href="Locate_Wind.uml#_Gl-mYHsDEeGLD-JBXTKHXA"/>
+      </stereotypes>
+      <visibility xmi:id="_G8uSgnsDEeGLD-JBXTKHXA" label="-"/>
+      <cardinality xmi:id="_G8uSg3sDEeGLD-JBXTKHXA" label="1" max="1" min="1"/>
+      <type xmi:id="_G8uShHsDEeGLD-JBXTKHXA" name="Locate_Recep">
+        <modelElement href="Locate_Wind.uml#_Ga-3UHsDEeGLD-JBXTKHXA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_G8uShXsDEeGLD-JBXTKHXA" name="service" staticAttribute="true">
+      <modelElement href="Locate_Wind.uml#_Gl_NcHsDEeGLD-JBXTKHXA"/>
+      <stereotypes xmi:id="_G8uShnsDEeGLD-JBXTKHXA" name="LegacyStyledElement">
+        <modelElement href="Locate_Wind.uml#_Gl_0gHsDEeGLD-JBXTKHXA"/>
+      </stereotypes>
+      <visibility xmi:id="_G8uSh3sDEeGLD-JBXTKHXA" label="+"/>
+      <cardinality xmi:id="_G8uSiHsDEeGLD-JBXTKHXA" label="1" max="1" min="1"/>
+      <type xmi:id="_G8uSiXsDEeGLD-JBXTKHXA" name="Intent">
+        <modelElement href="Locate_Wind.uml#_Ghd50HsDEeGLD-JBXTKHXA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_G8uSinsDEeGLD-JBXTKHXA" name="LocateMe">
+      <modelElement href="Locate_Wind.uml#_GbxhgHsDEeGLD-JBXTKHXA"/>
+      <visibility xmi:id="_G8uSi3sDEeGLD-JBXTKHXA" label="-"/>
+    </operations>
+    <operations xmi:id="_G8uSjHsDEeGLD-JBXTKHXA" name="getMapView" staticOperation="true">
+      <modelElement href="Locate_Wind.uml#_GbyIkHsDEeGLD-JBXTKHXA"/>
+      <visibility xmi:id="_G8uSjXsDEeGLD-JBXTKHXA" label="+"/>
+      <outParameters xmi:id="_G8uSjnsDEeGLD-JBXTKHXA">
+        <modelElement href="Locate_Wind.uml#_GkyTkHsDEeGLD-JBXTKHXA"/>
+        <type xmi:id="_G8uSj3sDEeGLD-JBXTKHXA" name="MapView">
+          <modelElement href="Locate_Wind.uml#_GinJUXsDEeGLD-JBXTKHXA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_G8uSkHsDEeGLD-JBXTKHXA" name="Locatelast">
+      <modelElement href="Locate_Wind.uml#_GbzWsHsDEeGLD-JBXTKHXA"/>
+      <visibility xmi:id="_G8uSkXsDEeGLD-JBXTKHXA" label="+"/>
+      <parameters xmi:id="_G8uSknsDEeGLD-JBXTKHXA" name="paramInt1">
+        <modelElement href="Locate_Wind.uml#_GbzWsXsDEeGLD-JBXTKHXA"/>
+        <type xmi:id="_G8uSk3sDEeGLD-JBXTKHXA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_G8uSlHsDEeGLD-JBXTKHXA" name="paramInt2">
+        <modelElement href="Locate_Wind.uml#_Gbz9wHsDEeGLD-JBXTKHXA"/>
+        <type xmi:id="_G8uSlXsDEeGLD-JBXTKHXA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_G8uSlnsDEeGLD-JBXTKHXA" name="getIntent_service">
+      <modelElement href="Locate_Wind.uml#_Gb0k0HsDEeGLD-JBXTKHXA"/>
+      <visibility xmi:id="_G8uSl3sDEeGLD-JBXTKHXA" label="+"/>
+      <outParameters xmi:id="_G8uSmHsDEeGLD-JBXTKHXA">
+        <modelElement href="Locate_Wind.uml#_GkzhsHsDEeGLD-JBXTKHXA"/>
+        <type xmi:id="_G8vgkHsDEeGLD-JBXTKHXA" name="Intent">
+          <modelElement href="Locate_Wind.uml#_Ghd50HsDEeGLD-JBXTKHXA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_G8vgkXsDEeGLD-JBXTKHXA" name="getMyLocation">
+      <modelElement href="Locate_Wind.uml#_Gb1L4HsDEeGLD-JBXTKHXA"/>
+      <visibility xmi:id="_G8vgknsDEeGLD-JBXTKHXA" label="+"/>
+      <outParameters xmi:id="_G8vgk3sDEeGLD-JBXTKHXA">
+        <modelElement href="Locate_Wind.uml#_Gk0IwHsDEeGLD-JBXTKHXA"/>
+        <type xmi:id="_G8vglHsDEeGLD-JBXTKHXA" name="MyLocationOverlay">
+          <modelElement href="Locate_Wind.uml#_Gio-gHsDEeGLD-JBXTKHXA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_G8vglXsDEeGLD-JBXTKHXA" name="initLocate">
+      <modelElement href="Locate_Wind.uml#_Gb2aAHsDEeGLD-JBXTKHXA"/>
+      <visibility xmi:id="_G8vglnsDEeGLD-JBXTKHXA" label="+"/>
+    </operations>
+    <operations xmi:id="_G8vgl3sDEeGLD-JBXTKHXA" name="isRouteDisplayed">
+      <modelElement href="Locate_Wind.uml#_Gb2aAXsDEeGLD-JBXTKHXA"/>
+      <stereotypes xmi:id="_G8vgmHsDEeGLD-JBXTKHXA" name="LegacyStyledElement">
+        <modelElement href="Locate_Wind.uml#_Gb3oIHsDEeGLD-JBXTKHXA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_G8vgmXsDEeGLD-JBXTKHXA" name="Annotations">
+        <modelElement href="Locate_Wind.uml#_Gb4PMHsDEeGLD-JBXTKHXA"/>
+      </stereotypes>
+      <visibility xmi:id="_G8vgmnsDEeGLD-JBXTKHXA" label="#"/>
+      <outParameters xmi:id="_G8vgm3sDEeGLD-JBXTKHXA">
+        <modelElement href="Locate_Wind.uml#_Gb3BEHsDEeGLD-JBXTKHXA"/>
+        <type xmi:id="_G8vgnHsDEeGLD-JBXTKHXA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_G8wHoHsDEeGLD-JBXTKHXA" name="locate_maj">
+      <modelElement href="Locate_Wind.uml#_Gb42QHsDEeGLD-JBXTKHXA"/>
+      <visibility xmi:id="_G8wHoXsDEeGLD-JBXTKHXA" label="+"/>
+    </operations>
+    <operations xmi:id="_G8wHonsDEeGLD-JBXTKHXA" name="onPause">
+      <modelElement href="Locate_Wind.uml#_Gb6EYHsDEeGLD-JBXTKHXA"/>
+      <visibility xmi:id="_G8wHo3sDEeGLD-JBXTKHXA" label="#"/>
+    </operations>
+    <operations xmi:id="_G8wHpHsDEeGLD-JBXTKHXA" name="onProviderDisabled">
+      <modelElement href="Locate_Wind.uml#_Gb7SgHsDEeGLD-JBXTKHXA"/>
+      <visibility xmi:id="_G8wHpXsDEeGLD-JBXTKHXA" label="+"/>
+      <parameters xmi:id="_G8wHpnsDEeGLD-JBXTKHXA" name="paramString">
+        <modelElement href="Locate_Wind.uml#_Gb7SgXsDEeGLD-JBXTKHXA"/>
+        <type xmi:id="_G8wHp3sDEeGLD-JBXTKHXA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_G8wHqHsDEeGLD-JBXTKHXA" name="onProviderEnabled">
+      <modelElement href="Locate_Wind.uml#_Gb75kHsDEeGLD-JBXTKHXA"/>
+      <stereotypes xmi:id="_G8wHqXsDEeGLD-JBXTKHXA" name="LegacyStyledElement">
+        <modelElement href="Locate_Wind.uml#_GcALAHsDEeGLD-JBXTKHXA"/>
+      </stereotypes>
+      <visibility xmi:id="_G8wHqnsDEeGLD-JBXTKHXA" label="+"/>
+      <parameters xmi:id="_G8wHq3sDEeGLD-JBXTKHXA" name="paramString">
+        <modelElement href="Locate_Wind.uml#_Gb_j8HsDEeGLD-JBXTKHXA"/>
+        <type xmi:id="_G8wHrHsDEeGLD-JBXTKHXA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_G8wHrXsDEeGLD-JBXTKHXA" name="onResume">
+      <modelElement href="Locate_Wind.uml#_GcAyEHsDEeGLD-JBXTKHXA"/>
+      <stereotypes xmi:id="_G8wHrnsDEeGLD-JBXTKHXA" name="LegacyStyledElement">
+        <modelElement href="Locate_Wind.uml#_GcCAMHsDEeGLD-JBXTKHXA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_G8wHr3sDEeGLD-JBXTKHXA" name="Annotations">
+        <modelElement href="Locate_Wind.uml#_GcCnQHsDEeGLD-JBXTKHXA"/>
+      </stereotypes>
+      <visibility xmi:id="_G8wHsHsDEeGLD-JBXTKHXA" label="+"/>
+    </operations>
+    <operations xmi:id="_G8wHsXsDEeGLD-JBXTKHXA" name="onStop">
+      <modelElement href="Locate_Wind.uml#_GcCnQnsDEeGLD-JBXTKHXA"/>
+      <visibility xmi:id="_G8wHsnsDEeGLD-JBXTKHXA" label="+"/>
+    </operations>
+    <operations xmi:id="_G8wHs3sDEeGLD-JBXTKHXA" name="onDestroy">
+      <modelElement href="Locate_Wind.uml#_GcDOUHsDEeGLD-JBXTKHXA"/>
+      <visibility xmi:id="_G8wHtHsDEeGLD-JBXTKHXA" label="+"/>
+    </operations>
+    <operations xmi:id="_G8wHtXsDEeGLD-JBXTKHXA" name="onCreate">
+      <modelElement href="Locate_Wind.uml#_Gk0v0HsDEeGLD-JBXTKHXA"/>
+      <visibility xmi:id="_G8wHtnsDEeGLD-JBXTKHXA" label="+"/>
+      <parameters xmi:id="_G8wHt3sDEeGLD-JBXTKHXA" name="savedInstanceState">
+        <modelElement href="Locate_Wind.uml#_Gk0v0XsDEeGLD-JBXTKHXA"/>
+        <type xmi:id="_G8wHuHsDEeGLD-JBXTKHXA" name="Bundle">
+          <modelElement href="Locate_Wind.uml#_Gheg4XsDEeGLD-JBXTKHXA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_G8wHuXsDEeGLD-JBXTKHXA" name="onCreateOptionsMenu">
+      <modelElement href="Locate_Wind.uml#_Gk198HsDEeGLD-JBXTKHXA"/>
+      <visibility xmi:id="_G8wHunsDEeGLD-JBXTKHXA" label="+"/>
+      <outParameters xmi:id="_G8wHu3sDEeGLD-JBXTKHXA">
+        <modelElement href="Locate_Wind.uml#_Gk2lAHsDEeGLD-JBXTKHXA"/>
+        <type xmi:id="_G8wHvHsDEeGLD-JBXTKHXA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_G8wHvXsDEeGLD-JBXTKHXA" name="menu">
+        <modelElement href="Locate_Wind.uml#_Gk198XsDEeGLD-JBXTKHXA"/>
+        <type xmi:id="_G8wHvnsDEeGLD-JBXTKHXA" name="Menu">
+          <modelElement href="Locate_Wind.uml#_GhfvAXsDEeGLD-JBXTKHXA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_G8wHv3sDEeGLD-JBXTKHXA" name="onLocationChanged">
+      <modelElement href="Locate_Wind.uml#_Gk3MEHsDEeGLD-JBXTKHXA"/>
+      <visibility xmi:id="_G8wHwHsDEeGLD-JBXTKHXA" label="+"/>
+      <parameters xmi:id="_G8wHwXsDEeGLD-JBXTKHXA" name="location">
+        <modelElement href="Locate_Wind.uml#_Gk3MEXsDEeGLD-JBXTKHXA"/>
+        <type xmi:id="_G8wHwnsDEeGLD-JBXTKHXA" name="Location">
+          <modelElement href="Locate_Wind.uml#_GibjIHsDEeGLD-JBXTKHXA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_G8wHw3sDEeGLD-JBXTKHXA" name="onOptionsItemSelected">
+      <modelElement href="Locate_Wind.uml#_Gk4aMHsDEeGLD-JBXTKHXA"/>
+      <visibility xmi:id="_G8wHxHsDEeGLD-JBXTKHXA" label="+"/>
+      <outParameters xmi:id="_G8wHxXsDEeGLD-JBXTKHXA">
+        <modelElement href="Locate_Wind.uml#_Gk5BQHsDEeGLD-JBXTKHXA"/>
+        <type xmi:id="_G8wHxnsDEeGLD-JBXTKHXA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_G8wHx3sDEeGLD-JBXTKHXA" name="item">
+        <modelElement href="Locate_Wind.uml#_Gk4aMXsDEeGLD-JBXTKHXA"/>
+        <type xmi:id="_G8wHyHsDEeGLD-JBXTKHXA" name="MenuItem">
+          <modelElement href="Locate_Wind.uml#_GhhkMXsDEeGLD-JBXTKHXA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_G8wHyXsDEeGLD-JBXTKHXA" name="onStatusChanged">
+      <modelElement href="Locate_Wind.uml#_Gk5oUHsDEeGLD-JBXTKHXA"/>
+      <visibility xmi:id="_G8wHynsDEeGLD-JBXTKHXA" label="+"/>
+      <parameters xmi:id="_G8wHy3sDEeGLD-JBXTKHXA" name="provider">
+        <modelElement href="Locate_Wind.uml#_Gk6PYHsDEeGLD-JBXTKHXA"/>
+        <type xmi:id="_G8wHzHsDEeGLD-JBXTKHXA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_G8wHzXsDEeGLD-JBXTKHXA" name="status">
+        <modelElement href="Locate_Wind.uml#_Gk6PYXsDEeGLD-JBXTKHXA"/>
+        <type xmi:id="_G8wHznsDEeGLD-JBXTKHXA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_G8wHz3sDEeGLD-JBXTKHXA" name="extras">
+        <modelElement href="Locate_Wind.uml#_Gk6PYnsDEeGLD-JBXTKHXA"/>
+        <type xmi:id="_G8wH0HsDEeGLD-JBXTKHXA" name="Bundle">
+          <modelElement href="Locate_Wind.uml#_Gheg4XsDEeGLD-JBXTKHXA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_G595YHsDEeGLD-JBXTKHXA" name="Locate_Recep" associationsIn="_G7JlIHsDEeGLD-JBXTKHXA" associationsOut="_G2Xy0HsDEeGLD-JBXTKHXA _G7_5sHsDEeGLD-JBXTKHXA">
+    <modelElement href="Locate_Wind.uml#_Ga-3UHsDEeGLD-JBXTKHXA"/>
+    <visualProperties xmi:id="_G6AVoHsDEeGLD-JBXTKHXA" position="-434.0,376.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_G595YXsDEeGLD-JBXTKHXA" label="+"/>
+    <attributes xmi:id="_G595YnsDEeGLD-JBXTKHXA" defaultValue="null" name="map">
+      <modelElement href="Locate_Wind.uml#_Glh6cHsDEeGLD-JBXTKHXA"/>
+      <stereotypes xmi:id="_G595Y3sDEeGLD-JBXTKHXA" name="LegacyStyledElement">
+        <modelElement href="Locate_Wind.uml#_GlihgHsDEeGLD-JBXTKHXA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_G8r2MHsDEeGLD-JBXTKHXA" name="LegacyStyledElement">
+        <modelElement href="Locate_Wind.uml#_GlihgHsDEeGLD-JBXTKHXA"/>
+      </stereotypes>
+      <visibility xmi:id="_G595ZHsDEeGLD-JBXTKHXA" label="~"/>
+      <cardinality xmi:id="_G595ZXsDEeGLD-JBXTKHXA" label="1" max="1" min="1"/>
+      <type xmi:id="_G595ZnsDEeGLD-JBXTKHXA" name="MapWind">
+        <modelElement href="Locate_Wind.uml#_Gbt3IHsDEeGLD-JBXTKHXA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_G595Z3sDEeGLD-JBXTKHXA" defaultValue="null" name="test">
+      <modelElement href="Locate_Wind.uml#_GljIkHsDEeGLD-JBXTKHXA"/>
+      <stereotypes xmi:id="_G595aHsDEeGLD-JBXTKHXA" name="LegacyStyledElement">
+        <modelElement href="Locate_Wind.uml#_GlkWsHsDEeGLD-JBXTKHXA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_G58rQHsDEeGLD-JBXTKHXA" name="LegacyStyledElement">
+        <modelElement href="Locate_Wind.uml#_GlkWsHsDEeGLD-JBXTKHXA"/>
+      </stereotypes>
+      <visibility xmi:id="_G5-gcHsDEeGLD-JBXTKHXA" label="~"/>
+      <cardinality xmi:id="_G5-gcXsDEeGLD-JBXTKHXA" label="1" max="1" min="1"/>
+      <type xmi:id="_G5-gcnsDEeGLD-JBXTKHXA" name="LastLocation">
+        <modelElement href="Locate_Wind.uml#_Gaw04HsDEeGLD-JBXTKHXA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_G5-gc3sDEeGLD-JBXTKHXA" name="Locate_Recep">
+      <modelElement href="Locate_Wind.uml#_Gh1GMHsDEeGLD-JBXTKHXA"/>
+      <keywords xmi:id="_G5-gdHsDEeGLD-JBXTKHXA" keyword="create"/>
+      <visibility xmi:id="_G5-gdXsDEeGLD-JBXTKHXA" label="+"/>
+      <outParameters xmi:id="_G5-gdnsDEeGLD-JBXTKHXA">
+        <modelElement href="Locate_Wind.uml#_Gh1tQnsDEeGLD-JBXTKHXA"/>
+        <type xmi:id="_G5-gd3sDEeGLD-JBXTKHXA" name="Locate_Recep">
+          <modelElement href="Locate_Wind.uml#_Ga-3UHsDEeGLD-JBXTKHXA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_G5-geHsDEeGLD-JBXTKHXA" name="paramMapWind">
+        <modelElement href="Locate_Wind.uml#_Gh1GMXsDEeGLD-JBXTKHXA"/>
+        <type xmi:id="_G5-geXsDEeGLD-JBXTKHXA" name="MapWind">
+          <modelElement href="Locate_Wind.uml#_Gbt3IHsDEeGLD-JBXTKHXA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_G5-gensDEeGLD-JBXTKHXA" name="onReceive">
+      <modelElement href="Locate_Wind.uml#_GkYD4HsDEeGLD-JBXTKHXA"/>
+      <visibility xmi:id="_G5-ge3sDEeGLD-JBXTKHXA" label="+"/>
+      <parameters xmi:id="_G5-gfHsDEeGLD-JBXTKHXA" name="paramContext">
+        <modelElement href="Locate_Wind.uml#_GkYD4XsDEeGLD-JBXTKHXA"/>
+        <type xmi:id="_G5-gfXsDEeGLD-JBXTKHXA" name="Context">
+          <modelElement href="Locate_Wind.uml#_GhcrsXsDEeGLD-JBXTKHXA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_G5-gfnsDEeGLD-JBXTKHXA" name="paramIntent">
+        <modelElement href="Locate_Wind.uml#_GkYq8HsDEeGLD-JBXTKHXA"/>
+        <type xmi:id="_G5-gf3sDEeGLD-JBXTKHXA" name="Intent">
+          <modelElement href="Locate_Wind.uml#_Ghd50HsDEeGLD-JBXTKHXA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_P1x90HsDEeGLD-JBXTKHXA" name="GestureDetector" associationsIn="_P1u6gHsDEeGLD-JBXTKHXA">
+    <modelElement href="Locate_Wind.uml#_Gh9CAXsDEeGLD-JBXTKHXA"/>
+    <visualProperties xmi:id="_P1x90XsDEeGLD-JBXTKHXA" position="131.0,6.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_P1x90nsDEeGLD-JBXTKHXA" name="Reference">
+      <modelElement href="Locate_Wind.uml#_Gh-QIHsDEeGLD-JBXTKHXA"/>
+    </stereotypes>
+    <visibility xmi:id="_P1x903sDEeGLD-JBXTKHXA" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_P1tsYHsDEeGLD-JBXTKHXA" name="TabHost" associationsIn="_P1oz4HsDEeGLD-JBXTKHXA">
+    <modelElement href="Locate_Wind.uml#_GhnDwHsDEeGLD-JBXTKHXA"/>
+    <visualProperties xmi:id="_P1tsYXsDEeGLD-JBXTKHXA" position="531.0,6.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_P1tsYnsDEeGLD-JBXTKHXA" name="Reference">
+      <modelElement href="Locate_Wind.uml#_Ghnq0HsDEeGLD-JBXTKHXA"/>
+    </stereotypes>
+    <visibility xmi:id="_P1tsY3sDEeGLD-JBXTKHXA" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_HAW1QHsDEeGLD-JBXTKHXA" name="Wind" associationsIn="_HAFvgHsDEeGLD-JBXTKHXA">
+    <modelElement href="Locate_Wind.uml#_GctVoHsDEeGLD-JBXTKHXA"/>
+    <visualProperties xmi:id="_HAZRgHsDEeGLD-JBXTKHXA" position="68.0,434.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_HAW1QXsDEeGLD-JBXTKHXA" label="+"/>
+    <attributes xmi:id="_HAW1QnsDEeGLD-JBXTKHXA" name="latitude">
+      <modelElement href="Locate_Wind.uml#_GmKzoHsDEeGLD-JBXTKHXA"/>
+      <visibility xmi:id="_HAW1Q3sDEeGLD-JBXTKHXA" label="+"/>
+      <cardinality xmi:id="_HAW1RHsDEeGLD-JBXTKHXA" label="1" max="1" min="1"/>
+      <type xmi:id="_HAW1RXsDEeGLD-JBXTKHXA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_HAW1RnsDEeGLD-JBXTKHXA" name="longitude">
+      <modelElement href="Locate_Wind.uml#_GmLasHsDEeGLD-JBXTKHXA"/>
+      <visibility xmi:id="_HAW1R3sDEeGLD-JBXTKHXA" label="+"/>
+      <cardinality xmi:id="_HAW1SHsDEeGLD-JBXTKHXA" label="1" max="1" min="1"/>
+      <type xmi:id="_HAW1SXsDEeGLD-JBXTKHXA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_HAW1SnsDEeGLD-JBXTKHXA" name="force">
+      <modelElement href="Locate_Wind.uml#_GmMBwHsDEeGLD-JBXTKHXA"/>
+      <visibility xmi:id="_HAW1S3sDEeGLD-JBXTKHXA" label="+"/>
+      <cardinality xmi:id="_HAW1THsDEeGLD-JBXTKHXA" label="1" max="1" min="1"/>
+      <type xmi:id="_HAW1TXsDEeGLD-JBXTKHXA" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_HAW1TnsDEeGLD-JBXTKHXA" name="orientation">
+      <modelElement href="Locate_Wind.uml#_GmMBwXsDEeGLD-JBXTKHXA"/>
+      <visibility xmi:id="_HAW1T3sDEeGLD-JBXTKHXA" label="+"/>
+      <cardinality xmi:id="_HAW1UHsDEeGLD-JBXTKHXA" label="1" max="1" min="1"/>
+      <type xmi:id="_HAW1UXsDEeGLD-JBXTKHXA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_HAW1UnsDEeGLD-JBXTKHXA" name="heure">
+      <modelElement href="Locate_Wind.uml#_GmMo0HsDEeGLD-JBXTKHXA"/>
+      <visibility xmi:id="_HAW1U3sDEeGLD-JBXTKHXA" label="+"/>
+      <cardinality xmi:id="_HAW1VHsDEeGLD-JBXTKHXA" label="1" max="1" min="1"/>
+      <type xmi:id="_HAW1VXsDEeGLD-JBXTKHXA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_HAW1VnsDEeGLD-JBXTKHXA" name="date">
+      <modelElement href="Locate_Wind.uml#_GmNP4HsDEeGLD-JBXTKHXA"/>
+      <visibility xmi:id="_HAW1V3sDEeGLD-JBXTKHXA" label="+"/>
+      <cardinality xmi:id="_HAW1WHsDEeGLD-JBXTKHXA" label="1" max="1" min="1"/>
+      <type xmi:id="_HAW1WXsDEeGLD-JBXTKHXA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_HAXcUHsDEeGLD-JBXTKHXA" name="Wind">
+      <modelElement href="Locate_Wind.uml#_GcwY8HsDEeGLD-JBXTKHXA"/>
+      <keywords xmi:id="_HAXcUXsDEeGLD-JBXTKHXA" keyword="create"/>
+      <visibility xmi:id="_HAXcUnsDEeGLD-JBXTKHXA" label="+"/>
+      <outParameters xmi:id="_HAXcU3sDEeGLD-JBXTKHXA">
+        <modelElement href="Locate_Wind.uml#_GcxnEnsDEeGLD-JBXTKHXA"/>
+        <type xmi:id="_HAXcVHsDEeGLD-JBXTKHXA" name="Wind">
+          <modelElement href="Locate_Wind.uml#_GctVoHsDEeGLD-JBXTKHXA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_HAXcVXsDEeGLD-JBXTKHXA" name="latitude">
+        <modelElement href="Locate_Wind.uml#_GcwY8XsDEeGLD-JBXTKHXA"/>
+        <type xmi:id="_HAXcVnsDEeGLD-JBXTKHXA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_HAXcV3sDEeGLD-JBXTKHXA" name="longitude">
+        <modelElement href="Locate_Wind.uml#_GcwY8nsDEeGLD-JBXTKHXA"/>
+        <type xmi:id="_HAXcWHsDEeGLD-JBXTKHXA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_HAXcWXsDEeGLD-JBXTKHXA" name="force">
+        <modelElement href="Locate_Wind.uml#_GcxAAHsDEeGLD-JBXTKHXA"/>
+        <type xmi:id="_HAXcWnsDEeGLD-JBXTKHXA" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_HAXcW3sDEeGLD-JBXTKHXA" name="orientation">
+        <modelElement href="Locate_Wind.uml#_GcxAAXsDEeGLD-JBXTKHXA"/>
+        <type xmi:id="_HAXcXHsDEeGLD-JBXTKHXA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_HAXcXXsDEeGLD-JBXTKHXA" name="heure">
+        <modelElement href="Locate_Wind.uml#_GcxAAnsDEeGLD-JBXTKHXA"/>
+        <type xmi:id="_HAXcXnsDEeGLD-JBXTKHXA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_HAXcX3sDEeGLD-JBXTKHXA" name="date">
+        <modelElement href="Locate_Wind.uml#_GcxAA3sDEeGLD-JBXTKHXA"/>
+        <type xmi:id="_HAXcYHsDEeGLD-JBXTKHXA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_G6OYEHsDEeGLD-JBXTKHXA" name="Locate_WindActivity" associationsOut="_P1oz4HsDEeGLD-JBXTKHXA _P1u6gHsDEeGLD-JBXTKHXA">
+    <modelElement href="Locate_Wind.uml#_GbIBQHsDEeGLD-JBXTKHXA"/>
+    <visualProperties xmi:id="_G7FTsHsDEeGLD-JBXTKHXA" position="58.0,115.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_G6OYEXsDEeGLD-JBXTKHXA" label="+"/>
+    <attributes xmi:id="_G6OYEnsDEeGLD-JBXTKHXA" defaultValue="250" name="SWIPE_MAX_OFF_PATH" staticAttribute="true">
+      <modelElement href="Locate_Wind.uml#_Glk9wHsDEeGLD-JBXTKHXA"/>
+      <visibility xmi:id="_G6OYE3sDEeGLD-JBXTKHXA" label="-"/>
+      <cardinality xmi:id="_G6OYFHsDEeGLD-JBXTKHXA" label="1" max="1" min="1"/>
+      <type xmi:id="_G6OYFXsDEeGLD-JBXTKHXA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_G6OYFnsDEeGLD-JBXTKHXA" defaultValue="120" name="SWIPE_MIN_DISTANCE" staticAttribute="true">
+      <modelElement href="Locate_Wind.uml#_Gllk0HsDEeGLD-JBXTKHXA"/>
+      <visibility xmi:id="_G6OYF3sDEeGLD-JBXTKHXA" label="-"/>
+      <cardinality xmi:id="_G6OYGHsDEeGLD-JBXTKHXA" label="1" max="1" min="1"/>
+      <type xmi:id="_G6OYGXsDEeGLD-JBXTKHXA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_G6OYGnsDEeGLD-JBXTKHXA" defaultValue="200" name="SWIPE_THRESHOLD_VELOCITY" staticAttribute="true">
+      <modelElement href="Locate_Wind.uml#_GlmL4XsDEeGLD-JBXTKHXA"/>
+      <visibility xmi:id="_G6OYG3sDEeGLD-JBXTKHXA" label="-"/>
+      <cardinality xmi:id="_G6OYHHsDEeGLD-JBXTKHXA" label="1" max="1" min="1"/>
+      <type xmi:id="_G6OYHXsDEeGLD-JBXTKHXA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_G6OYHnsDEeGLD-JBXTKHXA" defaultValue="&quot;178.170.101.101&quot;" name="ip_serveur" staticAttribute="true">
+      <modelElement href="Locate_Wind.uml#_Glmy8XsDEeGLD-JBXTKHXA"/>
+      <stereotypes xmi:id="_G6OYH3sDEeGLD-JBXTKHXA" name="LegacyStyledElement">
+        <modelElement href="Locate_Wind.uml#_GloBEHsDEeGLD-JBXTKHXA"/>
+      </stereotypes>
+      <visibility xmi:id="_G6OYIHsDEeGLD-JBXTKHXA" label="+"/>
+      <cardinality xmi:id="_G6OYIXsDEeGLD-JBXTKHXA" label="1" max="1" min="1"/>
+      <type xmi:id="_G6OYInsDEeGLD-JBXTKHXA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_G6OYI3sDEeGLD-JBXTKHXA" name="tabHost" staticAttribute="true">
+      <modelElement href="Locate_Wind.uml#_GloBEXsDEeGLD-JBXTKHXA"/>
+      <stereotypes xmi:id="_G6OYJHsDEeGLD-JBXTKHXA" name="LegacyStyledElement">
+        <modelElement href="Locate_Wind.uml#_GlooIHsDEeGLD-JBXTKHXA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_P1tFUHsDEeGLD-JBXTKHXA" name="LegacyStyledElement">
+        <modelElement href="Locate_Wind.uml#_GlooIHsDEeGLD-JBXTKHXA"/>
+      </stereotypes>
+      <visibility xmi:id="_G6OYJXsDEeGLD-JBXTKHXA" label="+"/>
+      <cardinality xmi:id="_G6OYJnsDEeGLD-JBXTKHXA" label="1" max="1" min="1"/>
+      <type xmi:id="_G6OYJ3sDEeGLD-JBXTKHXA" name="TabHost">
+        <modelElement href="Locate_Wind.uml#_GhnDwHsDEeGLD-JBXTKHXA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_G6OYKHsDEeGLD-JBXTKHXA" name="gestureScanner">
+      <modelElement href="Locate_Wind.uml#_GlpPMHsDEeGLD-JBXTKHXA"/>
+      <stereotypes xmi:id="_G6OYKXsDEeGLD-JBXTKHXA" name="LegacyStyledElement">
+        <modelElement href="Locate_Wind.uml#_Glv84HsDEeGLD-JBXTKHXA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_P1xWwHsDEeGLD-JBXTKHXA" name="LegacyStyledElement">
+        <modelElement href="Locate_Wind.uml#_Glv84HsDEeGLD-JBXTKHXA"/>
+      </stereotypes>
+      <visibility xmi:id="_G6OYKnsDEeGLD-JBXTKHXA" label="-"/>
+      <cardinality xmi:id="_G6OYK3sDEeGLD-JBXTKHXA" label="1" max="1" min="1"/>
+      <type xmi:id="_G6OYLHsDEeGLD-JBXTKHXA" name="GestureDetector">
+        <modelElement href="Locate_Wind.uml#_Gh9CAXsDEeGLD-JBXTKHXA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_G6OYLXsDEeGLD-JBXTKHXA" name="onResume">
+      <modelElement href="Locate_Wind.uml#_GbbjQHsDEeGLD-JBXTKHXA"/>
+      <visibility xmi:id="_G6OYLnsDEeGLD-JBXTKHXA" label="+"/>
+    </operations>
+    <operations xmi:id="_G6OYL3sDEeGLD-JBXTKHXA" name="addTab">
+      <modelElement href="Locate_Wind.uml#_GkbuQHsDEeGLD-JBXTKHXA"/>
+      <visibility xmi:id="_G6OYMHsDEeGLD-JBXTKHXA" label="-"/>
+      <parameters xmi:id="_G6OYMXsDEeGLD-JBXTKHXA" name="paramString">
+        <modelElement href="Locate_Wind.uml#_GkbuQXsDEeGLD-JBXTKHXA"/>
+        <type xmi:id="_G6O_IHsDEeGLD-JBXTKHXA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_G6O_IXsDEeGLD-JBXTKHXA" name="paramIntent">
+        <modelElement href="Locate_Wind.uml#_GkcVUHsDEeGLD-JBXTKHXA"/>
+        <type xmi:id="_G6O_InsDEeGLD-JBXTKHXA" name="Intent">
+          <modelElement href="Locate_Wind.uml#_Ghd50HsDEeGLD-JBXTKHXA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_G6O_I3sDEeGLD-JBXTKHXA" name="onCreate">
+      <modelElement href="Locate_Wind.uml#_GkdjcHsDEeGLD-JBXTKHXA"/>
+      <visibility xmi:id="_G6O_JHsDEeGLD-JBXTKHXA" label="+"/>
+      <parameters xmi:id="_G6O_JXsDEeGLD-JBXTKHXA" name="savedInstanceState">
+        <modelElement href="Locate_Wind.uml#_GkdjcXsDEeGLD-JBXTKHXA"/>
+        <type xmi:id="_G6O_JnsDEeGLD-JBXTKHXA" name="Bundle">
+          <modelElement href="Locate_Wind.uml#_Gheg4XsDEeGLD-JBXTKHXA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_G6O_J3sDEeGLD-JBXTKHXA" name="onDown">
+      <modelElement href="Locate_Wind.uml#_GkexkHsDEeGLD-JBXTKHXA"/>
+      <visibility xmi:id="_G6O_KHsDEeGLD-JBXTKHXA" label="+"/>
+      <outParameters xmi:id="_G6O_KXsDEeGLD-JBXTKHXA">
+        <modelElement href="Locate_Wind.uml#_GkfYoHsDEeGLD-JBXTKHXA"/>
+        <type xmi:id="_G6O_KnsDEeGLD-JBXTKHXA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_G6O_K3sDEeGLD-JBXTKHXA" name="paramMotionEvent">
+        <modelElement href="Locate_Wind.uml#_GkexkXsDEeGLD-JBXTKHXA"/>
+        <type xmi:id="_G6O_LHsDEeGLD-JBXTKHXA" name="MotionEvent">
+          <modelElement href="Locate_Wind.uml#_GiBTcXsDEeGLD-JBXTKHXA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_G6O_LXsDEeGLD-JBXTKHXA" name="onFling">
+      <modelElement href="Locate_Wind.uml#_GkgmwHsDEeGLD-JBXTKHXA"/>
+      <visibility xmi:id="_G6O_LnsDEeGLD-JBXTKHXA" label="+"/>
+      <outParameters xmi:id="_G6O_L3sDEeGLD-JBXTKHXA">
+        <modelElement href="Locate_Wind.uml#_GkhN0nsDEeGLD-JBXTKHXA"/>
+        <type xmi:id="_G6O_MHsDEeGLD-JBXTKHXA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_G6O_MXsDEeGLD-JBXTKHXA" name="e1">
+        <modelElement href="Locate_Wind.uml#_GkgmwXsDEeGLD-JBXTKHXA"/>
+        <type xmi:id="_G6O_MnsDEeGLD-JBXTKHXA" name="MotionEvent">
+          <modelElement href="Locate_Wind.uml#_GiBTcXsDEeGLD-JBXTKHXA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_G6O_M3sDEeGLD-JBXTKHXA" name="e2">
+        <modelElement href="Locate_Wind.uml#_GkgmwnsDEeGLD-JBXTKHXA"/>
+        <type xmi:id="_G6O_NHsDEeGLD-JBXTKHXA" name="MotionEvent">
+          <modelElement href="Locate_Wind.uml#_GiBTcXsDEeGLD-JBXTKHXA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_G6O_NXsDEeGLD-JBXTKHXA" name="velocityX">
+        <modelElement href="Locate_Wind.uml#_GkhN0HsDEeGLD-JBXTKHXA"/>
+        <type xmi:id="_G6O_NnsDEeGLD-JBXTKHXA" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_G6O_N3sDEeGLD-JBXTKHXA" name="velocityY">
+        <modelElement href="Locate_Wind.uml#_GkhN0XsDEeGLD-JBXTKHXA"/>
+        <type xmi:id="_G6O_OHsDEeGLD-JBXTKHXA" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_G6O_OXsDEeGLD-JBXTKHXA" name="onLongPress">
+      <modelElement href="Locate_Wind.uml#_Gkib8HsDEeGLD-JBXTKHXA"/>
+      <stereotypes xmi:id="_G6O_OnsDEeGLD-JBXTKHXA" name="LegacyStyledElement">
+        <modelElement href="Locate_Wind.uml#_GkjqEHsDEeGLD-JBXTKHXA"/>
+      </stereotypes>
+      <visibility xmi:id="_G6O_O3sDEeGLD-JBXTKHXA" label="+"/>
+      <parameters xmi:id="_G6O_PHsDEeGLD-JBXTKHXA" name="paramMotionEvent">
+        <modelElement href="Locate_Wind.uml#_GkjDAHsDEeGLD-JBXTKHXA"/>
+        <type xmi:id="_G6O_PXsDEeGLD-JBXTKHXA" name="MotionEvent">
+          <modelElement href="Locate_Wind.uml#_GiBTcXsDEeGLD-JBXTKHXA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_G6O_PnsDEeGLD-JBXTKHXA" name="onScroll">
+      <modelElement href="Locate_Wind.uml#_Gkk4MHsDEeGLD-JBXTKHXA"/>
+      <visibility xmi:id="_G6O_P3sDEeGLD-JBXTKHXA" label="+"/>
+      <outParameters xmi:id="_G6O_QHsDEeGLD-JBXTKHXA">
+        <modelElement href="Locate_Wind.uml#_GkmGUHsDEeGLD-JBXTKHXA"/>
+        <type xmi:id="_G6O_QXsDEeGLD-JBXTKHXA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_G6O_QnsDEeGLD-JBXTKHXA" name="paramMotionEvent1">
+        <modelElement href="Locate_Wind.uml#_Gkk4MXsDEeGLD-JBXTKHXA"/>
+        <type xmi:id="_G6O_Q3sDEeGLD-JBXTKHXA" name="MotionEvent">
+          <modelElement href="Locate_Wind.uml#_GiBTcXsDEeGLD-JBXTKHXA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_G6O_RHsDEeGLD-JBXTKHXA" name="paramMotionEvent2">
+        <modelElement href="Locate_Wind.uml#_GklfQHsDEeGLD-JBXTKHXA"/>
+        <type xmi:id="_G6O_RXsDEeGLD-JBXTKHXA" name="MotionEvent">
+          <modelElement href="Locate_Wind.uml#_GiBTcXsDEeGLD-JBXTKHXA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_G6O_RnsDEeGLD-JBXTKHXA" name="paramFloat1">
+        <modelElement href="Locate_Wind.uml#_GklfQXsDEeGLD-JBXTKHXA"/>
+        <type xmi:id="_G6O_R3sDEeGLD-JBXTKHXA" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_G6O_SHsDEeGLD-JBXTKHXA" name="paramFloat2">
+        <modelElement href="Locate_Wind.uml#_GklfQnsDEeGLD-JBXTKHXA"/>
+        <type xmi:id="_G6O_SXsDEeGLD-JBXTKHXA" name="float">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_G6O_SnsDEeGLD-JBXTKHXA" name="onShowPress">
+      <modelElement href="Locate_Wind.uml#_GknUcHsDEeGLD-JBXTKHXA"/>
+      <stereotypes xmi:id="_G6O_S3sDEeGLD-JBXTKHXA" name="LegacyStyledElement">
+        <modelElement href="Locate_Wind.uml#_GkoikHsDEeGLD-JBXTKHXA"/>
+      </stereotypes>
+      <visibility xmi:id="_G6O_THsDEeGLD-JBXTKHXA" label="+"/>
+      <parameters xmi:id="_G6O_TXsDEeGLD-JBXTKHXA" name="paramMotionEvent">
+        <modelElement href="Locate_Wind.uml#_GknUcXsDEeGLD-JBXTKHXA"/>
+        <type xmi:id="_G6O_TnsDEeGLD-JBXTKHXA" name="MotionEvent">
+          <modelElement href="Locate_Wind.uml#_GiBTcXsDEeGLD-JBXTKHXA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_G6O_T3sDEeGLD-JBXTKHXA" name="onSingleTapUp">
+      <modelElement href="Locate_Wind.uml#_GkpJoHsDEeGLD-JBXTKHXA"/>
+      <visibility xmi:id="_G6O_UHsDEeGLD-JBXTKHXA" label="+"/>
+      <outParameters xmi:id="_G6O_UXsDEeGLD-JBXTKHXA">
+        <modelElement href="Locate_Wind.uml#_GkqXwHsDEeGLD-JBXTKHXA"/>
+        <type xmi:id="_G6O_UnsDEeGLD-JBXTKHXA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_G6O_U3sDEeGLD-JBXTKHXA" name="paramMotionEvent">
+        <modelElement href="Locate_Wind.uml#_GkpwsHsDEeGLD-JBXTKHXA"/>
+        <type xmi:id="_G6O_VHsDEeGLD-JBXTKHXA" name="MotionEvent">
+          <modelElement href="Locate_Wind.uml#_GiBTcXsDEeGLD-JBXTKHXA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_G6O_VXsDEeGLD-JBXTKHXA" name="onTouchEvent">
+      <modelElement href="Locate_Wind.uml#_Gkq-0HsDEeGLD-JBXTKHXA"/>
+      <visibility xmi:id="_G6O_VnsDEeGLD-JBXTKHXA" label="+"/>
+      <outParameters xmi:id="_G6O_V3sDEeGLD-JBXTKHXA">
+        <modelElement href="Locate_Wind.uml#_GksM8HsDEeGLD-JBXTKHXA"/>
+        <type xmi:id="_G6O_WHsDEeGLD-JBXTKHXA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_G6O_WXsDEeGLD-JBXTKHXA" name="paramMotionEvent">
+        <modelElement href="Locate_Wind.uml#_Gkrl4HsDEeGLD-JBXTKHXA"/>
+        <type xmi:id="_G6O_WnsDEeGLD-JBXTKHXA" name="MotionEvent">
+          <modelElement href="Locate_Wind.uml#_GiBTcXsDEeGLD-JBXTKHXA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_G9KXUHsDEeGLD-JBXTKHXA" name="RecupService" associationsIn="_G-2ZYHsDEeGLD-JBXTKHXA" associationsOut="_G_UTcHsDEeGLD-JBXTKHXA _HAFvgHsDEeGLD-JBXTKHXA">
+    <modelElement href="Locate_Wind.uml#_GcZzoHsDEeGLD-JBXTKHXA"/>
+    <visualProperties xmi:id="_G-0kMHsDEeGLD-JBXTKHXA" position="18.0,688.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_G9KXUXsDEeGLD-JBXTKHXA" label="+"/>
+    <attributes xmi:id="_G9KXUnsDEeGLD-JBXTKHXA" defaultValue="null" name="locate_add" staticAttribute="true">
+      <modelElement href="Locate_Wind.uml#_GmBpsHsDEeGLD-JBXTKHXA"/>
+      <stereotypes xmi:id="_G9KXU3sDEeGLD-JBXTKHXA" name="LegacyStyledElement">
+        <modelElement href="Locate_Wind.uml#_GmC30HsDEeGLD-JBXTKHXA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_HAWOMHsDEeGLD-JBXTKHXA" name="LegacyStyledElement">
+        <modelElement href="Locate_Wind.uml#_GmC30HsDEeGLD-JBXTKHXA"/>
+      </stereotypes>
+      <visibility xmi:id="_G9KXVHsDEeGLD-JBXTKHXA" label="-"/>
+      <cardinality xmi:id="_G9KXVXsDEeGLD-JBXTKHXA" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_G9KXVnsDEeGLD-JBXTKHXA" name="Wind">
+        <modelElement href="Locate_Wind.uml#_GctVoHsDEeGLD-JBXTKHXA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_G9KXV3sDEeGLD-JBXTKHXA" defaultValue="null" name="chrono">
+      <modelElement href="Locate_Wind.uml#_GmDe4HsDEeGLD-JBXTKHXA"/>
+      <stereotypes xmi:id="_G9KXWHsDEeGLD-JBXTKHXA" name="LegacyStyledElement">
+        <modelElement href="Locate_Wind.uml#_GmEF8HsDEeGLD-JBXTKHXA"/>
+      </stereotypes>
+      <visibility xmi:id="_G9KXWXsDEeGLD-JBXTKHXA" label="-"/>
+      <cardinality xmi:id="_G9KXWnsDEeGLD-JBXTKHXA" label="1" max="1" min="1"/>
+      <type xmi:id="_G9KXW3sDEeGLD-JBXTKHXA" name="Timer">
+        <modelElement href="Locate_Wind.uml#_GjJ74XsDEeGLD-JBXTKHXA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_G9KXXHsDEeGLD-JBXTKHXA" name="tmt">
+      <modelElement href="Locate_Wind.uml#_GmEtAHsDEeGLD-JBXTKHXA"/>
+      <stereotypes xmi:id="_G9KXXXsDEeGLD-JBXTKHXA" name="LegacyStyledElement">
+        <modelElement href="Locate_Wind.uml#_GmFUEHsDEeGLD-JBXTKHXA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_HAAP8HsDEeGLD-JBXTKHXA" name="LegacyStyledElement">
+        <modelElement href="Locate_Wind.uml#_GmFUEHsDEeGLD-JBXTKHXA"/>
+      </stereotypes>
+      <visibility xmi:id="_G9KXXnsDEeGLD-JBXTKHXA" label="-"/>
+      <cardinality xmi:id="_G9KXX3sDEeGLD-JBXTKHXA" label="1" max="1" min="1"/>
+      <type xmi:id="_G9KXYHsDEeGLD-JBXTKHXA" name="RecupTimerTask">
+        <modelElement href="Locate_Wind.uml#_GcpEMHsDEeGLD-JBXTKHXA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_G9KXYXsDEeGLD-JBXTKHXA" defaultValue="null" name="is">
+      <modelElement href="Locate_Wind.uml#_GmF7IHsDEeGLD-JBXTKHXA"/>
+      <stereotypes xmi:id="_G9KXYnsDEeGLD-JBXTKHXA" name="LegacyStyledElement">
+        <modelElement href="Locate_Wind.uml#_GmGiMHsDEeGLD-JBXTKHXA"/>
+      </stereotypes>
+      <visibility xmi:id="_G9KXY3sDEeGLD-JBXTKHXA" label="-"/>
+      <cardinality xmi:id="_G9KXZHsDEeGLD-JBXTKHXA" label="1" max="1" min="1"/>
+      <type xmi:id="_G9KXZXsDEeGLD-JBXTKHXA" name="InputStream">
+        <modelElement href="Locate_Wind.uml#_GjG4kHsDEeGLD-JBXTKHXA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_G9KXZnsDEeGLD-JBXTKHXA" defaultValue="new Runnable() {&#xA;&#x9;&#x9;public void run() {&#xA;&#x9;&#x9;&#x9;try {&#xA;&#x9;&#x9;&#x9;&#x9;// il semblerait que depuis les versions 2.2 ou 2.3 les requetes&#xA;&#x9;&#x9;&#x9;&#x9;// http doivent se faire dans un thread differents et le fait de&#xA;&#x9;&#x9;&#x9;&#x9;// preparer loopper a resolut le probleme&#xA;&#x9;&#x9;&#x9;&#x9;// looper introduit donc une boucle&#xA;&#x9;&#x9;&#x9;&#x9;// On met alors en place un Looper qu’on appelle parfois&#xA;&#x9;&#x9;&#x9;&#x9;// également “boucle évènementielle”. La classe Looper permet de&#xA;&#x9;&#x9;&#x9;&#x9;// préparer un Thread à la lecture répétitive d’actions.&#xA;&#x9;&#x9;&#x9;&#x9;Looper.prepare();&#xA;&#x9;&#x9;&#x9;&#x9;locate_maj();&#xA;&#x9;&#x9;&#x9;&#x9;Looper.loop();&#xA;&#x9;&#x9;&#x9;} catch (Exception e) {&#xA;&#x9;&#x9;&#x9;&#x9;// TODO: handle exception&#xA;&#x9;&#x9;&#x9;}&#xA;&#xA;&#x9;&#x9;}&#xA;&#x9;}" name="recupRunnable">
+      <modelElement href="Locate_Wind.uml#_GmHJQHsDEeGLD-JBXTKHXA"/>
+      <stereotypes xmi:id="_G9KXZ3sDEeGLD-JBXTKHXA" name="LegacyStyledElement">
+        <modelElement href="Locate_Wind.uml#_GmHwUHsDEeGLD-JBXTKHXA"/>
+      </stereotypes>
+      <visibility xmi:id="_G9KXaHsDEeGLD-JBXTKHXA" label="-"/>
+      <cardinality xmi:id="_G9KXaXsDEeGLD-JBXTKHXA" label="1" max="1" min="1"/>
+      <type xmi:id="_G9KXansDEeGLD-JBXTKHXA" name="Runnable">
+        <modelElement href="Locate_Wind.uml#_GlCLMHsDEeGLD-JBXTKHXA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_G9KXa3sDEeGLD-JBXTKHXA" name="onCreate">
+      <modelElement href="Locate_Wind.uml#_GccP4HsDEeGLD-JBXTKHXA"/>
+      <stereotypes xmi:id="_G9KXbHsDEeGLD-JBXTKHXA" name="LegacyStyledElement">
+        <modelElement href="Locate_Wind.uml#_GcdeAHsDEeGLD-JBXTKHXA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_G9KXbXsDEeGLD-JBXTKHXA" name="Annotations">
+        <modelElement href="Locate_Wind.uml#_GcdeAXsDEeGLD-JBXTKHXA"/>
+      </stereotypes>
+      <visibility xmi:id="_G9KXbnsDEeGLD-JBXTKHXA" label="+"/>
+    </operations>
+    <operations xmi:id="_G9KXb3sDEeGLD-JBXTKHXA" name="getLocate_add" staticOperation="true">
+      <modelElement href="Locate_Wind.uml#_GceFEXsDEeGLD-JBXTKHXA"/>
+      <visibility xmi:id="_G9KXcHsDEeGLD-JBXTKHXA" label="+"/>
+      <outParameters xmi:id="_G9KXcXsDEeGLD-JBXTKHXA">
+        <modelElement href="Locate_Wind.uml#_GcesIHsDEeGLD-JBXTKHXA"/>
+        <type xmi:id="_G9K-YHsDEeGLD-JBXTKHXA" name="Wind">
+          <modelElement href="Locate_Wind.uml#_GctVoHsDEeGLD-JBXTKHXA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_G9K-YXsDEeGLD-JBXTKHXA" name="lance_thread_maj">
+      <modelElement href="Locate_Wind.uml#_Gcf6QHsDEeGLD-JBXTKHXA"/>
+      <visibility xmi:id="_G9K-YnsDEeGLD-JBXTKHXA" label="+"/>
+    </operations>
+    <operations xmi:id="_G9K-Y3sDEeGLD-JBXTKHXA" name="locate_maj">
+      <modelElement href="Locate_Wind.uml#_Gcf6QXsDEeGLD-JBXTKHXA"/>
+      <visibility xmi:id="_G9K-ZHsDEeGLD-JBXTKHXA" label="+"/>
+    </operations>
+    <operations xmi:id="_G9K-ZXsDEeGLD-JBXTKHXA" name="onStart">
+      <modelElement href="Locate_Wind.uml#_GlAWAHsDEeGLD-JBXTKHXA"/>
+      <visibility xmi:id="_G9K-ZnsDEeGLD-JBXTKHXA" label="+"/>
+      <parameters xmi:id="_G9K-Z3sDEeGLD-JBXTKHXA" name="intent">
+        <modelElement href="Locate_Wind.uml#_GlAWAXsDEeGLD-JBXTKHXA"/>
+        <type xmi:id="_G9K-aHsDEeGLD-JBXTKHXA" name="Intent">
+          <modelElement href="Locate_Wind.uml#_Ghd50HsDEeGLD-JBXTKHXA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_G9K-aXsDEeGLD-JBXTKHXA" name="startId">
+        <modelElement href="Locate_Wind.uml#_GlA9EHsDEeGLD-JBXTKHXA"/>
+        <type xmi:id="_G9K-ansDEeGLD-JBXTKHXA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_G9K-a3sDEeGLD-JBXTKHXA" name="onBind">
+      <modelElement href="Locate_Wind.uml#_GlEncHsDEeGLD-JBXTKHXA"/>
+      <visibility xmi:id="_G9K-bHsDEeGLD-JBXTKHXA" label="+"/>
+      <outParameters xmi:id="_G9K-bXsDEeGLD-JBXTKHXA">
+        <modelElement href="Locate_Wind.uml#_GlFOgXsDEeGLD-JBXTKHXA"/>
+        <type xmi:id="_G9K-bnsDEeGLD-JBXTKHXA" name="IBinder">
+          <modelElement href="Locate_Wind.uml#_GjCnIXsDEeGLD-JBXTKHXA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_G9K-b3sDEeGLD-JBXTKHXA" name="paramIntent">
+        <modelElement href="Locate_Wind.uml#_GlFOgHsDEeGLD-JBXTKHXA"/>
+        <type xmi:id="_G9K-cHsDEeGLD-JBXTKHXA" name="Intent">
+          <modelElement href="Locate_Wind.uml#_Ghd50HsDEeGLD-JBXTKHXA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_HACFIHsDEeGLD-JBXTKHXA" name="RecupTimerTask" associationsIn="_G_UTcHsDEeGLD-JBXTKHXA" associationsOut="_G-2ZYHsDEeGLD-JBXTKHXA">
+    <modelElement href="Locate_Wind.uml#_GcpEMHsDEeGLD-JBXTKHXA"/>
+    <visualProperties xmi:id="_HADTQHsDEeGLD-JBXTKHXA" position="657.0,762.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_HACFIXsDEeGLD-JBXTKHXA" label="+"/>
+    <attributes xmi:id="_HACFInsDEeGLD-JBXTKHXA" defaultValue="null" name="recup_data">
+      <modelElement href="Locate_Wind.uml#_GmI-cHsDEeGLD-JBXTKHXA"/>
+      <stereotypes xmi:id="_HACFI3sDEeGLD-JBXTKHXA" name="LegacyStyledElement">
+        <modelElement href="Locate_Wind.uml#_GmKMkHsDEeGLD-JBXTKHXA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_G_7-gHsDEeGLD-JBXTKHXA" name="LegacyStyledElement">
+        <modelElement href="Locate_Wind.uml#_GmKMkHsDEeGLD-JBXTKHXA"/>
+      </stereotypes>
+      <visibility xmi:id="_HACFJHsDEeGLD-JBXTKHXA" label="-"/>
+      <cardinality xmi:id="_HACFJXsDEeGLD-JBXTKHXA" label="1" max="1" min="1"/>
+      <type xmi:id="_HACFJnsDEeGLD-JBXTKHXA" name="RecupService">
+        <modelElement href="Locate_Wind.uml#_GcZzoHsDEeGLD-JBXTKHXA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_HACFJ3sDEeGLD-JBXTKHXA" name="run">
+      <modelElement href="Locate_Wind.uml#_Gcq5YHsDEeGLD-JBXTKHXA"/>
+      <visibility xmi:id="_HACFKHsDEeGLD-JBXTKHXA" label="+"/>
+    </operations>
+    <operations xmi:id="_HACFKXsDEeGLD-JBXTKHXA" name="RecupTimerTask">
+      <modelElement href="Locate_Wind.uml#_Gji9cHsDEeGLD-JBXTKHXA"/>
+      <keywords xmi:id="_HACsMHsDEeGLD-JBXTKHXA" keyword="create"/>
+      <visibility xmi:id="_HACsMXsDEeGLD-JBXTKHXA" label="+"/>
+      <outParameters xmi:id="_HACsMnsDEeGLD-JBXTKHXA">
+        <modelElement href="Locate_Wind.uml#_GjjkgnsDEeGLD-JBXTKHXA"/>
+        <type xmi:id="_HACsM3sDEeGLD-JBXTKHXA" name="RecupTimerTask">
+          <modelElement href="Locate_Wind.uml#_GcpEMHsDEeGLD-JBXTKHXA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_HACsNHsDEeGLD-JBXTKHXA" name="paramRecupService">
+        <modelElement href="Locate_Wind.uml#_Gji9cXsDEeGLD-JBXTKHXA"/>
+        <type xmi:id="_HACsNXsDEeGLD-JBXTKHXA" name="RecupService">
+          <modelElement href="Locate_Wind.uml#_GcZzoHsDEeGLD-JBXTKHXA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_HAjCgHsDEeGLD-JBXTKHXA" name="WindItem">
+    <modelElement href="Locate_Wind.uml#_Gc0DUHsDEeGLD-JBXTKHXA"/>
+    <visualProperties xmi:id="_HAvPwHsDEeGLD-JBXTKHXA" position="-603.0,687.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_HAjCgXsDEeGLD-JBXTKHXA" label="+"/>
+    <attributes xmi:id="_HAjCgnsDEeGLD-JBXTKHXA" defaultValue="new ArrayList()" name="arrayListOverlayItem">
+      <modelElement href="Locate_Wind.uml#_GmOeAHsDEeGLD-JBXTKHXA"/>
+      <stereotypes xmi:id="_HAjCg3sDEeGLD-JBXTKHXA" name="Generics">
+        <modelElement href="Locate_Wind.uml#_GmPsIHsDEeGLD-JBXTKHXA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_HAjChHsDEeGLD-JBXTKHXA" name="LegacyStyledElement">
+        <modelElement href="Locate_Wind.uml#_GmQ6QHsDEeGLD-JBXTKHXA"/>
+      </stereotypes>
+      <visibility xmi:id="_HAjChXsDEeGLD-JBXTKHXA" label="-"/>
+      <cardinality xmi:id="_HAjChnsDEeGLD-JBXTKHXA" label="1" max="1" min="1"/>
+      <type xmi:id="_HAjCh3sDEeGLD-JBXTKHXA" name="ArrayList">
+        <modelElement href="Locate_Wind.uml#_Ghnq0XsDEeGLD-JBXTKHXA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_HAjCiHsDEeGLD-JBXTKHXA" name="context">
+      <modelElement href="Locate_Wind.uml#_GmQ6QXsDEeGLD-JBXTKHXA"/>
+      <stereotypes xmi:id="_HAjCiXsDEeGLD-JBXTKHXA" name="LegacyStyledElement">
+        <modelElement href="Locate_Wind.uml#_GmSIYHsDEeGLD-JBXTKHXA"/>
+      </stereotypes>
+      <visibility xmi:id="_HAjCinsDEeGLD-JBXTKHXA" label="-"/>
+      <cardinality xmi:id="_HAjCi3sDEeGLD-JBXTKHXA" label="1" max="1" min="1"/>
+      <type xmi:id="_HAjCjHsDEeGLD-JBXTKHXA" name="Context">
+        <modelElement href="Locate_Wind.uml#_GhcrsXsDEeGLD-JBXTKHXA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_HAjCjXsDEeGLD-JBXTKHXA" name="createItem">
+      <modelElement href="Locate_Wind.uml#_Gc3tsHsDEeGLD-JBXTKHXA"/>
+      <stereotypes xmi:id="_HAjCjnsDEeGLD-JBXTKHXA" name="LegacyStyledElement">
+        <modelElement href="Locate_Wind.uml#_Gc470HsDEeGLD-JBXTKHXA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_HAjCj3sDEeGLD-JBXTKHXA" name="Annotations">
+        <modelElement href="Locate_Wind.uml#_Gc5i4HsDEeGLD-JBXTKHXA"/>
+      </stereotypes>
+      <visibility xmi:id="_HAjCkHsDEeGLD-JBXTKHXA" label="#"/>
+      <outParameters xmi:id="_HAjCkXsDEeGLD-JBXTKHXA">
+        <modelElement href="Locate_Wind.uml#_GlQ0sHsDEeGLD-JBXTKHXA"/>
+        <type xmi:id="_HAjCknsDEeGLD-JBXTKHXA" name="OverlayItem">
+          <modelElement href="Locate_Wind.uml#_GhsjUHsDEeGLD-JBXTKHXA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_HAjCk3sDEeGLD-JBXTKHXA" name="paramInt">
+        <modelElement href="Locate_Wind.uml#_Gc3tsXsDEeGLD-JBXTKHXA"/>
+        <type xmi:id="_HAjClHsDEeGLD-JBXTKHXA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_HAjClXsDEeGLD-JBXTKHXA" name="onTap">
+      <modelElement href="Locate_Wind.uml#_Gc6xAHsDEeGLD-JBXTKHXA"/>
+      <stereotypes xmi:id="_HAjClnsDEeGLD-JBXTKHXA" name="LegacyStyledElement">
+        <modelElement href="Locate_Wind.uml#_Gc7_IXsDEeGLD-JBXTKHXA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_HAjCl3sDEeGLD-JBXTKHXA" name="Annotations">
+        <modelElement href="Locate_Wind.uml#_Gc8mMHsDEeGLD-JBXTKHXA"/>
+      </stereotypes>
+      <visibility xmi:id="_HAjCmHsDEeGLD-JBXTKHXA" label="#"/>
+      <outParameters xmi:id="_HAjCmXsDEeGLD-JBXTKHXA">
+        <modelElement href="Locate_Wind.uml#_Gc7_IHsDEeGLD-JBXTKHXA"/>
+        <type xmi:id="_HAjCmnsDEeGLD-JBXTKHXA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_HAjCm3sDEeGLD-JBXTKHXA" name="index">
+        <modelElement href="Locate_Wind.uml#_Gc7YEHsDEeGLD-JBXTKHXA"/>
+        <type xmi:id="_HAjCnHsDEeGLD-JBXTKHXA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_HAjCnXsDEeGLD-JBXTKHXA" name="size">
+      <modelElement href="Locate_Wind.uml#_Gc9NQXsDEeGLD-JBXTKHXA"/>
+      <stereotypes xmi:id="_HAjCnnsDEeGLD-JBXTKHXA" name="LegacyStyledElement">
+        <modelElement href="Locate_Wind.uml#_Gc90UXsDEeGLD-JBXTKHXA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_HAjCn3sDEeGLD-JBXTKHXA" name="Annotations">
+        <modelElement href="Locate_Wind.uml#_Gc-bYHsDEeGLD-JBXTKHXA"/>
+      </stereotypes>
+      <visibility xmi:id="_HAjCoHsDEeGLD-JBXTKHXA" label="+"/>
+      <outParameters xmi:id="_HAjCoXsDEeGLD-JBXTKHXA">
+        <modelElement href="Locate_Wind.uml#_Gc90UHsDEeGLD-JBXTKHXA"/>
+        <type xmi:id="_HAjConsDEeGLD-JBXTKHXA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_HAjpkHsDEeGLD-JBXTKHXA" name="WindItem">
+      <modelElement href="Locate_Wind.uml#_GlKuEHsDEeGLD-JBXTKHXA"/>
+      <keywords xmi:id="_HAjpkXsDEeGLD-JBXTKHXA" keyword="create"/>
+      <visibility xmi:id="_HAjpknsDEeGLD-JBXTKHXA" label="+"/>
+      <outParameters xmi:id="_HAjpk3sDEeGLD-JBXTKHXA">
+        <modelElement href="Locate_Wind.uml#_GlL8MXsDEeGLD-JBXTKHXA"/>
+        <type xmi:id="_HAjplHsDEeGLD-JBXTKHXA" name="WindItem">
+          <modelElement href="Locate_Wind.uml#_Gc0DUHsDEeGLD-JBXTKHXA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_HAjplXsDEeGLD-JBXTKHXA" name="paramDrawable">
+        <modelElement href="Locate_Wind.uml#_GlLVIHsDEeGLD-JBXTKHXA"/>
+        <type xmi:id="_HAjplnsDEeGLD-JBXTKHXA" name="Drawable">
+          <modelElement href="Locate_Wind.uml#_GiZt8HsDEeGLD-JBXTKHXA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_HAjpl3sDEeGLD-JBXTKHXA" name="WindItem">
+      <modelElement href="Locate_Wind.uml#_GlNKUHsDEeGLD-JBXTKHXA"/>
+      <keywords xmi:id="_HAjpmHsDEeGLD-JBXTKHXA" keyword="create"/>
+      <visibility xmi:id="_HAjpmXsDEeGLD-JBXTKHXA" label="+"/>
+      <outParameters xmi:id="_HAjpmnsDEeGLD-JBXTKHXA">
+        <modelElement href="Locate_Wind.uml#_GlOYcXsDEeGLD-JBXTKHXA"/>
+        <type xmi:id="_HAjpm3sDEeGLD-JBXTKHXA" name="WindItem">
+          <modelElement href="Locate_Wind.uml#_Gc0DUHsDEeGLD-JBXTKHXA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_HAjpnHsDEeGLD-JBXTKHXA" name="paramDrawable">
+        <modelElement href="Locate_Wind.uml#_GlNKUXsDEeGLD-JBXTKHXA"/>
+        <type xmi:id="_HAjpnXsDEeGLD-JBXTKHXA" name="Drawable">
+          <modelElement href="Locate_Wind.uml#_GiZt8HsDEeGLD-JBXTKHXA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_HAjpnnsDEeGLD-JBXTKHXA" name="paramContext">
+        <modelElement href="Locate_Wind.uml#_GlNxYHsDEeGLD-JBXTKHXA"/>
+        <type xmi:id="_HAjpn3sDEeGLD-JBXTKHXA" name="Context">
+          <modelElement href="Locate_Wind.uml#_GhcrsXsDEeGLD-JBXTKHXA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_HAjpoHsDEeGLD-JBXTKHXA" name="addOverlayItem">
+      <modelElement href="Locate_Wind.uml#_GlPmkHsDEeGLD-JBXTKHXA"/>
+      <visibility xmi:id="_HAjpoXsDEeGLD-JBXTKHXA" label="+"/>
+      <parameters xmi:id="_HAjponsDEeGLD-JBXTKHXA" name="paramOverlayItem">
+        <modelElement href="Locate_Wind.uml#_GlPmkXsDEeGLD-JBXTKHXA"/>
+        <type xmi:id="_HAjpo3sDEeGLD-JBXTKHXA" name="OverlayItem">
+          <modelElement href="Locate_Wind.uml#_GhsjUHsDEeGLD-JBXTKHXA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_HA19cHsDEeGLD-JBXTKHXA" name="WindLocate">
+    <modelElement href="Locate_Wind.uml#_GdFJEHsDEeGLD-JBXTKHXA"/>
+    <visualProperties xmi:id="_HA_ucHsDEeGLD-JBXTKHXA" position="-1051.0,692.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_HA19cXsDEeGLD-JBXTKHXA" label="+"/>
+    <attributes xmi:id="_HA19cnsDEeGLD-JBXTKHXA" name="ForceWind">
+      <modelElement href="Locate_Wind.uml#_GmSvcHsDEeGLD-JBXTKHXA"/>
+      <stereotypes xmi:id="_HA19c3sDEeGLD-JBXTKHXA" name="LegacyStyledElement">
+        <modelElement href="Locate_Wind.uml#_GmT9kHsDEeGLD-JBXTKHXA"/>
+      </stereotypes>
+      <visibility xmi:id="_HA19dHsDEeGLD-JBXTKHXA" label="-"/>
+      <cardinality xmi:id="_HA19dXsDEeGLD-JBXTKHXA" label="1" max="1" min="1"/>
+      <type xmi:id="_HA19dnsDEeGLD-JBXTKHXA" name="EditText">
+        <modelElement href="Locate_Wind.uml#_GihCsHsDEeGLD-JBXTKHXA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_HA19d3sDEeGLD-JBXTKHXA" name="spinnerOrient">
+      <modelElement href="Locate_Wind.uml#_GmT9kXsDEeGLD-JBXTKHXA"/>
+      <stereotypes xmi:id="_HA19eHsDEeGLD-JBXTKHXA" name="LegacyStyledElement">
+        <modelElement href="Locate_Wind.uml#_GmUkoHsDEeGLD-JBXTKHXA"/>
+      </stereotypes>
+      <visibility xmi:id="_HA19eXsDEeGLD-JBXTKHXA" label="-"/>
+      <cardinality xmi:id="_HA19ensDEeGLD-JBXTKHXA" label="1" max="1" min="1"/>
+      <type xmi:id="_HA19e3sDEeGLD-JBXTKHXA" name="Spinner">
+        <modelElement href="Locate_Wind.uml#_Gj2fcHsDEeGLD-JBXTKHXA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_HA19fHsDEeGLD-JBXTKHXA" name="postData">
+      <modelElement href="Locate_Wind.uml#_GdHlUHsDEeGLD-JBXTKHXA"/>
+      <visibility xmi:id="_HA19fXsDEeGLD-JBXTKHXA" label="+"/>
+      <parameters xmi:id="_HA19fnsDEeGLD-JBXTKHXA" name="paramString">
+        <modelElement href="Locate_Wind.uml#_GdIMYHsDEeGLD-JBXTKHXA"/>
+        <type xmi:id="_HA19f3sDEeGLD-JBXTKHXA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_HA19gHsDEeGLD-JBXTKHXA" name="onStop">
+      <modelElement href="Locate_Wind.uml#_GdIzcHsDEeGLD-JBXTKHXA"/>
+      <visibility xmi:id="_HA19gXsDEeGLD-JBXTKHXA" label="+"/>
+    </operations>
+    <operations xmi:id="_HA19gnsDEeGLD-JBXTKHXA" name="onDestroy">
+      <modelElement href="Locate_Wind.uml#_GdJagHsDEeGLD-JBXTKHXA"/>
+      <visibility xmi:id="_HA19g3sDEeGLD-JBXTKHXA" label="+"/>
+    </operations>
+    <operations xmi:id="_HA19hHsDEeGLD-JBXTKHXA" name="onCreate">
+      <modelElement href="Locate_Wind.uml#_GlVtMHsDEeGLD-JBXTKHXA"/>
+      <visibility xmi:id="_HA19hXsDEeGLD-JBXTKHXA" label="+"/>
+      <parameters xmi:id="_HA19hnsDEeGLD-JBXTKHXA" name="paramBundle">
+        <modelElement href="Locate_Wind.uml#_GlVtMXsDEeGLD-JBXTKHXA"/>
+        <type xmi:id="_HA19h3sDEeGLD-JBXTKHXA" name="Bundle">
+          <modelElement href="Locate_Wind.uml#_Gheg4XsDEeGLD-JBXTKHXA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_HA19iHsDEeGLD-JBXTKHXA" name="onCreateOptionsMenu">
+      <modelElement href="Locate_Wind.uml#_GlW7UHsDEeGLD-JBXTKHXA"/>
+      <visibility xmi:id="_HA19iXsDEeGLD-JBXTKHXA" label="+"/>
+      <outParameters xmi:id="_HA19insDEeGLD-JBXTKHXA">
+        <modelElement href="Locate_Wind.uml#_GlXiYHsDEeGLD-JBXTKHXA"/>
+        <type xmi:id="_HA19i3sDEeGLD-JBXTKHXA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_HA19jHsDEeGLD-JBXTKHXA" name="menu">
+        <modelElement href="Locate_Wind.uml#_GlW7UXsDEeGLD-JBXTKHXA"/>
+        <type xmi:id="_HA19jXsDEeGLD-JBXTKHXA" name="Menu">
+          <modelElement href="Locate_Wind.uml#_GhfvAXsDEeGLD-JBXTKHXA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_HA19jnsDEeGLD-JBXTKHXA" name="onOptionsItemSelected">
+      <modelElement href="Locate_Wind.uml#_GlYJcHsDEeGLD-JBXTKHXA"/>
+      <visibility xmi:id="_HA19j3sDEeGLD-JBXTKHXA" label="+"/>
+      <outParameters xmi:id="_HA19kHsDEeGLD-JBXTKHXA">
+        <modelElement href="Locate_Wind.uml#_GlYwgXsDEeGLD-JBXTKHXA"/>
+        <type xmi:id="_HA19kXsDEeGLD-JBXTKHXA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_HA19knsDEeGLD-JBXTKHXA" name="item">
+        <modelElement href="Locate_Wind.uml#_GlYwgHsDEeGLD-JBXTKHXA"/>
+        <type xmi:id="_HA2kgHsDEeGLD-JBXTKHXA" name="MenuItem">
+          <modelElement href="Locate_Wind.uml#_GhhkMXsDEeGLD-JBXTKHXA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

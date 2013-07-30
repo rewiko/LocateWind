@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, Locate_WindActivity!</string>
+    <string name="app_name">Locate_Wind</string>
+    <string name="ok">OK</string>
+    <string name="orientation">Orientation:</string>
+    <string name="force">Entrer la force du vent en noeuds:</string>
+
+    <string-array name="locate_array">
+        <item>Nord-Sud</item>
+        <item>Nord-Est</item>
+        <item>Nord-Ouest</item>
+        <item>Sud-Nord</item>
+        <item>Sud-Est</item>
+        <item>Sud-Ouest</item>
+        <item>Est-Nord</item>
+        <item>Est-Sud</item>
+        <item>Est-Ouest</item>
+        <item>Ouest-Nord</item>
+        <item>Ouest-Sud</item>
+        <item>Ouest-Est</item>
+        <item>Nord/Ouest-Sud-Est</item>
+        <item>Sud/Est-Nord/Ouest</item>
+        <item>Sud/Ouest-Nord/Est</item>
+        <item>Nord/Est-Sud/Ouest</item>
+    </string-array>
+
+</resources>

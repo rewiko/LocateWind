@@ -1,0 +1,1912 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_FbnFAHsDEeGLD-JBXTKHXA" name="Locate_Wind">
+    <eAnnotations xmi:id="_FcG0QHsDEeGLD-JBXTKHXA" source="http://www.yatta-solutions.com/umllab/codegen/codegenDirectory">
+      <details xmi:id="_FcG0QXsDEeGLD-JBXTKHXA" key="codegenDirectory" value="/Locate_Wind/src"/>
+    </eAnnotations>
+    <eAnnotations xmi:id="_GocrkHsDEeGLD-JBXTKHXA" source="com.yattasolutions.codegen.RoundTripInformation">
+      <details xmi:id="_GodSoHsDEeGLD-JBXTKHXA" key="AssociatedSourceCode" value="/Locate_Wind/src/LocateWind/Comtois/LastLocation.java;3733379657/1;/Locate_Wind/src/LocateWind/Comtois/Locate_Recep.java;4059218965/1;/Locate_Wind/src/LocateWind/Comtois/Locate_WindActivity.java;1991479573/1;/Locate_Wind/src/LocateWind/Comtois/MapWind.java;3607657716/1;/Locate_Wind/src/LocateWind/Comtois/RecupService.java;1092072000/1;/Locate_Wind/src/LocateWind/Comtois/RecupTimerTask.java;1382845532/1;/Locate_Wind/src/LocateWind/Comtois/Wind.java;1225887815/1;/Locate_Wind/src/LocateWind/Comtois/WindItem.java;4234905810/1;/Locate_Wind/src/LocateWind/Comtois/WindLocate.java;2437130710/1;"/>
+    </eAnnotations>
+    <elementImport xmi:id="_GUw6kHsDEeGLD-JBXTKHXA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_GUw6kXsDEeGLD-JBXTKHXA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_GUw6knsDEeGLD-JBXTKHXA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_GUw6k3sDEeGLD-JBXTKHXA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_GUxhoHsDEeGLD-JBXTKHXA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_GUxhoXsDEeGLD-JBXTKHXA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_GUxhonsDEeGLD-JBXTKHXA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_GUxho3sDEeGLD-JBXTKHXA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_GUyIsHsDEeGLD-JBXTKHXA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_GUQkQHsDEeGLD-JBXTKHXA" name="LocateWind">
+      <packagedElement xmi:type="uml:Package" xmi:id="_GUa8UHsDEeGLD-JBXTKHXA" name="Comtois">
+        <packagedElement xmi:type="uml:Class" xmi:id="_Gaw04HsDEeGLD-JBXTKHXA" name="LastLocation">
+          <generalization xmi:id="_GkVnoXsDEeGLD-JBXTKHXA" general="_Gha2gHsDEeGLD-JBXTKHXA"/>
+          <ownedAttribute xmi:id="_GleQEHsDEeGLD-JBXTKHXA" name="intent_servicea" isStatic="true" type="_Ghd50HsDEeGLD-JBXTKHXA" association="_GnMHUHsDEeGLD-JBXTKHXA">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_Gle3IHsDEeGLD-JBXTKHXA" value="null"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_GlgFQHsDEeGLD-JBXTKHXA" name="maList" visibility="private" type="_GhlOkHsDEeGLD-JBXTKHXA" association="_GnN8gHsDEeGLD-JBXTKHXA"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_GmXA4HsDEeGLD-JBXTKHXA" name="check_last" specification="_Gaz4MHsDEeGLD-JBXTKHXA">
+            <language>java</language>
+            <body>this.maList = ((ListView) findViewById(R.id.listview));
+		// Création de la ArrayList qui nous permettra de remplire la listView
+		ArrayList&lt;HashMap&lt;String, String>> listItem = new ArrayList&lt;HashMap&lt;String, String>>();
+
+		// On déclare la HashMap qui contiendra les informations pour un item
+		HashMap&lt;String, String> map;
+		listItem.clear();
+
+		try {
+			for (Wind wind_recup : RecupService.getLocate_add()) {
+
+				// Création d'une HashMap pour insérer les informations du
+				// premier item de notre listView
+				map = new HashMap&lt;String, String>();
+				// on insère un élément titre que l'on récupérera dans le
+				// textView titre créé dans le fichier affichageitem.xml
+				map.put(&quot;titre&quot;, &quot;Force: &quot; + wind_recup.getForce() + &quot; à &quot;
+						+ wind_recup.getHeure() + &quot; le &quot; + wind_recup.getDate());
+				// on insère un élément description que l'on récupérera dans le
+				// textView description créé dans le fichier affichageitem.xml
+				map.put(&quot;description&quot;,
+						&quot;Orientation: &quot; + wind_recup.getOrientation());
+
+				map.put(&quot;coord&quot;,
+						wind_recup.getLatitude() + &quot; &quot;
+								+ wind_recup.getLongitude());
+				// enfin on ajoute cette hashMap dans la arrayList
+				listItem.add(map);
+			}
+
+			// Création d'un SimpleAdapter qui se chargera de mettre les items
+			// présent dans notre list (listItem) dans la vue affichageitem
+			SimpleAdapter mSchedule = new SimpleAdapter(this.getBaseContext(),
+					listItem, R.layout.list_locate, new String[] { &quot;titre&quot;,
+							&quot;description&quot; }, new int[] { R.id.titre,
+							R.id.description });
+
+			// On attribut à notre listView l'adapter que l'on vient de créer
+			maList.setAdapter(mSchedule);
+
+			// Enfin on met un écouteur d'évènement sur notre listView
+			maList.setOnItemClickListener(new OnItemClickListener() {
+				@SuppressWarnings(&quot;unchecked&quot;)
+				public void onItemClick(AdapterView&lt;?> a, View v, int position,
+						long id) {
+					try {
+						// on récupère la HashMap contenant les infos de notre
+						// item (titre, description, img)
+						HashMap&lt;String, String> map = (HashMap&lt;String, String>) maList
+								.getItemAtPosition(position);
+						String str[] = map.get(&quot;coord&quot;).split(&quot; &quot;);
+
+						Locate_WindActivity.tabHost.setCurrentTab(0);
+						new MapWind().Locatelast(Integer.parseInt(str[0]),
+								Integer.parseInt(str[1]));
+					} catch (Exception e) {
+						// TODO: handle exception
+					}
+
+				}
+			});
+
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_GmXn8HsDEeGLD-JBXTKHXA" name="onCreate" specification="_GkR9QHsDEeGLD-JBXTKHXA">
+            <ownedParameter xmi:id="_GmXn8XsDEeGLD-JBXTKHXA" name="paramBundle" type="_Gheg4XsDEeGLD-JBXTKHXA"/>
+            <language>java</language>
+            <body>super.onCreate(paramBundle);
+		setContentView(R.layout.last_location);
+		try {
+			intent_servicea = new Intent(this, RecupService.class);
+			check_last();
+		} catch (Exception e) {
+
+		}
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_GmYPAHsDEeGLD-JBXTKHXA" name="onCreateOptionsMenu" specification="_GkTycHsDEeGLD-JBXTKHXA">
+            <ownedParameter xmi:id="_GmYPAXsDEeGLD-JBXTKHXA" name="menu" type="_GhfvAXsDEeGLD-JBXTKHXA"/>
+            <ownedParameter xmi:id="_GmYPAnsDEeGLD-JBXTKHXA" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>// Création d'un MenuInflater qui va permettre d'instancier un Menu XML
+		// en un objet Menu
+		MenuInflater inflater = getMenuInflater();
+		// Instanciation du menu XML spécifier en un objet Menu
+		inflater.inflate(R.layout.menu_quit, menu);
+
+		menu.getItem(0).getSubMenu();// .setHeaderIcon(R.drawable.option_white);
+
+		return true;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_GmY2EHsDEeGLD-JBXTKHXA" name="onOptionsItemSelected" specification="_GkVAkHsDEeGLD-JBXTKHXA">
+            <ownedParameter xmi:id="_GmY2EXsDEeGLD-JBXTKHXA" name="item" type="_GhhkMXsDEeGLD-JBXTKHXA"/>
+            <ownedParameter xmi:id="_GmY2EnsDEeGLD-JBXTKHXA" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>switch (item.getItemId()) {
+
+		case R.id.quitter:
+			// Pour fermer l'application il suffit de faire finish()
+			try {
+				// creation service qui appelee la classe RecupService qui va
+				// recuperer les donnee dans la BDD
+				stopService(MapWind.service);
+			} catch (Exception e) {
+				// TODO: handle exception
+			}
+			try {
+				// creation service qui appelee la classe RecupService qui va
+				// recuperer les donnee dans la BDD
+				stopService(intent_servicea);
+			} catch (Exception e) {
+				// TODO: handle exception
+			}
+
+			finish();
+			return true;
+		}
+		return false;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_GmZdIHsDEeGLD-JBXTKHXA" name="onResume" specification="_Ga2UcHsDEeGLD-JBXTKHXA">
+            <language>java</language>
+            <body>super.onResume();
+		try {
+			stopService(intent_servicea);
+		} catch (Exception e) {
+		}
+		try {
+			startService(intent_servicea);
+			check_last();
+		} catch (Exception e) {
+		}
+
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_GmZdIXsDEeGLD-JBXTKHXA" name="onStop" specification="_Ga27gHsDEeGLD-JBXTKHXA">
+            <language>java</language>
+            <body>super.onStop();
+		try {
+			stopService(MapWind.intent_service);
+
+		} catch (Exception e) {
+		}
+		try {
+			stopService(LastLocation.intent_servicea);
+
+		} catch (Exception e) {
+		}
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_GmaEMHsDEeGLD-JBXTKHXA" name="onDestroy" specification="_Ga3ikHsDEeGLD-JBXTKHXA">
+            <language>java</language>
+            <body>super.onDestroy();
+		try {
+			stopService(MapWind.intent_service);
+
+		} catch (Exception e) {
+		}
+		try {
+			stopService(LastLocation.intent_servicea);
+
+		} catch (Exception e) {
+		}
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_Gaz4MHsDEeGLD-JBXTKHXA" name="check_last" method="_GmXA4HsDEeGLD-JBXTKHXA"/>
+          <ownedOperation xmi:id="_Ga2UcHsDEeGLD-JBXTKHXA" name="onResume" visibility="protected" method="_GmZdIHsDEeGLD-JBXTKHXA"/>
+          <ownedOperation xmi:id="_Ga27gHsDEeGLD-JBXTKHXA" name="onStop" method="_GmZdIXsDEeGLD-JBXTKHXA"/>
+          <ownedOperation xmi:id="_Ga3ikHsDEeGLD-JBXTKHXA" name="onDestroy" method="_GmaEMHsDEeGLD-JBXTKHXA"/>
+          <ownedOperation xmi:id="_GkR9QHsDEeGLD-JBXTKHXA" name="onCreate" method="_GmXn8HsDEeGLD-JBXTKHXA">
+            <ownedParameter xmi:id="_GkSkUHsDEeGLD-JBXTKHXA" name="paramBundle" type="_Gheg4XsDEeGLD-JBXTKHXA"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_GkTycHsDEeGLD-JBXTKHXA" name="onCreateOptionsMenu" method="_GmYPAHsDEeGLD-JBXTKHXA">
+            <ownedParameter xmi:id="_GkTycXsDEeGLD-JBXTKHXA" name="menu" type="_GhfvAXsDEeGLD-JBXTKHXA"/>
+            <ownedParameter xmi:id="_GkUZgHsDEeGLD-JBXTKHXA" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_GkVAkHsDEeGLD-JBXTKHXA" name="onOptionsItemSelected" method="_GmY2EHsDEeGLD-JBXTKHXA">
+            <ownedParameter xmi:id="_GkVAkXsDEeGLD-JBXTKHXA" name="item" type="_GhhkMXsDEeGLD-JBXTKHXA"/>
+            <ownedParameter xmi:id="_GkVnoHsDEeGLD-JBXTKHXA" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Ga-3UHsDEeGLD-JBXTKHXA" name="Locate_Recep">
+          <generalization xmi:id="_GkZSAHsDEeGLD-JBXTKHXA" general="_Ghyp8HsDEeGLD-JBXTKHXA"/>
+          <ownedAttribute xmi:id="_Glh6cHsDEeGLD-JBXTKHXA" name="map" visibility="package" type="_Gbt3IHsDEeGLD-JBXTKHXA" association="_GnPxsHsDEeGLD-JBXTKHXA">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_Glh6cXsDEeGLD-JBXTKHXA" value="null"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_GljIkHsDEeGLD-JBXTKHXA" name="test" visibility="package" type="_Gaw04HsDEeGLD-JBXTKHXA" association="_GnRm4HsDEeGLD-JBXTKHXA">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_GljIkXsDEeGLD-JBXTKHXA" value="null"/>
+          </ownedAttribute>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_GmarQHsDEeGLD-JBXTKHXA" name="Locate_Recep" specification="_Gh1GMHsDEeGLD-JBXTKHXA">
+            <ownedParameter xmi:id="_GmarQXsDEeGLD-JBXTKHXA" name="paramMapWind" type="_Gbt3IHsDEeGLD-JBXTKHXA"/>
+            <ownedParameter xmi:id="_GmarQnsDEeGLD-JBXTKHXA" type="_Ga-3UHsDEeGLD-JBXTKHXA" direction="return"/>
+            <language>java</language>
+            <body>this.map = paramMapWind;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_GmbSUHsDEeGLD-JBXTKHXA" name="onReceive" specification="_GkYD4HsDEeGLD-JBXTKHXA">
+            <ownedParameter xmi:id="_GmbSUXsDEeGLD-JBXTKHXA" name="paramContext" type="_GhcrsXsDEeGLD-JBXTKHXA"/>
+            <ownedParameter xmi:id="_GmbSUnsDEeGLD-JBXTKHXA" name="paramIntent" type="_Ghd50HsDEeGLD-JBXTKHXA"/>
+            <language>java</language>
+            <body>this.map.locate_maj();
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_Gh1GMHsDEeGLD-JBXTKHXA" name="Locate_Recep" method="_GmarQHsDEeGLD-JBXTKHXA">
+            <eAnnotations xmi:id="_Gh1tQHsDEeGLD-JBXTKHXA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_Gh1tQXsDEeGLD-JBXTKHXA" key="create"/>
+            </eAnnotations>
+            <ownedParameter xmi:id="_Gh1GMXsDEeGLD-JBXTKHXA" name="paramMapWind" type="_Gbt3IHsDEeGLD-JBXTKHXA"/>
+            <ownedParameter xmi:id="_Gh1tQnsDEeGLD-JBXTKHXA" type="_Ga-3UHsDEeGLD-JBXTKHXA" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_GkYD4HsDEeGLD-JBXTKHXA" name="onReceive" method="_GmbSUHsDEeGLD-JBXTKHXA">
+            <ownedParameter xmi:id="_GkYD4XsDEeGLD-JBXTKHXA" name="paramContext" type="_GhcrsXsDEeGLD-JBXTKHXA"/>
+            <ownedParameter xmi:id="_GkYq8HsDEeGLD-JBXTKHXA" name="paramIntent" type="_Ghd50HsDEeGLD-JBXTKHXA"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_GbIBQHsDEeGLD-JBXTKHXA" name="Locate_WindActivity" clientDependency="_GbQkIHsDEeGLD-JBXTKHXA">
+          <generalization xmi:id="_GksM8XsDEeGLD-JBXTKHXA" general="_Gh4wkHsDEeGLD-JBXTKHXA"/>
+          <ownedAttribute xmi:id="_Glk9wHsDEeGLD-JBXTKHXA" name="SWIPE_MAX_OFF_PATH" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_Glk9wXsDEeGLD-JBXTKHXA" value="250"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_Gllk0HsDEeGLD-JBXTKHXA" name="SWIPE_MIN_DISTANCE" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_GlmL4HsDEeGLD-JBXTKHXA" value="120"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_GlmL4XsDEeGLD-JBXTKHXA" name="SWIPE_THRESHOLD_VELOCITY" visibility="private" isLeaf="true" isStatic="true" isReadOnly="true">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_Glmy8HsDEeGLD-JBXTKHXA" value="200"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_Glmy8XsDEeGLD-JBXTKHXA" name="ip_serveur" isStatic="true">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_GlnaAHsDEeGLD-JBXTKHXA" value="&quot;178.170.101.101&quot;"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_GloBEXsDEeGLD-JBXTKHXA" name="tabHost" isStatic="true" type="_GhnDwHsDEeGLD-JBXTKHXA" association="_GnTcEHsDEeGLD-JBXTKHXA"/>
+          <ownedAttribute xmi:id="_GlpPMHsDEeGLD-JBXTKHXA" name="gestureScanner" visibility="private" type="_Gh9CAXsDEeGLD-JBXTKHXA" association="_GnVRQXsDEeGLD-JBXTKHXA"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Gmb5YHsDEeGLD-JBXTKHXA" name="addTab" specification="_GkbuQHsDEeGLD-JBXTKHXA">
+            <ownedParameter xmi:id="_Gmb5YXsDEeGLD-JBXTKHXA" name="paramString">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_Gmb5YnsDEeGLD-JBXTKHXA" name="paramIntent" type="_Ghd50HsDEeGLD-JBXTKHXA"/>
+            <language>java</language>
+            <body>// ajout de tab avec une vue personnalisé tab_indicator qui permet de
+		// gagnée de la place sur l'ecran en enlevant les icones superflus
+		TabHost.TabSpec spec = tabHost.newTabSpec(paramString);
+
+		View tabIndicator = LayoutInflater.from(this).inflate(
+				R.layout.tab_indicator, getTabWidget(), false);
+		TextView title = (TextView) tabIndicator.findViewById(R.id.title);
+		title.setText(paramString);
+
+		spec.setIndicator(tabIndicator);
+		spec.setContent(paramIntent);
+		tabHost.addTab(spec);
+
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_GmcgcHsDEeGLD-JBXTKHXA" name="onCreate" specification="_GkdjcHsDEeGLD-JBXTKHXA">
+            <ownedParameter xmi:id="_GmcgcXsDEeGLD-JBXTKHXA" name="savedInstanceState" type="_Gheg4XsDEeGLD-JBXTKHXA"/>
+            <language>java</language>
+            <body>super.onCreate(savedInstanceState);
+		setContentView(R.layout.main);
+		getResources();
+
+		tabHost = getTabHost();
+		// ajout des tab au tabhost
+		addTab(&quot;Map&quot;, new Intent().setClass(this, MapWind.class));
+		addTab(&quot;Locate&quot;, new Intent().setClass(this, WindLocate.class));
+		addTab(&quot;Last&quot;, new Intent().setClass(this, LastLocation.class));
+
+		// tab 0 par defaut affiché
+		tabHost.setCurrentTab(0);
+		this.gestureScanner = new GestureDetector(this);
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_GmdHgHsDEeGLD-JBXTKHXA" name="onResume" specification="_GbbjQHsDEeGLD-JBXTKHXA">
+            <language>java</language>
+            <body>super.onResume();
+		// On instancie notre layout en tant que View
+
+		Context context = getApplicationContext();
+
+		LocationManager objgps = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
+		// permet d'afficher une boite de dialogue si le GPS n'est pas activé et
+		// renvoie directement dans parmètres android au niveau du GPS pour
+		// l'activer
+		// Check GPS configuration
+		if (!objgps.isProviderEnabled(LocationManager.GPS_PROVIDER)) {
+			// Création de l'AlertDialog
+			AlertDialog.Builder adb = new AlertDialog.Builder(this);
+
+			// On donne un titre à l'AlertDialog
+			adb.setTitle(&quot;le GPS n'est pas activé, voulez vous l'activer?&quot;);
+
+			// On modifie l'icône de l'AlertDialog pour le fun ;)
+			adb.setIcon(android.R.drawable.ic_dialog_alert);
+
+			// On affecte un bouton &quot;OK&quot; à notre AlertDialog et on lui affecte
+			// un évènement
+			adb.setPositiveButton(&quot;OK&quot;, new DialogInterface.OnClickListener() {
+				public void onClick(DialogInterface dialog, int which) {
+					dialog.cancel();
+					Intent intentRedirectionGPSSettings = new Intent(
+							android.provider.Settings.ACTION_LOCATION_SOURCE_SETTINGS);
+					intentRedirectionGPSSettings
+							.addFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
+					startActivityForResult(intentRedirectionGPSSettings, 0);
+
+				}
+			});
+
+			// On crée un bouton &quot;Annuler&quot; à notre AlertDialog et on lui affecte
+			// un évènement
+			adb.setNegativeButton(&quot;Annuler&quot;,
+					new DialogInterface.OnClickListener() {
+						public void onClick(DialogInterface dialog, int which) {
+						}
+					});
+			adb.show();
+		}
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_GmdukHsDEeGLD-JBXTKHXA" name="onDown" specification="_GkexkHsDEeGLD-JBXTKHXA">
+            <ownedParameter xmi:id="_GmdukXsDEeGLD-JBXTKHXA" name="paramMotionEvent" type="_GiBTcXsDEeGLD-JBXTKHXA"/>
+            <ownedParameter xmi:id="_GmduknsDEeGLD-JBXTKHXA" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>return true;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_GmeVoHsDEeGLD-JBXTKHXA" name="onFling" specification="_GkgmwHsDEeGLD-JBXTKHXA">
+            <ownedParameter xmi:id="_GmeVoXsDEeGLD-JBXTKHXA" name="e1" type="_GiBTcXsDEeGLD-JBXTKHXA"/>
+            <ownedParameter xmi:id="_GmeVonsDEeGLD-JBXTKHXA" name="e2" type="_GiBTcXsDEeGLD-JBXTKHXA"/>
+            <ownedParameter xmi:id="_GmeVo3sDEeGLD-JBXTKHXA" name="velocityX">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_GmeVpHsDEeGLD-JBXTKHXA" name="velocityY">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_GmeVpXsDEeGLD-JBXTKHXA" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>if (Math.abs(e1.getY() - e2.getY()) > SWIPE_MAX_OFF_PATH)
+			return false;
+		if (e1.getX() - e2.getX() > SWIPE_MIN_DISTANCE
+				&amp;&amp; Math.abs(velocityX) > SWIPE_THRESHOLD_VELOCITY) {
+			tabHost.setCurrentTab(1 + tabHost.getCurrentTab());
+			return true;
+
+		} else if (e2.getX() - e1.getX() > SWIPE_MIN_DISTANCE
+				&amp;&amp; Math.abs(velocityX) > SWIPE_THRESHOLD_VELOCITY) {
+			tabHost.setCurrentTab(-1 + tabHost.getCurrentTab());
+			return true;
+		}
+		return false;
+
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Gme8sHsDEeGLD-JBXTKHXA" name="onScroll" specification="_Gkk4MHsDEeGLD-JBXTKHXA">
+            <ownedParameter xmi:id="_Gme8sXsDEeGLD-JBXTKHXA" name="paramMotionEvent1" type="_GiBTcXsDEeGLD-JBXTKHXA"/>
+            <ownedParameter xmi:id="_Gme8snsDEeGLD-JBXTKHXA" name="paramMotionEvent2" type="_GiBTcXsDEeGLD-JBXTKHXA"/>
+            <ownedParameter xmi:id="_Gme8s3sDEeGLD-JBXTKHXA" name="paramFloat1">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_GmfjwHsDEeGLD-JBXTKHXA" name="paramFloat2">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_GmfjwXsDEeGLD-JBXTKHXA" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>return true;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_GmgK0HsDEeGLD-JBXTKHXA" name="onSingleTapUp" specification="_GkpJoHsDEeGLD-JBXTKHXA">
+            <ownedParameter xmi:id="_GmgK0XsDEeGLD-JBXTKHXA" name="paramMotionEvent" type="_GiBTcXsDEeGLD-JBXTKHXA"/>
+            <ownedParameter xmi:id="_GmgK0nsDEeGLD-JBXTKHXA" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>return true;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Gmgx4HsDEeGLD-JBXTKHXA" name="onTouchEvent" specification="_Gkq-0HsDEeGLD-JBXTKHXA">
+            <ownedParameter xmi:id="_Gmgx4XsDEeGLD-JBXTKHXA" name="paramMotionEvent" type="_GiBTcXsDEeGLD-JBXTKHXA"/>
+            <ownedParameter xmi:id="_Gmgx4nsDEeGLD-JBXTKHXA" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>return this.gestureScanner.onTouchEvent(paramMotionEvent);
+	</body>
+          </ownedBehavior>
+          <interfaceRealization xmi:id="_GbQkIHsDEeGLD-JBXTKHXA" supplier="_GbJPYHsDEeGLD-JBXTKHXA" client="_GbIBQHsDEeGLD-JBXTKHXA" contract="_GbJPYHsDEeGLD-JBXTKHXA"/>
+          <ownedOperation xmi:id="_GbbjQHsDEeGLD-JBXTKHXA" name="onResume" method="_GmdHgHsDEeGLD-JBXTKHXA"/>
+          <ownedOperation xmi:id="_GkbuQHsDEeGLD-JBXTKHXA" name="addTab" visibility="private" method="_Gmb5YHsDEeGLD-JBXTKHXA">
+            <ownedParameter xmi:id="_GkbuQXsDEeGLD-JBXTKHXA" name="paramString">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_GkcVUHsDEeGLD-JBXTKHXA" name="paramIntent" type="_Ghd50HsDEeGLD-JBXTKHXA"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_GkdjcHsDEeGLD-JBXTKHXA" name="onCreate" method="_GmcgcHsDEeGLD-JBXTKHXA">
+            <ownedParameter xmi:id="_GkdjcXsDEeGLD-JBXTKHXA" name="savedInstanceState" type="_Gheg4XsDEeGLD-JBXTKHXA"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_GkexkHsDEeGLD-JBXTKHXA" name="onDown" method="_GmdukHsDEeGLD-JBXTKHXA">
+            <ownedParameter xmi:id="_GkexkXsDEeGLD-JBXTKHXA" name="paramMotionEvent" type="_GiBTcXsDEeGLD-JBXTKHXA"/>
+            <ownedParameter xmi:id="_GkfYoHsDEeGLD-JBXTKHXA" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_GkgmwHsDEeGLD-JBXTKHXA" name="onFling" method="_GmeVoHsDEeGLD-JBXTKHXA">
+            <ownedParameter xmi:id="_GkgmwXsDEeGLD-JBXTKHXA" name="e1" type="_GiBTcXsDEeGLD-JBXTKHXA"/>
+            <ownedParameter xmi:id="_GkgmwnsDEeGLD-JBXTKHXA" name="e2" type="_GiBTcXsDEeGLD-JBXTKHXA"/>
+            <ownedParameter xmi:id="_GkhN0HsDEeGLD-JBXTKHXA" name="velocityX">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_GkhN0XsDEeGLD-JBXTKHXA" name="velocityY">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_GkhN0nsDEeGLD-JBXTKHXA" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_Gkib8HsDEeGLD-JBXTKHXA" name="onLongPress">
+            <ownedParameter xmi:id="_GkjDAHsDEeGLD-JBXTKHXA" name="paramMotionEvent" type="_GiBTcXsDEeGLD-JBXTKHXA"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_Gkk4MHsDEeGLD-JBXTKHXA" name="onScroll" method="_Gme8sHsDEeGLD-JBXTKHXA">
+            <ownedParameter xmi:id="_Gkk4MXsDEeGLD-JBXTKHXA" name="paramMotionEvent1" type="_GiBTcXsDEeGLD-JBXTKHXA"/>
+            <ownedParameter xmi:id="_GklfQHsDEeGLD-JBXTKHXA" name="paramMotionEvent2" type="_GiBTcXsDEeGLD-JBXTKHXA"/>
+            <ownedParameter xmi:id="_GklfQXsDEeGLD-JBXTKHXA" name="paramFloat1">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_GklfQnsDEeGLD-JBXTKHXA" name="paramFloat2">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_GkmGUHsDEeGLD-JBXTKHXA" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_GknUcHsDEeGLD-JBXTKHXA" name="onShowPress">
+            <ownedParameter xmi:id="_GknUcXsDEeGLD-JBXTKHXA" name="paramMotionEvent" type="_GiBTcXsDEeGLD-JBXTKHXA"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_GkpJoHsDEeGLD-JBXTKHXA" name="onSingleTapUp" method="_GmgK0HsDEeGLD-JBXTKHXA">
+            <ownedParameter xmi:id="_GkpwsHsDEeGLD-JBXTKHXA" name="paramMotionEvent" type="_GiBTcXsDEeGLD-JBXTKHXA"/>
+            <ownedParameter xmi:id="_GkqXwHsDEeGLD-JBXTKHXA" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_Gkq-0HsDEeGLD-JBXTKHXA" name="onTouchEvent" method="_Gmgx4HsDEeGLD-JBXTKHXA">
+            <ownedParameter xmi:id="_Gkrl4HsDEeGLD-JBXTKHXA" name="paramMotionEvent" type="_GiBTcXsDEeGLD-JBXTKHXA"/>
+            <ownedParameter xmi:id="_GksM8HsDEeGLD-JBXTKHXA" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Gbt3IHsDEeGLD-JBXTKHXA" name="MapWind" clientDependency="_GkvQQHsDEeGLD-JBXTKHXA">
+          <generalization xmi:id="_Gk62cHsDEeGLD-JBXTKHXA" general="_GikGAHsDEeGLD-JBXTKHXA"/>
+          <ownedAttribute xmi:id="_GlxyEHsDEeGLD-JBXTKHXA" name="intent_service" isStatic="true" type="_Ghd50HsDEeGLD-JBXTKHXA" association="_GnXGcXsDEeGLD-JBXTKHXA"/>
+          <ownedAttribute xmi:id="_Gl1ccHsDEeGLD-JBXTKHXA" name="mapView" visibility="private" isStatic="true" type="_GinJUXsDEeGLD-JBXTKHXA" association="_GnY7oHsDEeGLD-JBXTKHXA">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_Gl2DgHsDEeGLD-JBXTKHXA" value="null"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_Gl2qkXsDEeGLD-JBXTKHXA" name="mc" isStatic="true" type="_Gil7MHsDEeGLD-JBXTKHXA" association="_Gnaw0HsDEeGLD-JBXTKHXA">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_Gl3RoHsDEeGLD-JBXTKHXA" value="null"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_Gl4fwHsDEeGLD-JBXTKHXA" name="myLocation" isStatic="true" type="_Gio-gHsDEeGLD-JBXTKHXA" association="_GncmAHsDEeGLD-JBXTKHXA">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_Gl5G0HsDEeGLD-JBXTKHXA" value="null"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_Gl5t4XsDEeGLD-JBXTKHXA" name="lat" visibility="private">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_Gl6U8HsDEeGLD-JBXTKHXA" value="0.0"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_Gl7jEHsDEeGLD-JBXTKHXA" name="lm" isStatic="true" type="_Gh7z4HsDEeGLD-JBXTKHXA" association="_Gnd0IXsDEeGLD-JBXTKHXA">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_Gl7jEXsDEeGLD-JBXTKHXA" value="null"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_Gl8xMHsDEeGLD-JBXTKHXA" name="lng" visibility="private">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_Gl9YQHsDEeGLD-JBXTKHXA" value="0.0"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_Gl9_UHsDEeGLD-JBXTKHXA" name="locate_recep" visibility="private" type="_Ga-3UHsDEeGLD-JBXTKHXA" association="_GnfpUXsDEeGLD-JBXTKHXA"/>
+          <ownedAttribute xmi:id="_Gl_NcHsDEeGLD-JBXTKHXA" name="service" isStatic="true" type="_Ghd50HsDEeGLD-JBXTKHXA" association="_GnhegHsDEeGLD-JBXTKHXA"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_GmhY8HsDEeGLD-JBXTKHXA" name="LocateMe" specification="_GbxhgHsDEeGLD-JBXTKHXA">
+            <language>java</language>
+            <body>try {
+			lm.requestLocationUpdates(LocationManager.GPS_PROVIDER, 10000, 0,
+					this);
+			mc.animateTo(myLocation.getMyLocation());
+			mc.setCenter(myLocation.getMyLocation());
+			return;
+		} catch (Exception e) {
+
+		}
+		LocationManager objgps = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
+		// si le GPS est desactivé on recupère les coordonnées grâce à la
+		// triangulisation
+		// Check GPS configuration
+		if (!objgps.isProviderEnabled(LocationManager.GPS_PROVIDER)) {
+			try {
+				lm.requestLocationUpdates(LocationManager.NETWORK_PROVIDER,
+						10000, 0, this);
+				mc.animateTo(myLocation.getMyLocation());
+				mc.setCenter(myLocation.getMyLocation());
+			} catch (Exception e2) {
+				// TODO: handle exception
+			}
+		}
+
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_GmiAAHsDEeGLD-JBXTKHXA" name="getMapView" specification="_GbyIkHsDEeGLD-JBXTKHXA">
+            <ownedParameter xmi:id="_GmiAAXsDEeGLD-JBXTKHXA" type="_GinJUXsDEeGLD-JBXTKHXA" direction="return"/>
+            <language>java</language>
+            <body>return mapView;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_GminEHsDEeGLD-JBXTKHXA" name="Locatelast" specification="_GbzWsHsDEeGLD-JBXTKHXA">
+            <ownedParameter xmi:id="_GminEXsDEeGLD-JBXTKHXA" name="paramInt1">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_GminEnsDEeGLD-JBXTKHXA" name="paramInt2">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>try {
+			GeoPoint localGeoPoint = new GeoPoint(paramInt1, paramInt2);
+			mc.animateTo(localGeoPoint);
+			mc.setCenter(localGeoPoint);
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_GmjOIHsDEeGLD-JBXTKHXA" name="getIntent_service" specification="_Gb0k0HsDEeGLD-JBXTKHXA">
+            <ownedParameter xmi:id="_GmjOIXsDEeGLD-JBXTKHXA" type="_Ghd50HsDEeGLD-JBXTKHXA" direction="return"/>
+            <language>java</language>
+            <body>return intent_service;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Gmj1MHsDEeGLD-JBXTKHXA" name="getMyLocation" specification="_Gb1L4HsDEeGLD-JBXTKHXA">
+            <ownedParameter xmi:id="_Gmj1MXsDEeGLD-JBXTKHXA" type="_Gio-gHsDEeGLD-JBXTKHXA" direction="return"/>
+            <language>java</language>
+            <body>return myLocation;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Gmj1MnsDEeGLD-JBXTKHXA" name="initLocate" specification="_Gb2aAHsDEeGLD-JBXTKHXA">
+            <language>java</language>
+            <body>myLocation = new MyLocationOverlay(getApplicationContext(), mapView);
+		myLocation.runOnFirstFix(new Runnable() {
+			public void run() {
+				MapWind.mc.animateTo(MapWind.myLocation.getMyLocation());
+				MapWind.mc.setCenter(MapWind.myLocation.getMyLocation());
+				MapWind.mc.setZoom(17);
+			}
+		});
+		mapView.getOverlays().add(myLocation);
+		myLocation.enableCompass();
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_GmkcQHsDEeGLD-JBXTKHXA" name="isRouteDisplayed" specification="_Gb2aAXsDEeGLD-JBXTKHXA">
+            <ownedParameter xmi:id="_GmkcQXsDEeGLD-JBXTKHXA" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>return false;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_GmlDUHsDEeGLD-JBXTKHXA" name="locate_maj" specification="_Gb42QHsDEeGLD-JBXTKHXA">
+            <language>java</language>
+            <body>try {
+			Drawable drawable = this.getResources().getDrawable(
+					R.drawable.marker);
+			WindItem itemizedoverlay = new WindItem(drawable, this);
+
+			for (Wind wind_recup : RecupService.getLocate_add()) {
+				GeoPoint geoPoint = new GeoPoint(wind_recup.getLatitude(),
+						wind_recup.getLongitude());
+				OverlayItem overlayitem = new OverlayItem(geoPoint, &quot;Force: &quot;
+						+ wind_recup.getForce() + &quot; à &quot; + wind_recup.getHeure()
+						+ &quot; le &quot; + wind_recup.getDate(), &quot;Orientation: &quot;
+						+ wind_recup.getOrientation());
+				itemizedoverlay.addOverlayItem(overlayitem);
+			}
+			// ajout des points a la carte
+			List&lt;Overlay> mapOverlays = MapWind.getMapView().getOverlays();
+			mapOverlays.add(itemizedoverlay);
+
+			Toast.makeText(MapWind.this, &quot;Ajout des points à la map!&quot;,
+					Toast.LENGTH_SHORT).show();
+		} catch (Exception e) {
+			// TODO: handle exception
+			Toast.makeText(MapWind.this, &quot;PB Ajout des points à la map!&quot;,
+					Toast.LENGTH_SHORT).show();
+		}
+
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_GmlqYHsDEeGLD-JBXTKHXA" name="onCreate" specification="_Gk0v0HsDEeGLD-JBXTKHXA">
+            <ownedParameter xmi:id="_GmlqYXsDEeGLD-JBXTKHXA" name="savedInstanceState" type="_Gheg4XsDEeGLD-JBXTKHXA"/>
+            <language>java</language>
+            <body>super.onCreate(savedInstanceState);
+		setContentView(R.layout.map);
+		mapView = (MapView) findViewById(R.id.mapView);
+		mapView.setBuiltInZoomControls(true);
+		mapView.setSatellite(true);
+		this.lm = ((LocationManager) getSystemService(&quot;location&quot;));
+		try {
+			lm.requestLocationUpdates(LocationManager.GPS_PROVIDER, 10000, 0,
+					this);
+			mc = mapView.getController();
+			mc.setZoom(14);
+		} catch (Exception e) {
+
+		}
+		LocationManager objgps = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
+
+		// Check GPS configuration
+		if (!objgps.isProviderEnabled(LocationManager.GPS_PROVIDER)) {
+			try {
+				lm.requestLocationUpdates(LocationManager.NETWORK_PROVIDER,
+						10000, 0, this);
+				mc = mapView.getController();
+				mc.setZoom(14);
+			} catch (Exception e) {
+
+			}
+		}
+
+		try {
+			// creation service qui appelee la classe RecupService qui va
+			// recuperer les donnee dans la BDD
+			service = new Intent(this, RecupService.class);
+			stopService(service);
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		try {
+			// creation service qui appelee la classe RecupService qui va
+			// recuperer les donnee dans la BDD
+			startService(service);
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		initLocate();
+
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_GmlqYnsDEeGLD-JBXTKHXA" name="onCreateOptionsMenu" specification="_Gk198HsDEeGLD-JBXTKHXA">
+            <ownedParameter xmi:id="_GmlqY3sDEeGLD-JBXTKHXA" name="menu" type="_GhfvAXsDEeGLD-JBXTKHXA"/>
+            <ownedParameter xmi:id="_GmlqZHsDEeGLD-JBXTKHXA" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>// Création d'un MenuInflater qui va permettre d'instancier un Menu XML
+		// en un objet Menu
+		MenuInflater inflater = getMenuInflater();
+		// Instanciation du menu XML spécifier en un objet Menu
+		inflater.inflate(R.layout.menu, menu);
+
+		// Il n'est pas possible de modifier l'icône d'entête du sous-menu via
+		// le fichier XML on le fait donc en JAVA
+		menu.getItem(0).getSubMenu();// .setHeaderIcon(R.drawable.option_white);
+
+		return true;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_GmmRcHsDEeGLD-JBXTKHXA" name="onLocationChanged" specification="_Gk3MEHsDEeGLD-JBXTKHXA">
+            <ownedParameter xmi:id="_GmmRcXsDEeGLD-JBXTKHXA" name="location" type="_GibjIHsDEeGLD-JBXTKHXA"/>
+            <language>java</language>
+            <body>// TODO Auto-generated method stub
+		// lat = location.getLatitude();
+		// lng = location.getLongitude();
+		//
+		// GeoPoint p = new GeoPoint((int) (lat * 1E6), (int) (lng * 1E6));
+		// mc.animateTo(myLocation.getMyLocation());
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Gmm4gHsDEeGLD-JBXTKHXA" name="onOptionsItemSelected" specification="_Gk4aMHsDEeGLD-JBXTKHXA">
+            <ownedParameter xmi:id="_Gmm4gXsDEeGLD-JBXTKHXA" name="item" type="_GhhkMXsDEeGLD-JBXTKHXA"/>
+            <ownedParameter xmi:id="_Gmm4gnsDEeGLD-JBXTKHXA" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>switch (item.getItemId()) {
+		// permet de revenir sur sa position
+		case R.id.position_me:
+			try {
+				LocateMe();
+			} catch (Exception e) {
+				// TODO: handle exception
+
+			}
+
+			return true;
+			// permet de mettre à jour la map manuellement, sachant que le
+			// service tourne en tache de fond et actualise la map regulierement
+		case R.id.update_locate:
+			try {
+				// creation service qui appelee la classe RecupService qui va
+				// recuperer les donnee dans la BDD
+				stopService(service);
+			} catch (Exception e) {
+				// TODO: handle exception
+			}
+			try {
+				// creation service qui appelee la classe RecupService qui va
+				// recuperer les donnee dans la BDD
+				startService(service);
+			} catch (Exception e) {
+				// TODO: handle exception
+			}
+
+			return true;
+
+		case R.id.quitter:
+			// Pour fermer l'application il suffit de faire finish()
+			try {
+				// creation service qui appelee la classe RecupService qui va
+				// recuperer les donnee dans la BDD
+				stopService(service);
+			} catch (Exception e) {
+				// TODO: handle exception
+			}
+
+			finish();
+			return true;
+		}
+		return false;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_GmnfkHsDEeGLD-JBXTKHXA" name="onPause" specification="_Gb6EYHsDEeGLD-JBXTKHXA">
+            <language>java</language>
+            <body>super.onPause();
+		try {
+			this.lm.removeUpdates(this);
+			unregisterReceiver(this.locate_recep);
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_GmnfkXsDEeGLD-JBXTKHXA" name="onProviderDisabled" specification="_Gb7SgHsDEeGLD-JBXTKHXA">
+            <ownedParameter xmi:id="_GmnfknsDEeGLD-JBXTKHXA" name="paramString">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>// Lorsque la source (GSP ou réseau GSM) est désactivé
+		Log.i(&quot;Tuto géolocalisation&quot;, &quot;La source a été désactivé&quot;);
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_GmoGoHsDEeGLD-JBXTKHXA" name="onResume" specification="_GcAyEHsDEeGLD-JBXTKHXA">
+            <language>java</language>
+            <body>super.onResume();
+
+		try {
+			lm.requestLocationUpdates(LocationManager.GPS_PROVIDER, 10000, 0,
+					this);
+			myLocation.enableCompass();
+			myLocation.enableMyLocation();
+			this.locate_recep = new Locate_Recep(this);
+			IntentFilter localIntentFilter = new IntentFilter(&quot;locate_list&quot;);
+			registerReceiver(this.locate_recep, localIntentFilter);
+		} catch (Exception e) {
+		}
+		LocationManager objgps = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
+
+		// Check GPS configuration
+		if (!objgps.isProviderEnabled(LocationManager.GPS_PROVIDER)) {
+			try {
+				lm.requestLocationUpdates(LocationManager.NETWORK_PROVIDER,
+						10000, 0, this);
+				myLocation.enableCompass();
+				myLocation.enableMyLocation();
+				this.locate_recep = new Locate_Recep(this);
+				IntentFilter localIntentFilter = new IntentFilter(&quot;locate_list&quot;);
+				registerReceiver(this.locate_recep, localIntentFilter);
+			} catch (Exception e) {
+			}
+		}
+
+		try {
+			// creation service qui appelee la classe RecupService qui va
+			// recuperer les donnee dans la BDD
+			service = new Intent(this, RecupService.class);
+			stopService(service);
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		try {
+			// creation service qui appelee la classe RecupService qui va
+			// recuperer les donnee dans la BDD
+			startService(service);
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_GmotsHsDEeGLD-JBXTKHXA" name="onStop" specification="_GcCnQnsDEeGLD-JBXTKHXA">
+            <language>java</language>
+            <body>super.onStop();
+		try {
+			stopService(MapWind.intent_service);
+
+		} catch (Exception e) {
+		}
+		try {
+			stopService(LastLocation.intent_servicea);
+
+		} catch (Exception e) {
+		}
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_GmotsXsDEeGLD-JBXTKHXA" name="onDestroy" specification="_GcDOUHsDEeGLD-JBXTKHXA">
+            <language>java</language>
+            <body>super.onDestroy();
+		try {
+			stopService(MapWind.intent_service);
+
+		} catch (Exception e) {
+		}
+		try {
+			stopService(LastLocation.intent_servicea);
+
+		} catch (Exception e) {
+		}
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_GmpUwHsDEeGLD-JBXTKHXA" name="onStatusChanged" specification="_Gk5oUHsDEeGLD-JBXTKHXA">
+            <ownedParameter xmi:id="_GmpUwXsDEeGLD-JBXTKHXA" name="provider">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_GmpUwnsDEeGLD-JBXTKHXA" name="status">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_GmpUw3sDEeGLD-JBXTKHXA" name="extras" type="_Gheg4XsDEeGLD-JBXTKHXA"/>
+            <language>java</language>
+            <body>// TODO Auto-generated method stub
+
+	</body>
+          </ownedBehavior>
+          <interfaceRealization xmi:id="_GkvQQHsDEeGLD-JBXTKHXA" supplier="_GicxQXsDEeGLD-JBXTKHXA" client="_Gbt3IHsDEeGLD-JBXTKHXA" contract="_GicxQXsDEeGLD-JBXTKHXA"/>
+          <ownedOperation xmi:id="_GbxhgHsDEeGLD-JBXTKHXA" name="LocateMe" visibility="private" method="_GmhY8HsDEeGLD-JBXTKHXA"/>
+          <ownedOperation xmi:id="_GbyIkHsDEeGLD-JBXTKHXA" name="getMapView" isStatic="true" method="_GmiAAHsDEeGLD-JBXTKHXA">
+            <ownedParameter xmi:id="_GkyTkHsDEeGLD-JBXTKHXA" type="_GinJUXsDEeGLD-JBXTKHXA" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_GbzWsHsDEeGLD-JBXTKHXA" name="Locatelast" method="_GminEHsDEeGLD-JBXTKHXA">
+            <ownedParameter xmi:id="_GbzWsXsDEeGLD-JBXTKHXA" name="paramInt1">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_Gbz9wHsDEeGLD-JBXTKHXA" name="paramInt2">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_Gb0k0HsDEeGLD-JBXTKHXA" name="getIntent_service" method="_GmjOIHsDEeGLD-JBXTKHXA">
+            <ownedParameter xmi:id="_GkzhsHsDEeGLD-JBXTKHXA" type="_Ghd50HsDEeGLD-JBXTKHXA" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_Gb1L4HsDEeGLD-JBXTKHXA" name="getMyLocation" method="_Gmj1MHsDEeGLD-JBXTKHXA">
+            <ownedParameter xmi:id="_Gk0IwHsDEeGLD-JBXTKHXA" type="_Gio-gHsDEeGLD-JBXTKHXA" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_Gb2aAHsDEeGLD-JBXTKHXA" name="initLocate" method="_Gmj1MnsDEeGLD-JBXTKHXA"/>
+          <ownedOperation xmi:id="_Gb2aAXsDEeGLD-JBXTKHXA" name="isRouteDisplayed" visibility="protected" method="_GmkcQHsDEeGLD-JBXTKHXA">
+            <ownedParameter xmi:id="_Gb3BEHsDEeGLD-JBXTKHXA" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_Gb42QHsDEeGLD-JBXTKHXA" name="locate_maj" method="_GmlDUHsDEeGLD-JBXTKHXA"/>
+          <ownedOperation xmi:id="_Gb6EYHsDEeGLD-JBXTKHXA" name="onPause" visibility="protected" method="_GmnfkHsDEeGLD-JBXTKHXA"/>
+          <ownedOperation xmi:id="_Gb7SgHsDEeGLD-JBXTKHXA" name="onProviderDisabled" method="_GmnfkXsDEeGLD-JBXTKHXA">
+            <ownedParameter xmi:id="_Gb7SgXsDEeGLD-JBXTKHXA" name="paramString">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_Gb75kHsDEeGLD-JBXTKHXA" name="onProviderEnabled">
+            <ownedParameter xmi:id="_Gb_j8HsDEeGLD-JBXTKHXA" name="paramString">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_GcAyEHsDEeGLD-JBXTKHXA" name="onResume" method="_GmoGoHsDEeGLD-JBXTKHXA"/>
+          <ownedOperation xmi:id="_GcCnQnsDEeGLD-JBXTKHXA" name="onStop" method="_GmotsHsDEeGLD-JBXTKHXA"/>
+          <ownedOperation xmi:id="_GcDOUHsDEeGLD-JBXTKHXA" name="onDestroy" method="_GmotsXsDEeGLD-JBXTKHXA"/>
+          <ownedOperation xmi:id="_Gk0v0HsDEeGLD-JBXTKHXA" name="onCreate" method="_GmlqYHsDEeGLD-JBXTKHXA">
+            <ownedParameter xmi:id="_Gk0v0XsDEeGLD-JBXTKHXA" name="savedInstanceState" type="_Gheg4XsDEeGLD-JBXTKHXA"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_Gk198HsDEeGLD-JBXTKHXA" name="onCreateOptionsMenu" method="_GmlqYnsDEeGLD-JBXTKHXA">
+            <ownedParameter xmi:id="_Gk198XsDEeGLD-JBXTKHXA" name="menu" type="_GhfvAXsDEeGLD-JBXTKHXA"/>
+            <ownedParameter xmi:id="_Gk2lAHsDEeGLD-JBXTKHXA" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_Gk3MEHsDEeGLD-JBXTKHXA" name="onLocationChanged" method="_GmmRcHsDEeGLD-JBXTKHXA">
+            <ownedParameter xmi:id="_Gk3MEXsDEeGLD-JBXTKHXA" name="location" type="_GibjIHsDEeGLD-JBXTKHXA"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_Gk4aMHsDEeGLD-JBXTKHXA" name="onOptionsItemSelected" method="_Gmm4gHsDEeGLD-JBXTKHXA">
+            <ownedParameter xmi:id="_Gk4aMXsDEeGLD-JBXTKHXA" name="item" type="_GhhkMXsDEeGLD-JBXTKHXA"/>
+            <ownedParameter xmi:id="_Gk5BQHsDEeGLD-JBXTKHXA" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_Gk5oUHsDEeGLD-JBXTKHXA" name="onStatusChanged" method="_GmpUwHsDEeGLD-JBXTKHXA">
+            <ownedParameter xmi:id="_Gk6PYHsDEeGLD-JBXTKHXA" name="provider">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_Gk6PYXsDEeGLD-JBXTKHXA" name="status">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_Gk6PYnsDEeGLD-JBXTKHXA" name="extras" type="_Gheg4XsDEeGLD-JBXTKHXA"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_GcZzoHsDEeGLD-JBXTKHXA" name="RecupService">
+          <generalization xmi:id="_GlF1kHsDEeGLD-JBXTKHXA" general="_Gi_j0HsDEeGLD-JBXTKHXA"/>
+          <ownedAttribute xmi:id="_GmBpsHsDEeGLD-JBXTKHXA" name="locate_add" visibility="private" isStatic="true" type="_GctVoHsDEeGLD-JBXTKHXA" isOrdered="true" association="_GnjTsHsDEeGLD-JBXTKHXA">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GmCQwHsDEeGLD-JBXTKHXA" value="*"/>
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_GmCQwXsDEeGLD-JBXTKHXA" value="null"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_GmDe4HsDEeGLD-JBXTKHXA" name="chrono" visibility="private" type="_GjJ74XsDEeGLD-JBXTKHXA" association="_GnlI4HsDEeGLD-JBXTKHXA">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_GmDe4XsDEeGLD-JBXTKHXA" value="null"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_GmEtAHsDEeGLD-JBXTKHXA" name="tmt" visibility="private" type="_GcpEMHsDEeGLD-JBXTKHXA" association="_Gnm-EHsDEeGLD-JBXTKHXA"/>
+          <ownedAttribute xmi:id="_GmF7IHsDEeGLD-JBXTKHXA" name="is" visibility="private" type="_GjG4kHsDEeGLD-JBXTKHXA" association="_GnoMMXsDEeGLD-JBXTKHXA">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_GmF7IXsDEeGLD-JBXTKHXA" value="null"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_GmHJQHsDEeGLD-JBXTKHXA" name="recupRunnable" visibility="private" type="_GlCLMHsDEeGLD-JBXTKHXA" association="_GnqBYXsDEeGLD-JBXTKHXA">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_GmHJQXsDEeGLD-JBXTKHXA" value="new Runnable() {&#xA;&#x9;&#x9;public void run() {&#xA;&#x9;&#x9;&#x9;try {&#xA;&#x9;&#x9;&#x9;&#x9;// il semblerait que depuis les versions 2.2 ou 2.3 les requetes&#xA;&#x9;&#x9;&#x9;&#x9;// http doivent se faire dans un thread differents et le fait de&#xA;&#x9;&#x9;&#x9;&#x9;// preparer loopper a resolut le probleme&#xA;&#x9;&#x9;&#x9;&#x9;// looper introduit donc une boucle&#xA;&#x9;&#x9;&#x9;&#x9;// On met alors en place un Looper qu’on appelle parfois&#xA;&#x9;&#x9;&#x9;&#x9;// également “boucle évènementielle”. La classe Looper permet de&#xA;&#x9;&#x9;&#x9;&#x9;// préparer un Thread à la lecture répétitive d’actions.&#xA;&#x9;&#x9;&#x9;&#x9;Looper.prepare();&#xA;&#x9;&#x9;&#x9;&#x9;locate_maj();&#xA;&#x9;&#x9;&#x9;&#x9;Looper.loop();&#xA;&#x9;&#x9;&#x9;} catch (Exception e) {&#xA;&#x9;&#x9;&#x9;&#x9;// TODO: handle exception&#xA;&#x9;&#x9;&#x9;}&#xA;&#xA;&#x9;&#x9;}&#xA;&#x9;}"/>
+          </ownedAttribute>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Gmqi4HsDEeGLD-JBXTKHXA" name="onStart" specification="_GlAWAHsDEeGLD-JBXTKHXA">
+            <ownedParameter xmi:id="_Gmqi4XsDEeGLD-JBXTKHXA" name="intent" type="_Ghd50HsDEeGLD-JBXTKHXA"/>
+            <ownedParameter xmi:id="_Gmqi4nsDEeGLD-JBXTKHXA" name="startId">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>chrono.scheduleAtFixedRate(tmt, 0, (long) 300000000);
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_GmrJ8HsDEeGLD-JBXTKHXA" name="onCreate" specification="_GccP4HsDEeGLD-JBXTKHXA">
+            <language>java</language>
+            <body>locate_add = new ArrayList&lt;Wind>();
+
+		// lancement chrono et du timer task
+		chrono = new Timer(&quot;chrono_maj_locate&quot;);
+		tmt = new RecupTimerTask(this);
+
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_GmrxAHsDEeGLD-JBXTKHXA" name="getLocate_add" specification="_GceFEXsDEeGLD-JBXTKHXA">
+            <ownedParameter xmi:id="_GmrxAXsDEeGLD-JBXTKHXA" type="_GctVoHsDEeGLD-JBXTKHXA" isOrdered="true" direction="return">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GmrxAnsDEeGLD-JBXTKHXA" value="*"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>return locate_add;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_GmsYEHsDEeGLD-JBXTKHXA" name="lance_thread_maj" specification="_Gcf6QHsDEeGLD-JBXTKHXA">
+            <language>java</language>
+            <body>new Thread(null, this.recupRunnable).start();
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_GmsYEXsDEeGLD-JBXTKHXA" name="locate_maj" specification="_Gcf6QXsDEeGLD-JBXTKHXA">
+            <language>java</language>
+            <body>try {
+			HttpClient httpclient = new DefaultHttpClient();
+			HttpPost httppost = new HttpPost(&quot;http://&quot;
+					+ Locate_WindActivity.ip_serveur
+					+ &quot;/android/check_locate.php&quot;);
+			HttpResponse response = httpclient.execute(httppost);
+			HttpEntity entity = response.getEntity();
+			is = entity.getContent();
+			Log.i(&quot;log_tag&quot;, &quot;OK requete http connection&quot;);
+		} catch (Exception e) {
+			Log.e(&quot;log_tag&quot;, &quot;Error in http connection&quot; + e.toString());
+		}
+
+		Drawable drawable = this.getResources().getDrawable(R.drawable.marker);
+		WindItem itemizedoverlay = new WindItem(drawable, this);
+		String result = null;
+
+		StringBuilder sb = null;
+
+		// convert response to string
+		try {
+			BufferedReader reader = new BufferedReader(new InputStreamReader(
+					is, &quot;iso-8859-1&quot;), 8);
+			sb = new StringBuilder();
+			sb.append(reader.readLine() + &quot;\n&quot;);
+			String line = &quot;0&quot;;
+
+			while ((line = reader.readLine()) != null) {
+				sb.append(line + &quot;\n&quot;);
+			}
+
+			is.close();
+			result = sb.toString();
+
+		} catch (Exception e) {
+			Log.e(&quot;log_tag&quot;, &quot;Error converting result &quot; + e.toString());
+		}
+
+		// paring data
+		int latitude;
+		int longitude;
+		double force;
+		String orientation;
+		String date;
+		// parsing JSON
+		try {
+			JSONArray jArray = new JSONArray(result);
+			JSONObject json_data = null;
+
+			for (int i = 0; i &lt; jArray.length(); i++) {
+				json_data = jArray.getJSONObject(i);
+				latitude = json_data.getInt(&quot;latitude&quot;);
+				longitude = json_data.getInt(&quot;longitude&quot;);
+				force = json_data.getDouble(&quot;force&quot;);
+				orientation = json_data.getString(&quot;orientation&quot;);
+				date = json_data.getString(&quot;date&quot;);
+
+				String str[] = date.split(&quot; &quot;);
+
+				locate_add.add(new Wind(latitude, longitude, force,
+						orientation, str[1], str[0]));
+
+			}
+
+			// creation service pour envoyer a l'OS android
+			Intent intent = new Intent(&quot;locate_list&quot;);
+			this.sendBroadcast(intent);
+
+		} catch (JSONException e1) {
+			Toast.makeText(getBaseContext(), &quot;No Locate Found&quot;,
+					Toast.LENGTH_LONG).show();
+		} catch (ParseException e1) {
+			Toast.makeText(getBaseContext(), &quot;PB parsing JSON!&quot;,
+					Toast.LENGTH_LONG).show();
+		} catch (Exception e) {
+			// TODO: handle exception
+			Toast.makeText(getBaseContext(), &quot;PB recup donnee!&quot;,
+					Toast.LENGTH_LONG).show();
+		}
+
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Gms_IHsDEeGLD-JBXTKHXA" name="onBind" specification="_GlEncHsDEeGLD-JBXTKHXA">
+            <ownedParameter xmi:id="_Gms_IXsDEeGLD-JBXTKHXA" name="paramIntent" type="_Ghd50HsDEeGLD-JBXTKHXA"/>
+            <ownedParameter xmi:id="_Gms_InsDEeGLD-JBXTKHXA" type="_GjCnIXsDEeGLD-JBXTKHXA" direction="return"/>
+            <language>java</language>
+            <body>return null;
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_GccP4HsDEeGLD-JBXTKHXA" name="onCreate" method="_GmrJ8HsDEeGLD-JBXTKHXA"/>
+          <ownedOperation xmi:id="_GceFEXsDEeGLD-JBXTKHXA" name="getLocate_add" isStatic="true" method="_GmrxAHsDEeGLD-JBXTKHXA">
+            <ownedParameter xmi:id="_GcesIHsDEeGLD-JBXTKHXA" type="_GctVoHsDEeGLD-JBXTKHXA" isOrdered="true" direction="return">
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GcesIXsDEeGLD-JBXTKHXA" value="*"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_Gcf6QHsDEeGLD-JBXTKHXA" name="lance_thread_maj" method="_GmsYEHsDEeGLD-JBXTKHXA"/>
+          <ownedOperation xmi:id="_Gcf6QXsDEeGLD-JBXTKHXA" name="locate_maj" method="_GmsYEXsDEeGLD-JBXTKHXA"/>
+          <ownedOperation xmi:id="_GlAWAHsDEeGLD-JBXTKHXA" name="onStart" method="_Gmqi4HsDEeGLD-JBXTKHXA">
+            <ownedParameter xmi:id="_GlAWAXsDEeGLD-JBXTKHXA" name="intent" type="_Ghd50HsDEeGLD-JBXTKHXA"/>
+            <ownedParameter xmi:id="_GlA9EHsDEeGLD-JBXTKHXA" name="startId">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_GlEncHsDEeGLD-JBXTKHXA" name="onBind" method="_Gms_IHsDEeGLD-JBXTKHXA">
+            <ownedParameter xmi:id="_GlFOgHsDEeGLD-JBXTKHXA" name="paramIntent" type="_Ghd50HsDEeGLD-JBXTKHXA"/>
+            <ownedParameter xmi:id="_GlFOgXsDEeGLD-JBXTKHXA" type="_GjCnIXsDEeGLD-JBXTKHXA" direction="return"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_GcpEMHsDEeGLD-JBXTKHXA" name="RecupTimerTask">
+          <generalization xmi:id="_GlIR0HsDEeGLD-JBXTKHXA" general="_GjghMHsDEeGLD-JBXTKHXA"/>
+          <ownedAttribute xmi:id="_GmI-cHsDEeGLD-JBXTKHXA" name="recup_data" visibility="private" type="_GcZzoHsDEeGLD-JBXTKHXA" association="_Gnr2kHsDEeGLD-JBXTKHXA">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_GmI-cXsDEeGLD-JBXTKHXA" value="null"/>
+          </ownedAttribute>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_GmuNQHsDEeGLD-JBXTKHXA" name="RecupTimerTask" specification="_Gji9cHsDEeGLD-JBXTKHXA">
+            <ownedParameter xmi:id="_GmuNQXsDEeGLD-JBXTKHXA" name="paramRecupService" type="_GcZzoHsDEeGLD-JBXTKHXA"/>
+            <ownedParameter xmi:id="_GmuNQnsDEeGLD-JBXTKHXA" type="_GcpEMHsDEeGLD-JBXTKHXA" direction="return"/>
+            <language>java</language>
+            <body>this.recup_data = paramRecupService;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_GmuNQ3sDEeGLD-JBXTKHXA" name="run" specification="_Gcq5YHsDEeGLD-JBXTKHXA">
+            <language>java</language>
+            <body>this.recup_data.lance_thread_maj();
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_Gcq5YHsDEeGLD-JBXTKHXA" name="run" method="_GmuNQ3sDEeGLD-JBXTKHXA"/>
+          <ownedOperation xmi:id="_Gji9cHsDEeGLD-JBXTKHXA" name="RecupTimerTask" method="_GmuNQHsDEeGLD-JBXTKHXA">
+            <eAnnotations xmi:id="_GjjkgHsDEeGLD-JBXTKHXA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_GjjkgXsDEeGLD-JBXTKHXA" key="create"/>
+            </eAnnotations>
+            <ownedParameter xmi:id="_Gji9cXsDEeGLD-JBXTKHXA" name="paramRecupService" type="_GcZzoHsDEeGLD-JBXTKHXA"/>
+            <ownedParameter xmi:id="_GjjkgnsDEeGLD-JBXTKHXA" type="_GcpEMHsDEeGLD-JBXTKHXA" direction="return"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_GctVoHsDEeGLD-JBXTKHXA" name="Wind">
+          <ownedAttribute xmi:id="_GmKzoHsDEeGLD-JBXTKHXA" name="latitude" isReadOnly="true">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_GmLasHsDEeGLD-JBXTKHXA" name="longitude" isReadOnly="true">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_GmMBwHsDEeGLD-JBXTKHXA" name="force" isReadOnly="true">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_GmMBwXsDEeGLD-JBXTKHXA" name="orientation" isReadOnly="true">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_GmMo0HsDEeGLD-JBXTKHXA" name="heure" isReadOnly="true">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_GmNP4HsDEeGLD-JBXTKHXA" name="date" isReadOnly="true">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_GmvbYHsDEeGLD-JBXTKHXA" name="Wind" specification="_GcwY8HsDEeGLD-JBXTKHXA">
+            <ownedParameter xmi:id="_GmvbYXsDEeGLD-JBXTKHXA" name="latitude">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_GmvbYnsDEeGLD-JBXTKHXA" name="longitude">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_GmvbY3sDEeGLD-JBXTKHXA" name="force">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_GmvbZHsDEeGLD-JBXTKHXA" name="orientation">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_GmvbZXsDEeGLD-JBXTKHXA" name="heure">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_GmvbZnsDEeGLD-JBXTKHXA" name="date">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_GmvbZ3sDEeGLD-JBXTKHXA" type="_GctVoHsDEeGLD-JBXTKHXA" direction="return"/>
+            <language>java</language>
+            <body>this.latitude = latitude;
+		this.longitude = longitude;
+		this.force = force;
+		this.orientation = orientation;
+		this.heure = heure;
+		this.date = date;
+
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_GcwY8HsDEeGLD-JBXTKHXA" name="Wind" method="_GmvbYHsDEeGLD-JBXTKHXA">
+            <eAnnotations xmi:id="_GcxnEHsDEeGLD-JBXTKHXA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_GcxnEXsDEeGLD-JBXTKHXA" key="create"/>
+            </eAnnotations>
+            <ownedParameter xmi:id="_GcwY8XsDEeGLD-JBXTKHXA" name="latitude">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_GcwY8nsDEeGLD-JBXTKHXA" name="longitude">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_GcxAAHsDEeGLD-JBXTKHXA" name="force">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_GcxAAXsDEeGLD-JBXTKHXA" name="orientation">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_GcxAAnsDEeGLD-JBXTKHXA" name="heure">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_GcxAA3sDEeGLD-JBXTKHXA" name="date">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_GcxnEnsDEeGLD-JBXTKHXA" type="_GctVoHsDEeGLD-JBXTKHXA" direction="return"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Gc0DUHsDEeGLD-JBXTKHXA" name="WindItem">
+          <generalization xmi:id="_GlRbwHsDEeGLD-JBXTKHXA" general="_Gjn18HsDEeGLD-JBXTKHXA"/>
+          <ownedAttribute xmi:id="_GmOeAHsDEeGLD-JBXTKHXA" name="arrayListOverlayItem" visibility="private" type="_Ghnq0XsDEeGLD-JBXTKHXA" association="_GntrwHsDEeGLD-JBXTKHXA">
+            <defaultValue xmi:type="uml:LiteralString" xmi:id="_GmQTMHsDEeGLD-JBXTKHXA" value="new ArrayList()"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_GmQ6QXsDEeGLD-JBXTKHXA" name="context" visibility="private" type="_GhcrsXsDEeGLD-JBXTKHXA" association="_Gnvg8HsDEeGLD-JBXTKHXA"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_GmwCcHsDEeGLD-JBXTKHXA" name="WindItem" specification="_GlKuEHsDEeGLD-JBXTKHXA">
+            <ownedParameter xmi:id="_GmwCcXsDEeGLD-JBXTKHXA" name="paramDrawable" type="_GiZt8HsDEeGLD-JBXTKHXA"/>
+            <ownedParameter xmi:id="_GmwCcnsDEeGLD-JBXTKHXA" type="_Gc0DUHsDEeGLD-JBXTKHXA" direction="return"/>
+            <language>java</language>
+            <body>super(boundCenterBottom(paramDrawable));
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_GmwpgHsDEeGLD-JBXTKHXA" name="WindItem" specification="_GlNKUHsDEeGLD-JBXTKHXA">
+            <ownedParameter xmi:id="_GmwpgXsDEeGLD-JBXTKHXA" name="paramDrawable" type="_GiZt8HsDEeGLD-JBXTKHXA"/>
+            <ownedParameter xmi:id="_GmwpgnsDEeGLD-JBXTKHXA" name="paramContext" type="_GhcrsXsDEeGLD-JBXTKHXA"/>
+            <ownedParameter xmi:id="_Gmwpg3sDEeGLD-JBXTKHXA" type="_Gc0DUHsDEeGLD-JBXTKHXA" direction="return"/>
+            <language>java</language>
+            <body>super(boundCenterBottom(paramDrawable));
+		this.context = paramContext;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_GmxQkHsDEeGLD-JBXTKHXA" name="addOverlayItem" specification="_GlPmkHsDEeGLD-JBXTKHXA">
+            <ownedParameter xmi:id="_GmxQkXsDEeGLD-JBXTKHXA" name="paramOverlayItem" type="_GhsjUHsDEeGLD-JBXTKHXA"/>
+            <language>java</language>
+            <body>try {
+			this.arrayListOverlayItem.add(paramOverlayItem);
+			populate();
+
+		} catch (Exception e) {
+		}
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Gmx3oHsDEeGLD-JBXTKHXA" name="createItem" specification="_Gc3tsHsDEeGLD-JBXTKHXA">
+            <ownedParameter xmi:id="_Gmx3oXsDEeGLD-JBXTKHXA" name="paramInt">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_Gmx3onsDEeGLD-JBXTKHXA" type="_GhsjUHsDEeGLD-JBXTKHXA" direction="return"/>
+            <language>java</language>
+            <body>return (OverlayItem) this.arrayListOverlayItem.get(paramInt);
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_GmzFwHsDEeGLD-JBXTKHXA" name="onTap" specification="_Gc6xAHsDEeGLD-JBXTKHXA">
+            <ownedParameter xmi:id="_GmzFwXsDEeGLD-JBXTKHXA" name="index">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_GmzFwnsDEeGLD-JBXTKHXA" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>try {
+			OverlayItem localOverlayItem = (OverlayItem) this.arrayListOverlayItem
+					.get(index);
+			AlertDialog.Builder localBuilder = new AlertDialog.Builder(
+					this.context);
+			localBuilder.setTitle(localOverlayItem.getTitle());
+			localBuilder.setMessage(localOverlayItem.getSnippet());
+			localBuilder.show();
+
+		} catch (Exception e) {
+
+		}
+		return true;
+
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Gmzs0HsDEeGLD-JBXTKHXA" name="size" specification="_Gc9NQXsDEeGLD-JBXTKHXA">
+            <ownedParameter xmi:id="_Gmzs0XsDEeGLD-JBXTKHXA" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>return this.arrayListOverlayItem.size();
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_Gc3tsHsDEeGLD-JBXTKHXA" name="createItem" visibility="protected" method="_Gmx3oHsDEeGLD-JBXTKHXA">
+            <ownedParameter xmi:id="_Gc3tsXsDEeGLD-JBXTKHXA" name="paramInt">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_GlQ0sHsDEeGLD-JBXTKHXA" type="_GhsjUHsDEeGLD-JBXTKHXA" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_Gc6xAHsDEeGLD-JBXTKHXA" name="onTap" visibility="protected" method="_GmzFwHsDEeGLD-JBXTKHXA">
+            <ownedParameter xmi:id="_Gc7YEHsDEeGLD-JBXTKHXA" name="index">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_Gc7_IHsDEeGLD-JBXTKHXA" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_Gc9NQXsDEeGLD-JBXTKHXA" name="size" method="_Gmzs0HsDEeGLD-JBXTKHXA">
+            <ownedParameter xmi:id="_Gc90UHsDEeGLD-JBXTKHXA" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_GlKuEHsDEeGLD-JBXTKHXA" name="WindItem" method="_GmwCcHsDEeGLD-JBXTKHXA">
+            <eAnnotations xmi:id="_GlLVIXsDEeGLD-JBXTKHXA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_GlL8MHsDEeGLD-JBXTKHXA" key="create"/>
+            </eAnnotations>
+            <ownedParameter xmi:id="_GlLVIHsDEeGLD-JBXTKHXA" name="paramDrawable" type="_GiZt8HsDEeGLD-JBXTKHXA"/>
+            <ownedParameter xmi:id="_GlL8MXsDEeGLD-JBXTKHXA" type="_Gc0DUHsDEeGLD-JBXTKHXA" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_GlNKUHsDEeGLD-JBXTKHXA" name="WindItem" method="_GmwpgHsDEeGLD-JBXTKHXA">
+            <eAnnotations xmi:id="_GlNxYXsDEeGLD-JBXTKHXA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_GlOYcHsDEeGLD-JBXTKHXA" key="create"/>
+            </eAnnotations>
+            <ownedParameter xmi:id="_GlNKUXsDEeGLD-JBXTKHXA" name="paramDrawable" type="_GiZt8HsDEeGLD-JBXTKHXA"/>
+            <ownedParameter xmi:id="_GlNxYHsDEeGLD-JBXTKHXA" name="paramContext" type="_GhcrsXsDEeGLD-JBXTKHXA"/>
+            <ownedParameter xmi:id="_GlOYcXsDEeGLD-JBXTKHXA" type="_Gc0DUHsDEeGLD-JBXTKHXA" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_GlPmkHsDEeGLD-JBXTKHXA" name="addOverlayItem" method="_GmxQkHsDEeGLD-JBXTKHXA">
+            <ownedParameter xmi:id="_GlPmkXsDEeGLD-JBXTKHXA" name="paramOverlayItem" type="_GhsjUHsDEeGLD-JBXTKHXA"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_GdFJEHsDEeGLD-JBXTKHXA" name="WindLocate">
+          <generalization xmi:id="_GlZXkHsDEeGLD-JBXTKHXA" general="_Gha2gHsDEeGLD-JBXTKHXA"/>
+          <ownedAttribute xmi:id="_GmSvcHsDEeGLD-JBXTKHXA" name="ForceWind" visibility="private" type="_GihCsHsDEeGLD-JBXTKHXA" association="_GnwvEXsDEeGLD-JBXTKHXA"/>
+          <ownedAttribute xmi:id="_GmT9kXsDEeGLD-JBXTKHXA" name="spinnerOrient" visibility="private" type="_Gj2fcHsDEeGLD-JBXTKHXA" association="_GnykQXsDEeGLD-JBXTKHXA"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Gm0T4HsDEeGLD-JBXTKHXA" name="onCreate" specification="_GlVtMHsDEeGLD-JBXTKHXA">
+            <ownedParameter xmi:id="_Gm0T4XsDEeGLD-JBXTKHXA" name="paramBundle" type="_Gheg4XsDEeGLD-JBXTKHXA"/>
+            <language>java</language>
+            <body>super.onCreate(paramBundle);
+		setContentView(R.layout.windlocate);
+		Spinner spinner = (Spinner) findViewById(R.id.spinner);
+		ArrayAdapter&lt;CharSequence> adapter = ArrayAdapter.createFromResource(
+				this, R.array.locate_array,
+				android.R.layout.simple_spinner_item);
+		adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+		spinner.setAdapter(adapter);
+
+		Button localButton = (Button) findViewById(R.id.button1);
+		MapWind.getMapView().getOverlays();
+
+		// au click du bouton OK on passe les données en parametre à postdata
+		localButton.setOnClickListener(new View.OnClickListener() {
+			public void onClick(View paramView) {
+				try {
+					WindLocate.this.ForceWind = ((EditText) WindLocate.this
+							.findViewById(R.id.editText1));
+					WindLocate.this.spinnerOrient = ((Spinner) WindLocate.this
+							.findViewById(R.id.spinner));
+
+					String str = MapWind.myLocation.getMyLocation()
+							.getLatitudeE6()
+							+ &quot; &quot;
+							+ MapWind.myLocation.getMyLocation()
+									.getLongitudeE6()
+							+ &quot; &quot;
+							+ WindLocate.this.ForceWind.getText()
+							+ &quot; &quot;
+							+ WindLocate.this.spinnerOrient.getSelectedItem();
+					if (!WindLocate.this.ForceWind.getText().toString()
+							.equals(&quot;&quot;))
+						WindLocate.this.postData(str);
+					else
+						Toast.makeText(WindLocate.this.getBaseContext(),
+								&quot;PB champ force du vent vide!&quot;, 1).show();
+				} catch (Exception localException) {
+					Toast.makeText(WindLocate.this.getBaseContext(),
+							&quot;PB récupération des données GPS&quot;, 1).show();
+				}
+			}
+		});
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Gm068HsDEeGLD-JBXTKHXA" name="onCreateOptionsMenu" specification="_GlW7UHsDEeGLD-JBXTKHXA">
+            <ownedParameter xmi:id="_Gm068XsDEeGLD-JBXTKHXA" name="menu" type="_GhfvAXsDEeGLD-JBXTKHXA"/>
+            <ownedParameter xmi:id="_Gm068nsDEeGLD-JBXTKHXA" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>// Création d'un MenuInflater qui va permettre d'instancier un Menu XML
+		// en un objet Menu
+		MenuInflater inflater = getMenuInflater();
+		// Instanciation du menu XML spécifier en un objet Menu
+		inflater.inflate(R.layout.menu_quit, menu);
+		menu.getItem(0).getSubMenu();// .setHeaderIcon(R.drawable.option_white);
+
+		return true;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Gm1iAHsDEeGLD-JBXTKHXA" name="onOptionsItemSelected" specification="_GlYJcHsDEeGLD-JBXTKHXA">
+            <ownedParameter xmi:id="_Gm1iAXsDEeGLD-JBXTKHXA" name="item" type="_GhhkMXsDEeGLD-JBXTKHXA"/>
+            <ownedParameter xmi:id="_Gm1iAnsDEeGLD-JBXTKHXA" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>switch (item.getItemId()) {
+
+		case R.id.quitter:
+			// Pour fermer l'application il suffit de faire finish()
+			try {
+				stopService(MapWind.intent_service);
+			} catch (Exception e) {
+				// TODO: handle exception
+			}
+			try {
+				stopService(LastLocation.intent_servicea);
+			} catch (Exception e) {
+				// TODO: handle exception
+			}
+			finish();
+			return true;
+		}
+		return false;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Gm2JEHsDEeGLD-JBXTKHXA" name="postData" specification="_GdHlUHsDEeGLD-JBXTKHXA">
+            <ownedParameter xmi:id="_Gm2JEXsDEeGLD-JBXTKHXA" name="paramString">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>String[] arrayOfString = paramString.split(&quot; &quot;);
+		DefaultHttpClient localDefaultHttpClient = new DefaultHttpClient();
+		HttpPost localHttpPost = new HttpPost(&quot;http://&quot;
+				+ Locate_WindActivity.ip_serveur + &quot;/android/insert_locate.php&quot;);
+		try {
+			ArrayList&lt;BasicNameValuePair> localArrayList = new ArrayList&lt;BasicNameValuePair>();
+			localArrayList.add(new BasicNameValuePair(&quot;latitude&quot;,
+					arrayOfString[0]));
+			localArrayList.add(new BasicNameValuePair(&quot;longitude&quot;,
+					arrayOfString[1]));
+			localArrayList
+					.add(new BasicNameValuePair(&quot;force&quot;, arrayOfString[2]));
+			localArrayList.add(new BasicNameValuePair(&quot;orientation&quot;,
+					arrayOfString[3]));
+			localHttpPost.setEntity(new UrlEncodedFormEntity(localArrayList));
+			Log.e(&quot;http réponse&quot;, localDefaultHttpClient.execute(localHttpPost)
+					.toString());
+			((TextView) findViewById(R.id.editText1)).setText(&quot;&quot;);
+			Toast.makeText(getBaseContext(), &quot;Enregistrement Effectué!&quot;, 1)
+					.show();
+		} catch (Exception e) {
+			Toast.makeText(getBaseContext(), &quot;PB envoie des données!&quot;, 1)
+					.show();
+		}
+		// on relance le service pour actualiser la map et la listview de
+		// lastlocation
+		try {
+			stopService(MapWind.intent_service);
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		try {
+			startService(MapWind.intent_service);
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Gm2wIHsDEeGLD-JBXTKHXA" name="onStop" specification="_GdIzcHsDEeGLD-JBXTKHXA">
+            <language>java</language>
+            <body>super.onStop();
+		try {
+			stopService(MapWind.intent_service);
+
+		} catch (Exception e) {
+		}
+		try {
+			stopService(LastLocation.intent_servicea);
+
+		} catch (Exception e) {
+		}
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Gm2wIXsDEeGLD-JBXTKHXA" name="onDestroy" specification="_GdJagHsDEeGLD-JBXTKHXA">
+            <language>java</language>
+            <body>super.onDestroy();
+		try {
+			stopService(MapWind.intent_service);
+
+		} catch (Exception e) {
+		}
+		try {
+			stopService(LastLocation.intent_servicea);
+
+		} catch (Exception e) {
+		}
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_GdHlUHsDEeGLD-JBXTKHXA" name="postData" method="_Gm2JEHsDEeGLD-JBXTKHXA">
+            <ownedParameter xmi:id="_GdIMYHsDEeGLD-JBXTKHXA" name="paramString">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_GdIzcHsDEeGLD-JBXTKHXA" name="onStop" method="_Gm2wIHsDEeGLD-JBXTKHXA"/>
+          <ownedOperation xmi:id="_GdJagHsDEeGLD-JBXTKHXA" name="onDestroy" method="_Gm2wIXsDEeGLD-JBXTKHXA"/>
+          <ownedOperation xmi:id="_GlVtMHsDEeGLD-JBXTKHXA" name="onCreate" method="_Gm0T4HsDEeGLD-JBXTKHXA">
+            <ownedParameter xmi:id="_GlVtMXsDEeGLD-JBXTKHXA" name="paramBundle" type="_Gheg4XsDEeGLD-JBXTKHXA"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_GlW7UHsDEeGLD-JBXTKHXA" name="onCreateOptionsMenu" method="_Gm068HsDEeGLD-JBXTKHXA">
+            <ownedParameter xmi:id="_GlW7UXsDEeGLD-JBXTKHXA" name="menu" type="_GhfvAXsDEeGLD-JBXTKHXA"/>
+            <ownedParameter xmi:id="_GlXiYHsDEeGLD-JBXTKHXA" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_GlYJcHsDEeGLD-JBXTKHXA" name="onOptionsItemSelected" method="_Gm1iAHsDEeGLD-JBXTKHXA">
+            <ownedParameter xmi:id="_GlYwgHsDEeGLD-JBXTKHXA" name="item" type="_GhhkMXsDEeGLD-JBXTKHXA"/>
+            <ownedParameter xmi:id="_GlYwgXsDEeGLD-JBXTKHXA" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_GnMHUHsDEeGLD-JBXTKHXA" name="" memberEnd="_GnMHUXsDEeGLD-JBXTKHXA _GleQEHsDEeGLD-JBXTKHXA">
+          <ownedEnd xmi:id="_GnMHUXsDEeGLD-JBXTKHXA" name="" type="_Gaw04HsDEeGLD-JBXTKHXA" association="_GnMHUHsDEeGLD-JBXTKHXA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_GnN8gHsDEeGLD-JBXTKHXA" name="" memberEnd="_GnN8gXsDEeGLD-JBXTKHXA _GlgFQHsDEeGLD-JBXTKHXA">
+          <ownedEnd xmi:id="_GnN8gXsDEeGLD-JBXTKHXA" name="" type="_Gaw04HsDEeGLD-JBXTKHXA" association="_GnN8gHsDEeGLD-JBXTKHXA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_GnPxsHsDEeGLD-JBXTKHXA" name="" memberEnd="_GnPxsXsDEeGLD-JBXTKHXA _Glh6cHsDEeGLD-JBXTKHXA">
+          <ownedEnd xmi:id="_GnPxsXsDEeGLD-JBXTKHXA" name="" type="_Ga-3UHsDEeGLD-JBXTKHXA" association="_GnPxsHsDEeGLD-JBXTKHXA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_GnRm4HsDEeGLD-JBXTKHXA" name="" memberEnd="_GnRm4XsDEeGLD-JBXTKHXA _GljIkHsDEeGLD-JBXTKHXA">
+          <ownedEnd xmi:id="_GnRm4XsDEeGLD-JBXTKHXA" name="" type="_Ga-3UHsDEeGLD-JBXTKHXA" association="_GnRm4HsDEeGLD-JBXTKHXA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_GnTcEHsDEeGLD-JBXTKHXA" name="" memberEnd="_GnTcEXsDEeGLD-JBXTKHXA _GloBEXsDEeGLD-JBXTKHXA">
+          <ownedEnd xmi:id="_GnTcEXsDEeGLD-JBXTKHXA" name="" type="_GbIBQHsDEeGLD-JBXTKHXA" association="_GnTcEHsDEeGLD-JBXTKHXA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_GnVRQXsDEeGLD-JBXTKHXA" name="" memberEnd="_GnVRQnsDEeGLD-JBXTKHXA _GlpPMHsDEeGLD-JBXTKHXA">
+          <ownedEnd xmi:id="_GnVRQnsDEeGLD-JBXTKHXA" name="" type="_GbIBQHsDEeGLD-JBXTKHXA" association="_GnVRQXsDEeGLD-JBXTKHXA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_GnXGcXsDEeGLD-JBXTKHXA" name="" memberEnd="_GnXGcnsDEeGLD-JBXTKHXA _GlxyEHsDEeGLD-JBXTKHXA">
+          <ownedEnd xmi:id="_GnXGcnsDEeGLD-JBXTKHXA" name="" type="_Gbt3IHsDEeGLD-JBXTKHXA" association="_GnXGcXsDEeGLD-JBXTKHXA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_GnY7oHsDEeGLD-JBXTKHXA" name="" memberEnd="_GnY7oXsDEeGLD-JBXTKHXA _Gl1ccHsDEeGLD-JBXTKHXA">
+          <ownedEnd xmi:id="_GnY7oXsDEeGLD-JBXTKHXA" name="" type="_Gbt3IHsDEeGLD-JBXTKHXA" association="_GnY7oHsDEeGLD-JBXTKHXA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_Gnaw0HsDEeGLD-JBXTKHXA" name="" memberEnd="_Gnaw0XsDEeGLD-JBXTKHXA _Gl2qkXsDEeGLD-JBXTKHXA">
+          <ownedEnd xmi:id="_Gnaw0XsDEeGLD-JBXTKHXA" name="" type="_Gbt3IHsDEeGLD-JBXTKHXA" association="_Gnaw0HsDEeGLD-JBXTKHXA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_GncmAHsDEeGLD-JBXTKHXA" name="" memberEnd="_GncmAXsDEeGLD-JBXTKHXA _Gl4fwHsDEeGLD-JBXTKHXA">
+          <ownedEnd xmi:id="_GncmAXsDEeGLD-JBXTKHXA" name="" type="_Gbt3IHsDEeGLD-JBXTKHXA" association="_GncmAHsDEeGLD-JBXTKHXA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_Gnd0IXsDEeGLD-JBXTKHXA" name="" memberEnd="_GnebMHsDEeGLD-JBXTKHXA _Gl7jEHsDEeGLD-JBXTKHXA">
+          <ownedEnd xmi:id="_GnebMHsDEeGLD-JBXTKHXA" name="" type="_Gbt3IHsDEeGLD-JBXTKHXA" association="_Gnd0IXsDEeGLD-JBXTKHXA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_GnfpUXsDEeGLD-JBXTKHXA" name="" memberEnd="_GnfpUnsDEeGLD-JBXTKHXA _Gl9_UHsDEeGLD-JBXTKHXA">
+          <ownedEnd xmi:id="_GnfpUnsDEeGLD-JBXTKHXA" name="" type="_Gbt3IHsDEeGLD-JBXTKHXA" association="_GnfpUXsDEeGLD-JBXTKHXA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_GnhegHsDEeGLD-JBXTKHXA" name="" memberEnd="_GnhegXsDEeGLD-JBXTKHXA _Gl_NcHsDEeGLD-JBXTKHXA">
+          <ownedEnd xmi:id="_GnhegXsDEeGLD-JBXTKHXA" name="" type="_Gbt3IHsDEeGLD-JBXTKHXA" association="_GnhegHsDEeGLD-JBXTKHXA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_GnjTsHsDEeGLD-JBXTKHXA" name="" memberEnd="_GnjTsXsDEeGLD-JBXTKHXA _GmBpsHsDEeGLD-JBXTKHXA">
+          <ownedEnd xmi:id="_GnjTsXsDEeGLD-JBXTKHXA" name="" type="_GcZzoHsDEeGLD-JBXTKHXA" association="_GnjTsHsDEeGLD-JBXTKHXA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_GnlI4HsDEeGLD-JBXTKHXA" name="" memberEnd="_GnlI4XsDEeGLD-JBXTKHXA _GmDe4HsDEeGLD-JBXTKHXA">
+          <ownedEnd xmi:id="_GnlI4XsDEeGLD-JBXTKHXA" name="" type="_GcZzoHsDEeGLD-JBXTKHXA" association="_GnlI4HsDEeGLD-JBXTKHXA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_Gnm-EHsDEeGLD-JBXTKHXA" name="" memberEnd="_Gnm-EXsDEeGLD-JBXTKHXA _GmEtAHsDEeGLD-JBXTKHXA">
+          <ownedEnd xmi:id="_Gnm-EXsDEeGLD-JBXTKHXA" name="" type="_GcZzoHsDEeGLD-JBXTKHXA" association="_Gnm-EHsDEeGLD-JBXTKHXA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_GnoMMXsDEeGLD-JBXTKHXA" name="" memberEnd="_GnoMMnsDEeGLD-JBXTKHXA _GmF7IHsDEeGLD-JBXTKHXA">
+          <ownedEnd xmi:id="_GnoMMnsDEeGLD-JBXTKHXA" name="" type="_GcZzoHsDEeGLD-JBXTKHXA" association="_GnoMMXsDEeGLD-JBXTKHXA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_GnqBYXsDEeGLD-JBXTKHXA" name="" memberEnd="_GnqBYnsDEeGLD-JBXTKHXA _GmHJQHsDEeGLD-JBXTKHXA">
+          <ownedEnd xmi:id="_GnqBYnsDEeGLD-JBXTKHXA" name="" type="_GcZzoHsDEeGLD-JBXTKHXA" association="_GnqBYXsDEeGLD-JBXTKHXA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_Gnr2kHsDEeGLD-JBXTKHXA" name="" memberEnd="_Gnr2kXsDEeGLD-JBXTKHXA _GmI-cHsDEeGLD-JBXTKHXA">
+          <ownedEnd xmi:id="_Gnr2kXsDEeGLD-JBXTKHXA" name="" type="_GcpEMHsDEeGLD-JBXTKHXA" association="_Gnr2kHsDEeGLD-JBXTKHXA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_GntrwHsDEeGLD-JBXTKHXA" name="" memberEnd="_GntrwXsDEeGLD-JBXTKHXA _GmOeAHsDEeGLD-JBXTKHXA">
+          <ownedEnd xmi:id="_GntrwXsDEeGLD-JBXTKHXA" name="" type="_Gc0DUHsDEeGLD-JBXTKHXA" association="_GntrwHsDEeGLD-JBXTKHXA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_Gnvg8HsDEeGLD-JBXTKHXA" name="" memberEnd="_Gnvg8XsDEeGLD-JBXTKHXA _GmQ6QXsDEeGLD-JBXTKHXA">
+          <ownedEnd xmi:id="_Gnvg8XsDEeGLD-JBXTKHXA" name="" type="_Gc0DUHsDEeGLD-JBXTKHXA" association="_Gnvg8HsDEeGLD-JBXTKHXA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_GnwvEXsDEeGLD-JBXTKHXA" name="" memberEnd="_GnxWIHsDEeGLD-JBXTKHXA _GmSvcHsDEeGLD-JBXTKHXA">
+          <ownedEnd xmi:id="_GnxWIHsDEeGLD-JBXTKHXA" name="" type="_GdFJEHsDEeGLD-JBXTKHXA" association="_GnwvEXsDEeGLD-JBXTKHXA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_GnykQXsDEeGLD-JBXTKHXA" name="" memberEnd="_GnzLUHsDEeGLD-JBXTKHXA _GmT9kXsDEeGLD-JBXTKHXA">
+          <ownedEnd xmi:id="_GnzLUHsDEeGLD-JBXTKHXA" name="" type="_GdFJEHsDEeGLD-JBXTKHXA" association="_GnykQXsDEeGLD-JBXTKHXA"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_GURyYHsDEeGLD-JBXTKHXA" name="android">
+      <packagedElement xmi:type="uml:Package" xmi:id="_GUSZcHsDEeGLD-JBXTKHXA" name="app">
+        <packagedElement xmi:type="uml:Package" xmi:id="_GYzGAHsDEeGLD-JBXTKHXA" name="AlertDialog">
+          <packagedElement xmi:type="uml:Class" xmi:id="_GjmAwHsDEeGLD-JBXTKHXA" name="Builder"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Gha2gHsDEeGLD-JBXTKHXA" name="Activity"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_GhbdkXsDEeGLD-JBXTKHXA" name="AlertDialog"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Gh4wkHsDEeGLD-JBXTKHXA" name="TabActivity"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Gi_j0HsDEeGLD-JBXTKHXA" name="Service"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_GUSZcXsDEeGLD-JBXTKHXA" name="content">
+        <packagedElement xmi:type="uml:Package" xmi:id="_GVnPIHsDEeGLD-JBXTKHXA" name="res">
+          <packagedElement xmi:type="uml:Class" xmi:id="_GiX4wHsDEeGLD-JBXTKHXA" name="Resources"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_GhcrsXsDEeGLD-JBXTKHXA" name="Context"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Ghd50HsDEeGLD-JBXTKHXA" name="Intent"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Ghyp8HsDEeGLD-JBXTKHXA" name="BroadcastReceiver"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_Gh5-sXsDEeGLD-JBXTKHXA" name="DialogInterface"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_GiWDkHsDEeGLD-JBXTKHXA" name="IntentFilter"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_GUTAgHsDEeGLD-JBXTKHXA" name="os">
+        <packagedElement xmi:type="uml:Class" xmi:id="_Gheg4XsDEeGLD-JBXTKHXA" name="Bundle"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_GjCnIXsDEeGLD-JBXTKHXA" name="IBinder"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_GjEcUXsDEeGLD-JBXTKHXA" name="Looper"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_GUTnkHsDEeGLD-JBXTKHXA" name="view">
+        <packagedElement xmi:type="uml:Package" xmi:id="_GUueUHsDEeGLD-JBXTKHXA" name="GestureDetector">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_Gh-QIXsDEeGLD-JBXTKHXA" name="OnGestureListener"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_GZXtwHsDEeGLD-JBXTKHXA" name="View">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_GjyOAHsDEeGLD-JBXTKHXA" name="OnClickListener"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_GhfvAXsDEeGLD-JBXTKHXA" name="Menu"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_GhgWEXsDEeGLD-JBXTKHXA" name="MenuInflater"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_GhhkMXsDEeGLD-JBXTKHXA" name="MenuItem"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_GhiLQXsDEeGLD-JBXTKHXA" name="View"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Gh9CAXsDEeGLD-JBXTKHXA" name="GestureDetector"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_GiAFUHsDEeGLD-JBXTKHXA" name="LayoutInflater"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_GiBTcXsDEeGLD-JBXTKHXA" name="MotionEvent"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_GUUOoHsDEeGLD-JBXTKHXA" name="widget">
+        <packagedElement xmi:type="uml:Package" xmi:id="_GUUOoXsDEeGLD-JBXTKHXA" name="AdapterView">
+          <packagedElement xmi:type="uml:Interface" xmi:id="_GhkAcXsDEeGLD-JBXTKHXA" name="OnItemClickListener"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_GUvscHsDEeGLD-JBXTKHXA" name="TabHost">
+          <packagedElement xmi:type="uml:Class" xmi:id="_GiDIoHsDEeGLD-JBXTKHXA" name="TabSpec"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_GhjZYHsDEeGLD-JBXTKHXA" name="AdapterView"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_GhlOkHsDEeGLD-JBXTKHXA" name="ListView"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Ghl1oXsDEeGLD-JBXTKHXA" name="SimpleAdapter"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_GhnDwHsDEeGLD-JBXTKHXA" name="TabHost"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_GiEWwHsDEeGLD-JBXTKHXA" name="TextView"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_GihCsHsDEeGLD-JBXTKHXA" name="EditText"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_GiiQ0XsDEeGLD-JBXTKHXA" name="Toast"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_GjzcIXsDEeGLD-JBXTKHXA" name="ArrayAdapter"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Gj0qQXsDEeGLD-JBXTKHXA" name="Button"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Gj2fcHsDEeGLD-JBXTKHXA" name="Spinner"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_GUtQMHsDEeGLD-JBXTKHXA" name="location">
+        <packagedElement xmi:type="uml:Class" xmi:id="_Gh7z4HsDEeGLD-JBXTKHXA" name="LocationManager"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_GibjIHsDEeGLD-JBXTKHXA" name="Location"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_GicxQXsDEeGLD-JBXTKHXA" name="LocationListener"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_GVn2MHsDEeGLD-JBXTKHXA" name="graphics">
+        <packagedElement xmi:type="uml:Package" xmi:id="_GVodQHsDEeGLD-JBXTKHXA" name="drawable">
+          <packagedElement xmi:type="uml:Class" xmi:id="_GiZt8HsDEeGLD-JBXTKHXA" name="Drawable"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_GVpEUHsDEeGLD-JBXTKHXA" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_GiemcXsDEeGLD-JBXTKHXA" name="Log"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_GXL8cHsDEeGLD-JBXTKHXA" name="net">
+        <packagedElement xmi:type="uml:Class" xmi:id="_GjBZAHsDEeGLD-JBXTKHXA" name="ParseException"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_GZV4kHsDEeGLD-JBXTKHXA" name="text">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_GjwY0HsDEeGLD-JBXTKHXA" name="Editable"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_GUU1sHsDEeGLD-JBXTKHXA" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_GUU1sXsDEeGLD-JBXTKHXA" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_Ghnq0XsDEeGLD-JBXTKHXA" name="ArrayList"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_GhoR4XsDEeGLD-JBXTKHXA" name="HashMap"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_GhpgAXsDEeGLD-JBXTKHXA" name="Iterator"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_GhqHEXsDEeGLD-JBXTKHXA" name="List"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_GjJ74XsDEeGLD-JBXTKHXA" name="Timer"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_GjghMHsDEeGLD-JBXTKHXA" name="TimerTask"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Gj6J0HsDEeGLD-JBXTKHXA" name="Date"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_GVsHoHsDEeGLD-JBXTKHXA" name="io">
+        <packagedElement xmi:type="uml:Class" xmi:id="_GisB0HsDEeGLD-JBXTKHXA" name="BufferedReader"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Git3AHsDEeGLD-JBXTKHXA" name="FileReader"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_GjG4kHsDEeGLD-JBXTKHXA" name="InputStream"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_GjItwHsDEeGLD-JBXTKHXA" name="InputStreamReader"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_GZaKAHsDEeGLD-JBXTKHXA" name="text">
+        <packagedElement xmi:type="uml:Class" xmi:id="_Gj4UoHsDEeGLD-JBXTKHXA" name="SimpleDateFormat"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_GlBkIHsDEeGLD-JBXTKHXA" name="lang">
+        <packagedElement xmi:type="uml:Interface" xmi:id="_GlCLMHsDEeGLD-JBXTKHXA" name="Runnable"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_GUVcwHsDEeGLD-JBXTKHXA" name="com">
+      <packagedElement xmi:type="uml:Package" xmi:id="_GUVcwXsDEeGLD-JBXTKHXA" name="google">
+        <packagedElement xmi:type="uml:Package" xmi:id="_GUWD0HsDEeGLD-JBXTKHXA" name="android">
+          <packagedElement xmi:type="uml:Package" xmi:id="_GUWD0XsDEeGLD-JBXTKHXA" name="maps">
+            <packagedElement xmi:type="uml:Class" xmi:id="_GhrVMXsDEeGLD-JBXTKHXA" name="GeoPoint"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_GhsjUHsDEeGLD-JBXTKHXA" name="OverlayItem"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_GikGAHsDEeGLD-JBXTKHXA" name="MapActivity"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_Gil7MHsDEeGLD-JBXTKHXA" name="MapController"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_GinJUXsDEeGLD-JBXTKHXA" name="MapView"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_Gio-gHsDEeGLD-JBXTKHXA" name="MyLocationOverlay"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_GiqMoXsDEeGLD-JBXTKHXA" name="Overlay"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_Gjn18HsDEeGLD-JBXTKHXA" name="ItemizedOverlay"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_GUzW0HsDEeGLD-JBXTKHXA" name="GestureDetector">
+      <packagedElement xmi:type="uml:Interface" xmi:id="_GbJPYHsDEeGLD-JBXTKHXA" name="OnGestureListener"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_GXRcAHsDEeGLD-JBXTKHXA" name="org">
+      <packagedElement xmi:type="uml:Package" xmi:id="_GXSDEHsDEeGLD-JBXTKHXA" name="apache">
+        <packagedElement xmi:type="uml:Package" xmi:id="_GXSDEXsDEeGLD-JBXTKHXA" name="http">
+          <packagedElement xmi:type="uml:Package" xmi:id="_GXTRMHsDEeGLD-JBXTKHXA" name="client">
+            <packagedElement xmi:type="uml:Package" xmi:id="_GXT4QHsDEeGLD-JBXTKHXA" name="methods">
+              <packagedElement xmi:type="uml:Class" xmi:id="_GjRQoHsDEeGLD-JBXTKHXA" name="HttpPost"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_GZb_MHsDEeGLD-JBXTKHXA" name="entity">
+              <packagedElement xmi:type="uml:Class" xmi:id="_Gj7X8XsDEeGLD-JBXTKHXA" name="UrlEncodedFormEntity"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Interface" xmi:id="_GjPbcHsDEeGLD-JBXTKHXA" name="HttpClient"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_GXUfUHsDEeGLD-JBXTKHXA" name="impl">
+            <packagedElement xmi:type="uml:Package" xmi:id="_GXUfUXsDEeGLD-JBXTKHXA" name="client">
+              <packagedElement xmi:type="uml:Class" xmi:id="_GjTF0HsDEeGLD-JBXTKHXA" name="DefaultHttpClient"/>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_GZcmQHsDEeGLD-JBXTKHXA" name="message">
+            <packagedElement xmi:type="uml:Class" xmi:id="_Gj9NIXsDEeGLD-JBXTKHXA" name="BasicNameValuePair"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_GjLxEHsDEeGLD-JBXTKHXA" name="HttpEntity"/>
+          <packagedElement xmi:type="uml:Interface" xmi:id="_GjNmQHsDEeGLD-JBXTKHXA" name="HttpResponse"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_GXWUgHsDEeGLD-JBXTKHXA" name="json">
+        <packagedElement xmi:type="uml:Class" xmi:id="_GjUT8XsDEeGLD-JBXTKHXA" name="JSONArray"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_GjWJIHsDEeGLD-JBXTKHXA" name="JSONException"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_GjX-UHsDEeGLD-JBXTKHXA" name="JSONObject"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_FcHbUHsDEeGLD-JBXTKHXA">
+      <eAnnotations xmi:id="_FcHbUXsDEeGLD-JBXTKHXA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_FcICYHsDEeGLD-JBXTKHXA" base_Package="_FbnFAHsDEeGLD-JBXTKHXA">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:Reference xmi:id="_GbP9EHsDEeGLD-JBXTKHXA" base_Element="_GbJPYHsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Gb3oIHsDEeGLD-JBXTKHXA" base_Element="_Gb2aAXsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Annotations xmi:id="_Gb4PMHsDEeGLD-JBXTKHXA" base_Element="_Gb2aAXsDEeGLD-JBXTKHXA">
+    <annotations xmi:id="_Gb4PMXsDEeGLD-JBXTKHXA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_GcALAHsDEeGLD-JBXTKHXA" base_Element="_Gb75kHsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_GcCAMHsDEeGLD-JBXTKHXA" base_Element="_GcAyEHsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Annotations xmi:id="_GcCnQHsDEeGLD-JBXTKHXA" base_Element="_GcAyEHsDEeGLD-JBXTKHXA">
+    <annotations xmi:id="_GcCnQXsDEeGLD-JBXTKHXA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_GcdeAHsDEeGLD-JBXTKHXA" base_Element="_GccP4HsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Annotations xmi:id="_GcdeAXsDEeGLD-JBXTKHXA" base_Element="_GccP4HsDEeGLD-JBXTKHXA">
+    <annotations xmi:id="_GceFEHsDEeGLD-JBXTKHXA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Gc470HsDEeGLD-JBXTKHXA" base_Element="_Gc3tsHsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Annotations xmi:id="_Gc5i4HsDEeGLD-JBXTKHXA" base_Element="_Gc3tsHsDEeGLD-JBXTKHXA">
+    <annotations xmi:id="_Gc6J8HsDEeGLD-JBXTKHXA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Gc7_IXsDEeGLD-JBXTKHXA" base_Element="_Gc6xAHsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Annotations xmi:id="_Gc8mMHsDEeGLD-JBXTKHXA" base_Element="_Gc6xAHsDEeGLD-JBXTKHXA">
+    <annotations xmi:id="_Gc9NQHsDEeGLD-JBXTKHXA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Gc90UXsDEeGLD-JBXTKHXA" base_Element="_Gc9NQXsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Annotations xmi:id="_Gc-bYHsDEeGLD-JBXTKHXA" base_Element="_Gc9NQXsDEeGLD-JBXTKHXA">
+    <annotations xmi:id="_Gc-bYXsDEeGLD-JBXTKHXA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_GhbdkHsDEeGLD-JBXTKHXA" base_Element="_Gha2gHsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_GhcrsHsDEeGLD-JBXTKHXA" base_Element="_GhbdkXsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_GhdSwHsDEeGLD-JBXTKHXA" base_Element="_GhcrsXsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_Gheg4HsDEeGLD-JBXTKHXA" base_Element="_Ghd50HsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_GhfvAHsDEeGLD-JBXTKHXA" base_Element="_Gheg4XsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_GhgWEHsDEeGLD-JBXTKHXA" base_Element="_GhfvAXsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_GhhkMHsDEeGLD-JBXTKHXA" base_Element="_GhgWEXsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_GhiLQHsDEeGLD-JBXTKHXA" base_Element="_GhhkMXsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_GhiyUHsDEeGLD-JBXTKHXA" base_Element="_GhiLQXsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_GhkAcHsDEeGLD-JBXTKHXA" base_Element="_GhjZYHsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_GhkngHsDEeGLD-JBXTKHXA" base_Element="_GhkAcXsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_Ghl1oHsDEeGLD-JBXTKHXA" base_Element="_GhlOkHsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_GhmcsHsDEeGLD-JBXTKHXA" base_Element="_Ghl1oXsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_Ghnq0HsDEeGLD-JBXTKHXA" base_Element="_GhnDwHsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_GhoR4HsDEeGLD-JBXTKHXA" base_Element="_Ghnq0XsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_GhpgAHsDEeGLD-JBXTKHXA" base_Element="_GhoR4XsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_GhqHEHsDEeGLD-JBXTKHXA" base_Element="_GhpgAXsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_GhrVMHsDEeGLD-JBXTKHXA" base_Element="_GhqHEXsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_Ghr8QHsDEeGLD-JBXTKHXA" base_Element="_GhrVMXsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_GhtKYHsDEeGLD-JBXTKHXA" base_Element="_GhsjUHsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_Ghz4EHsDEeGLD-JBXTKHXA" base_Element="_Ghyp8HsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_Gh5-sHsDEeGLD-JBXTKHXA" base_Element="_Gh4wkHsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_Gh7M0HsDEeGLD-JBXTKHXA" base_Element="_Gh5-sXsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_Gh9CAHsDEeGLD-JBXTKHXA" base_Element="_Gh7z4HsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_Gh-QIHsDEeGLD-JBXTKHXA" base_Element="_Gh9CAXsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_Gh_eQHsDEeGLD-JBXTKHXA" base_Element="_Gh-QIXsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_GiBTcHsDEeGLD-JBXTKHXA" base_Element="_GiAFUHsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_GiChkHsDEeGLD-JBXTKHXA" base_Element="_GiBTcXsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_GiDvsHsDEeGLD-JBXTKHXA" base_Element="_GiDIoHsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_GiFk4HsDEeGLD-JBXTKHXA" base_Element="_GiEWwHsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_GiXRsHsDEeGLD-JBXTKHXA" base_Element="_GiWDkHsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_GiZG4HsDEeGLD-JBXTKHXA" base_Element="_GiX4wHsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_Gia8EHsDEeGLD-JBXTKHXA" base_Element="_GiZt8HsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_GicxQHsDEeGLD-JBXTKHXA" base_Element="_GibjIHsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_GiemcHsDEeGLD-JBXTKHXA" base_Element="_GicxQXsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_GigboHsDEeGLD-JBXTKHXA" base_Element="_GiemcXsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_GiiQ0HsDEeGLD-JBXTKHXA" base_Element="_GihCsHsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_Gije8HsDEeGLD-JBXTKHXA" base_Element="_GiiQ0XsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_GilUIHsDEeGLD-JBXTKHXA" base_Element="_GikGAHsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_GinJUHsDEeGLD-JBXTKHXA" base_Element="_Gil7MHsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_GioXcHsDEeGLD-JBXTKHXA" base_Element="_GinJUXsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_GiqMoHsDEeGLD-JBXTKHXA" base_Element="_Gio-gHsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_GirawHsDEeGLD-JBXTKHXA" base_Element="_GiqMoXsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_GitP8HsDEeGLD-JBXTKHXA" base_Element="_GisB0HsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_GivFIHsDEeGLD-JBXTKHXA" base_Element="_Git3AHsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_GjAx8HsDEeGLD-JBXTKHXA" base_Element="_Gi_j0HsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_GjCnIHsDEeGLD-JBXTKHXA" base_Element="_GjBZAHsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_GjEcUHsDEeGLD-JBXTKHXA" base_Element="_GjCnIXsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_GjFqcHsDEeGLD-JBXTKHXA" base_Element="_GjEcUXsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_GjIGsHsDEeGLD-JBXTKHXA" base_Element="_GjG4kHsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_GjJ74HsDEeGLD-JBXTKHXA" base_Element="_GjItwHsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_GjLKAHsDEeGLD-JBXTKHXA" base_Element="_GjJ74XsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_GjM_MHsDEeGLD-JBXTKHXA" base_Element="_GjLxEHsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_GjO0YHsDEeGLD-JBXTKHXA" base_Element="_GjNmQHsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_GjQpkHsDEeGLD-JBXTKHXA" base_Element="_GjPbcHsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_GjSewHsDEeGLD-JBXTKHXA" base_Element="_GjRQoHsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_GjUT8HsDEeGLD-JBXTKHXA" base_Element="_GjTF0HsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_GjViEHsDEeGLD-JBXTKHXA" base_Element="_GjUT8XsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_GjXXQHsDEeGLD-JBXTKHXA" base_Element="_GjWJIHsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_GjZMcHsDEeGLD-JBXTKHXA" base_Element="_GjX-UHsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_GjhvUHsDEeGLD-JBXTKHXA" base_Element="_GjghMHsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_GjnO4HsDEeGLD-JBXTKHXA" base_Element="_GjmAwHsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_GjpEEHsDEeGLD-JBXTKHXA" base_Element="_Gjn18HsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_Gjxm8HsDEeGLD-JBXTKHXA" base_Element="_GjwY0HsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_GjzcIHsDEeGLD-JBXTKHXA" base_Element="_GjyOAHsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_Gj0qQHsDEeGLD-JBXTKHXA" base_Element="_GjzcIXsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_Gj14YHsDEeGLD-JBXTKHXA" base_Element="_Gj0qQXsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_Gj3tkHsDEeGLD-JBXTKHXA" base_Element="_Gj2fcHsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_Gj5iwHsDEeGLD-JBXTKHXA" base_Element="_Gj4UoHsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_Gj7X8HsDEeGLD-JBXTKHXA" base_Element="_Gj6J0HsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_Gj9NIHsDEeGLD-JBXTKHXA" base_Element="_Gj7X8XsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_Gj_CUHsDEeGLD-JBXTKHXA" base_Element="_Gj9NIXsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_GkjqEHsDEeGLD-JBXTKHXA" base_Element="_Gkib8HsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_GkoikHsDEeGLD-JBXTKHXA" base_Element="_GknUcHsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_GlDZUHsDEeGLD-JBXTKHXA" base_Element="_GlCLMHsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Generics xmi:id="_GlSp4HsDEeGLD-JBXTKHXA" genericsValue="OverlayItem" base_Element="_GlRbwHsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_GlfeMHsDEeGLD-JBXTKHXA" base_Element="_GleQEHsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_GlgsUHsDEeGLD-JBXTKHXA" base_Element="_GlgFQHsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_GlihgHsDEeGLD-JBXTKHXA" base_Element="_Glh6cHsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_GlkWsHsDEeGLD-JBXTKHXA" base_Element="_GljIkHsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_GloBEHsDEeGLD-JBXTKHXA" base_Element="_Glmy8XsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_GlooIHsDEeGLD-JBXTKHXA" base_Element="_GloBEXsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Glv84HsDEeGLD-JBXTKHXA" base_Element="_GlpPMHsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Gl01YHsDEeGLD-JBXTKHXA" base_Element="_GlxyEHsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Gl2qkHsDEeGLD-JBXTKHXA" base_Element="_Gl1ccHsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Gl34sHsDEeGLD-JBXTKHXA" base_Element="_Gl2qkXsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Gl5t4HsDEeGLD-JBXTKHXA" base_Element="_Gl4fwHsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Gl68AHsDEeGLD-JBXTKHXA" base_Element="_Gl5t4XsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Gl8KIHsDEeGLD-JBXTKHXA" base_Element="_Gl7jEHsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Gl9YQXsDEeGLD-JBXTKHXA" base_Element="_Gl8xMHsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Gl-mYHsDEeGLD-JBXTKHXA" base_Element="_Gl9_UHsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Gl_0gHsDEeGLD-JBXTKHXA" base_Element="_Gl_NcHsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_GmC30HsDEeGLD-JBXTKHXA" base_Element="_GmBpsHsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_GmEF8HsDEeGLD-JBXTKHXA" base_Element="_GmDe4HsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_GmFUEHsDEeGLD-JBXTKHXA" base_Element="_GmEtAHsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_GmGiMHsDEeGLD-JBXTKHXA" base_Element="_GmF7IHsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_GmHwUHsDEeGLD-JBXTKHXA" base_Element="_GmHJQHsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_GmKMkHsDEeGLD-JBXTKHXA" base_Element="_GmI-cHsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Generics xmi:id="_GmPsIHsDEeGLD-JBXTKHXA" genericsValue="OverlayItem" base_Element="_GmOeAHsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_GmQ6QHsDEeGLD-JBXTKHXA" base_Element="_GmOeAHsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_GmSIYHsDEeGLD-JBXTKHXA" base_Element="_GmQ6QXsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_GmT9kHsDEeGLD-JBXTKHXA" base_Element="_GmSvcHsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_GmUkoHsDEeGLD-JBXTKHXA" base_Element="_GmT9kXsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_GnNVcHsDEeGLD-JBXTKHXA" base_Element="_GnMHUHsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_GnPKoHsDEeGLD-JBXTKHXA" base_Element="_GnN8gHsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_GnQ_0HsDEeGLD-JBXTKHXA" base_Element="_GnPxsHsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_GnS1AHsDEeGLD-JBXTKHXA" base_Element="_GnRm4HsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_GnVRQHsDEeGLD-JBXTKHXA" base_Element="_GnTcEHsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_GnXGcHsDEeGLD-JBXTKHXA" base_Element="_GnVRQXsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_GnYUkHsDEeGLD-JBXTKHXA" base_Element="_GnXGcXsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_GnaJwHsDEeGLD-JBXTKHXA" base_Element="_GnY7oHsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_Gnb-8HsDEeGLD-JBXTKHXA" base_Element="_Gnaw0HsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_Gnd0IHsDEeGLD-JBXTKHXA" base_Element="_GncmAHsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_GnfpUHsDEeGLD-JBXTKHXA" base_Element="_Gnd0IXsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_Gng3cHsDEeGLD-JBXTKHXA" base_Element="_GnfpUXsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_GnisoHsDEeGLD-JBXTKHXA" base_Element="_GnhegHsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_Gnkh0HsDEeGLD-JBXTKHXA" base_Element="_GnjTsHsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_GnmXAHsDEeGLD-JBXTKHXA" base_Element="_GnlI4HsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_GnoMMHsDEeGLD-JBXTKHXA" base_Element="_Gnm-EHsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_GnqBYHsDEeGLD-JBXTKHXA" base_Element="_GnoMMXsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_GnrPgHsDEeGLD-JBXTKHXA" base_Element="_GnqBYXsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_GntEsHsDEeGLD-JBXTKHXA" base_Element="_Gnr2kHsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_Gnu54HsDEeGLD-JBXTKHXA" base_Element="_GntrwHsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_GnwvEHsDEeGLD-JBXTKHXA" base_Element="_Gnvg8HsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_GnykQHsDEeGLD-JBXTKHXA" base_Element="_GnwvEXsDEeGLD-JBXTKHXA"/>
+  <UMLLabProfile:Reference xmi:id="_Gn0ZcHsDEeGLD-JBXTKHXA" base_Element="_GnykQXsDEeGLD-JBXTKHXA"/>
+</xmi:XMI>
